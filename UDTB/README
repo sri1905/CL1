@@ -1,0 +1,81 @@
+DATA
+----
+A pre-release version of Urdu Dependency Treebank is being released now. UDTB is a multi-layered dependency treebank with morphological, part-of-speech and dependency annotations on sentences from news domain corpus acquired from newspaper agency Siasat and other news agencies. During annotation, the dependency relations are only marked between chunks in the sentence and the words are annotated with POS tags and morphological analysis. The annotations are stored in the Shakti Standard Format (See $parent_dir/docs/ssf-guide.pdf for a detailed description of the format). An automatic tool is then used on the inter-chunk relations as a post-processing step to get the complete dependency tree between words. This is done by first identifying the head word in the chunk and then identifying the intra-chunk relations between words in the chunks. The expanded tree is also stored in SSF without losing the chunk information.
+
+New Expander has been created using ARC-EAGER algorithm (Shift-Reduce Parsing). The new expanded intrachunk UDTB data has been generated using the mentioned expander.
+
+
+DATA FORMAT
+-----------
+
+The data is being released in 4 formats, Inter-Chunk and Intra-Chunk, SSF and CoNLL. For detailed introduction to SSF, please read $parent_dir/docs/ssf-guide.pdf and for an intro to the CoNLL format, go through the link http://ilk.uvt.nl/conll/#dataformat.
+
+
+DATA RELEASE
+------------
+
+The folder structure for the data is organized as follows:
+
+UDTB-ver 1.0*/
+|
+|__Inter Chunk/
+|      |
+|      |__CoNLL/
+|      |    |
+|      |    |__utf/
+|      | 
+|      |    
+|      |__SSF/
+|      |    |
+|      |    |__utf/
+|      |
+|            
+|__Intra Chunk/
+|      |
+|      |__CoNLL/
+|      |    |
+|      |    |__utf/
+|      | 
+|      |    
+|      |__SSF/
+|      |    |
+|      |    |__utf/
+|      |
+
+
+DOCUMENTATION
+-------------
+
+The folder structure for documents is organized as follows:
+
+docs/
+|____ ssf-guide.pdf
+|____ ssf-api/       # SSF APIs in Python
+|____ UDTB-release_doc.pdf
+|____ Dependency-guidelines.pdf
+
+
+ACKNOWLEDGEMENTS
+----------------
+
+We acknowledge the efforts of Mrs. Anjum Parveen, Mrs. Sameena Yasmeen, Mr. Riyaz Ahmad Bhat, Mr. Maaz Anwar Nomani and Mr. Mohammed Younus for annotating and validating the Urdu Treebank (UDTB). We would also like to acknowledge the contributions of Mr. Samar Husain, Mrs. Rafiya Begum, Mrs. Miriam Butt, Mr. Rajesh Bhat, Prof. Rahmat Yousufzai, Prof. Rajeev Sangal, Prof. Lakshmi Bai and many others for providing useful insights in building the Urdu Dependency Treebank.
+
+
+PI at IIIT-H, India
+-------------------
+Prof. Dipti M. Sharma
+
+ 
+CONTACT
+-------
+
+hutb-request@lists.iiit.ac.in
+<for people who want to get the treebank; this would be the first port of call.>
+
+
+hutb-updates@lists.iiit.ac.in
+<for people who just want further update information.>
+
+
+hutb-discussion@lists.iiit.ac.in
+<people who want to ask questions about the HUTB.>

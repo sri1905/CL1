@@ -1,0 +1,527 @@
+<Sentence id="2">
+1	ہندوستان	NNP	<fs af='ہندوستان,n,m,sg,3,o,0,0' drel='r6:نام' name='ہندوستان' chunkId='NP' chunkType='head:NP' posn='10'>
+2	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:ہندوستان' name='کے' chunkType='child:NP' posn='20'>
+3	نام	NN	<fs af='نام,n,m,sg,3,o,0,0' drel='ras-k2:لئے' name='نام' chunkId='NP2' chunkType='head:NP2' posn='30'>
+4	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:نام' name='کے2' chunkType='child:NP2' posn='40'>
+5	ساتھ	NST	<fs af='ساتھ,nst,m,sg,3,d,,' drel='lwg__psp:نام' name='ساتھ' chunkType='child:NP2' posn='50'>
+6	جس	DEM	<fs af='جو,pn,any,sg,3,d,,' drel='nmod__adj:طرح' name='جس' chunkType='child:NP3' posn='60'>
+7	طرح	NN	<fs af='طرح,n,m,sg,3,d,0,0' drel='adv:لئے' name='طرح' chunkId='NP3' chunkType='head:NP3' posn='70'>
+8	قطب	NNPC	<fs af='قطب,n,m,sg,3,d,0,0' drel='pof__cn:مینار' name='قطب' chunkType='child:NP4' posn='80'>
+9	مینار	NNP	<fs af='مینار,n,m,sg,3,o,0,0' drel='ccof:NULL' name='مینار' chunkId='NP4' chunkType='head:NP4' posn='90'>
+10	،	SYM	<fs af='،,punc,,,,,,' drel='rsym:مینار' name='،' chunkType='child:NP4' posn='100'>
+11	لال	NNPC	<fs af='لال,n,m,sg,3,d,0,0' drel='pof__cn:قلعہ' name='لال' chunkType='child:NP5' posn='110'>
+12	قلعہ	NNP	<fs af='قلعہ,n,m,sg,3,o,0,0' drel='ccof:NULL' name='قلعہ' chunkId='NP5' chunkType='head:NP5' posn='120'>
+13	،	SYM	<fs af='،,punc,,,,,,' drel='rsym:قلعہ' name='،2' chunkType='child:NP5' posn='130'>
+14	NULL	CC	<fs af='null,unk,,,,,,' drel='r6:نام2' name='NULL' chunkId='NULL__CCP' chunkType='head:NULL__CCP' mtype='gap' troot='اور'>
+15	تاج	NNPC	<fs af='تاج,n,m,sg,3,d,0,0' drel='pof__cn:محل' name='تاج' chunkType='child:NP6' posn='140'>
+16	محل	NNP	<fs af='محل,n,m,sg,3,o,0,0' drel='ccof:NULL' name='محل' chunkId='NP6' chunkType='head:NP6' posn='150'>
+17	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:محل' name='کے3' chunkType='child:NP6' posn='160'>
+18	نام	NN	<fs af='نام,n,m,sg,3,d,0,0' drel='k2:لئے' name='نام2' chunkId='NP7' chunkType='head:NP7' posn='170'>
+19	لئے	VM	<fs af='لے,v,any,any,any,,0,0' drel='nmod__relc:طرح2' name='لئے' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='180'>
+20	جاتے	VAUX	<fs af='جا,v,any,pl,3,,تا,wA' drel='lwg__vaux:لئے' name='جاتے' chunkType='child:VGF' posn='190'>
+21	ہیں	VAUX	<fs af='ہے,v,any,pl,3,,ہے,hE' drel='lwg__vaux_cont:جاتے' name='ہیں' chunkType='child:VGF' posn='200'>
+22	،	SYM	<fs af='،,punc,,,,,,' drel='rsym:لئے' name='،3' chunkType='child:VGF' posn='210'>
+23	اسی	DEM	<fs af='یہ,pn,any,sg,3,d,,' drel='nmod__adj:طرح2' name='اسی' chunkType='child:NP8' posn='220'>
+24	طرح	NN	<fs af='طرح,n,m,sg,3,d,0,0' drel='sent-adv:آتا' name='طرح2' chunkId='NP8' chunkType='head:NP8' coref='NP3' posn='230'>
+25	جب	PRP	<fs af='جب,pn,,,,d,,' drel='k7t:آتا' name='جب' chunkId='NP9' chunkType='head:NP9' posn='240'>
+26	حیدرآباد	NNP	<fs af='حیدرآباد,n,m,sg,3,o,0,0' drel='r6:نام3' name='حیدرآباد' chunkId='NP10' chunkType='head:NP10' posn='250'>
+27	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:حیدرآباد' name='کا' chunkType='child:NP10' posn='260'>
+28	نام	NN	<fs af='نام,n,m,sg,3,d,0,0' drel='k1:آتا' name='نام3' chunkId='NP11' chunkType='head:NP11' posn='270'>
+29	آتا	VM	<fs af='آ,v,m,sg,any,,تا,wA' drel='ccof:تو' name='آتا' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='active' posn='280'>
+30	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux:آتا' name='ہے' chunkType='child:VGF2' posn='290'>
+31	تو	CC	<fs af='تو,avy,,,,,,' drel='ccof:لیکن' name='تو' chunkId='CCP' chunkType='head:CCP' coref='NP9' posn='300'>
+32	چارمینار	NNP	<fs af='چارمینار,n,m,sg,3,o,0,0' drel='r6:تذکرہ' name='چارمینار' chunkId='NP12' chunkType='head:NP12' posn='310'>
+33	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:چارمینار' name='کا2' chunkType='child:NP12' posn='320'>
+34	تذکرہ	NN	<fs af='تذکرہ,n,m,sg,3,d,0,0' drel='k1:ہو' name='تذکرہ' chunkId='NP13' chunkType='head:NP13' posn='330'>
+35	لازمی	JJ	<fs af='لازمی,adj,any,any,,,,' drel='k1s:ہو' name='لازمی' chunkId='JJP' chunkType='head:JJP' posn='340'>
+36	ہو	VM	<fs af='ہو,v,any,any,any,,0,0' drel='ccof:تو' name='ہو' chunkId='VGF3' chunkType='head:VGF3' stype='declarative' voicetype='active' posn='350'>
+37	جاتا	VAUX	<fs af='جاتا,v,m,sg,3,,تا,wA' drel='lwg__vaux:ہو' name='جاتا' chunkType='child:VGF3' posn='360'>
+38	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux_cont:جاتا' name='ہے2' chunkType='child:VGF3' posn='370'>
+39	لیکن	CC	<fs af='لیکن,avy,,,,,,' name='لیکن' chunkId='CCP2' chunkType='head:CCP2' posn='380'>
+40	افسوس	NN	<fs af='افسوس,n,m,sg,3,d,0,0' drel='sent-adv:کر' name='افسوس' chunkId='NP14' chunkType='head:NP14' posn='390'>
+41	کہ	RP	<fs af='کہ,avy,,,,,,' drel='lwg__rp:افسوس' name='کہ' chunkType='child:NP14' posn='400'>
+42	مجلس	NNPC	<fs af='مجلس,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='مجلس' chunkType='child:NP15' posn='410'>
+43	بلدیہ	NNPC	<fs af='بلدیہ,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='بلدیہ' chunkType='child:NP15' posn='420'>
+44	عظیم	NNPC	<fs af='عظیم,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='عظیم' chunkType='child:NP15' posn='430'>
+45	تر	NNPC	<fs af='تر,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='تر' chunkType='child:NP15' posn='440'>
+46	حیدرآباد	NNP	<fs af='حیدرآباد,n,m,sg,3,o,0,0' drel='k1:کر' name='حیدرآباد2' chunkId='NP15' chunkType='head:NP15' posn='450'>
+47	نے	PSP	<fs af='نے,psp,,,,,,' drel='lwg__psp:حیدرآباد2' name='نے' chunkType='child:NP15' posn='460'>
+48	اس	DEM	<fs af='یہ,pn,any,sg,3,o,,' drel='nmod__adj:احساس' name='اس' chunkType='child:NP16' posn='470'>
+49	احساس	NN	<fs af='احساس,n,m,sg,3,o,0,0' drel='k2:کر' name='احساس' chunkId='NP16' chunkType='head:NP16' posn='480'>
+50	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:احساس' name='کو' chunkType='child:NP16' posn='490'>
+51	فراموش	NN	<fs af='فراموش,n,m,sg,3,d,0,0' drel='pof:کر' name='فراموش' chunkId='NP17' chunkType='head:NP17' posn='500'>
+52	کر	VM	<fs af='کر,v,any,any,any,,0,0' drel='ccof:لیکن' name='کر' chunkId='VGF4' chunkType='head:VGF4' stype='declarative' voicetype='active' posn='510'>
+53	دیا	VAUX	<fs af='دے,v,m,sg,3,,یا,yA' drel='lwg__vaux:کر' name='دیا' chunkType='child:VGF4' posn='520'>
+54	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:کر' name='۔' chunkType='child:VGF4' posn='530'>
+</Sentence>
+
+<Sentence id="2">
+1	ہندوستان	NNP	<fs af='ہندوستان,n,m,sg,3,o,0,0' drel='r6:نام' name='ہندوستان' chunkId='NP' chunkType='head:NP' posn='10'>
+2	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:ہندوستان' name='کے' chunkType='child:NP' posn='20'>
+3	نام	NN	<fs af='نام,n,m,sg,3,o,0,0' drel='ras-k2:لئے' name='نام' chunkId='NP2' chunkType='head:NP2' posn='30'>
+4	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:نام' name='کے2' chunkType='child:NP2' posn='40'>
+5	ساتھ	NST	<fs af='ساتھ,nst,m,sg,3,d,,' drel='lwg__psp:نام' name='ساتھ' chunkType='child:NP2' posn='50'>
+6	جس	DEM	<fs af='جو,pn,any,sg,3,d,,' drel='nmod__adj:طرح' name='جس' chunkType='child:NP3' posn='60'>
+7	طرح	NN	<fs af='طرح,n,m,sg,3,d,0,0' drel='adv:لئے' name='طرح' chunkId='NP3' chunkType='head:NP3' posn='70'>
+8	قطب	NNPC	<fs af='قطب,n,m,sg,3,d,0,0' drel='pof__cn:مینار' name='قطب' chunkType='child:NP4' posn='80'>
+9	مینار	NNP	<fs af='مینار,n,m,sg,3,o,0,0' drel='ccof:NULL' name='مینار' chunkId='NP4' chunkType='head:NP4' posn='90'>
+10	،	SYM	<fs af='،,punc,,,,,,' drel='rsym:مینار' name='،' chunkType='child:NP4' posn='100'>
+11	لال	NNPC	<fs af='لال,n,m,sg,3,d,0,0' drel='pof__cn:قلعہ' name='لال' chunkType='child:NP5' posn='110'>
+12	قلعہ	NNP	<fs af='قلعہ,n,m,sg,3,o,0,0' drel='ccof:NULL' name='قلعہ' chunkId='NP5' chunkType='head:NP5' posn='120'>
+13	،	SYM	<fs af='،,punc,,,,,,' drel='rsym:قلعہ' name='،2' chunkType='child:NP5' posn='130'>
+14	NULL	CC	<fs af='null,unk,,,,,,' drel='r6:نام2' name='NULL' chunkId='NULL__CCP' chunkType='head:NULL__CCP'>
+15	تاج	NNPC	<fs af='تاج,n,m,sg,3,d,0,0' drel='pof__cn:محل' name='تاج' chunkType='child:NP6' posn='140'>
+16	محل	NNP	<fs af='محل,n,m,sg,3,o,0,0' drel='ccof:NULL' name='محل' chunkId='NP6' chunkType='head:NP6' posn='150'>
+17	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:محل' name='کے3' chunkType='child:NP6' posn='160'>
+18	نام	NN	<fs af='نام,n,m,sg,3,d,0,0' drel='k2:لئے' name='نام2' chunkId='NP7' chunkType='head:NP7' posn='170'>
+19	لئے	VM	<fs af='لے,v,any,any,any,,0,0' drel='nmod__relc:طرح2' name='لئے' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='180'>
+20	جاتے	VAUX	<fs af='جا,v,any,pl,3,,تا,wA' drel='lwg__vaux:لئے' name='جاتے' chunkType='child:VGF' posn='190'>
+21	ہیں	VAUX	<fs af='ہے,v,any,pl,3,,ہے,hE' drel='lwg__vaux_cont:جاتے' name='ہیں' chunkType='child:VGF' posn='200'>
+22	،	SYM	<fs af='،,punc,,,,,,' drel='rsym:لئے' name='،3' chunkType='child:VGF' posn='210'>
+23	اسی	DEM	<fs af='یہ,pn,any,sg,3,d,,' drel='nmod__adj:طرح2' name='اسی' chunkType='child:NP8' posn='220'>
+24	طرح	NN	<fs af='طرح,n,m,sg,3,d,0,0' drel='sent-adv:آتا' name='طرح2' chunkId='NP8' chunkType='head:NP8' coref='NP3' posn='230'>
+25	جب	PRP	<fs af='جب,pn,,,,d,,' drel='k7t:آتا' name='جب' chunkId='NP9' chunkType='head:NP9' posn='240'>
+26	حیدرآباد	NNP	<fs af='حیدرآباد,n,m,sg,3,o,0,0' drel='r6:نام3' name='حیدرآباد' chunkId='NP10' chunkType='head:NP10' posn='250'>
+27	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:حیدرآباد' name='کا' chunkType='child:NP10' posn='260'>
+28	نام	NN	<fs af='نام,n,m,sg,3,d,0,0' drel='k1:آتا' name='نام3' chunkId='NP11' chunkType='head:NP11' posn='270'>
+29	آتا	VM	<fs af='آ,v,m,sg,any,,تا,wA' drel='ccof:تو' name='آتا' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='active' posn='280'>
+30	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux:آتا' name='ہے' chunkType='child:VGF2' posn='290'>
+31	تو	CC	<fs af='تو,avy,,,,,,' drel='ccof:لیکن' name='تو' chunkId='CCP' chunkType='head:CCP' coref='NP9' posn='300'>
+32	چارمینار	NNP	<fs af='چارمینار,n,m,sg,3,o,0,0' drel='r6:تذکرہ' name='چارمینار' chunkId='NP12' chunkType='head:NP12' posn='310'>
+33	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:چارمینار' name='کا2' chunkType='child:NP12' posn='320'>
+34	تذکرہ	NN	<fs af='تذکرہ,n,m,sg,3,d,0,0' drel='k1:ہو' name='تذکرہ' chunkId='NP13' chunkType='head:NP13' posn='330'>
+35	لازمی	JJ	<fs af='لازمی,adj,any,any,,,,' drel='k1s:ہو' name='لازمی' chunkId='JJP' chunkType='head:JJP' posn='340'>
+36	ہو	VM	<fs af='ہو,v,any,any,any,,0,0' drel='ccof:تو' name='ہو' chunkId='VGF3' chunkType='head:VGF3' stype='declarative' voicetype='active' posn='350'>
+37	جاتا	VAUX	<fs af='جاتا,v,m,sg,3,,تا,wA' drel='lwg__vaux:ہو' name='جاتا' chunkType='child:VGF3' posn='360'>
+38	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux_cont:جاتا' name='ہے2' chunkType='child:VGF3' posn='370'>
+39	لیکن	CC	<fs af='لیکن,avy,,,,,,' name='لیکن' chunkId='CCP2' chunkType='head:CCP2' posn='380'>
+40	افسوس	NN	<fs af='افسوس,n,m,sg,3,d,0,0' drel='sent-adv:کر' name='افسوس' chunkId='NP14' chunkType='head:NP14' posn='390'>
+41	کہ	RP	<fs af='کہ,avy,,,,,,' drel='lwg__rp:افسوس' name='کہ' chunkType='child:NP14' posn='400'>
+42	مجلس	NNPC	<fs af='مجلس,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='مجلس' chunkType='child:NP15' posn='410'>
+43	بلدیہ	NNPC	<fs af='بلدیہ,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='بلدیہ' chunkType='child:NP15' posn='420'>
+44	عظیم	NNPC	<fs af='عظیم,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='عظیم' chunkType='child:NP15' posn='430'>
+45	تر	NNPC	<fs af='تر,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='تر' chunkType='child:NP15' posn='440'>
+46	حیدرآباد	NNP	<fs af='حیدرآباد,n,m,sg,3,o,0,0' drel='k1:کر' name='حیدرآباد2' chunkId='NP15' chunkType='head:NP15' posn='450'>
+47	نے	PSP	<fs af='نے,psp,,,,,,' drel='lwg__psp:حیدرآباد2' name='نے' chunkType='child:NP15' posn='460'>
+48	اس	DEM	<fs af='یہ,pn,any,sg,3,o,,' drel='nmod__adj:احساس' name='اس' chunkType='child:NP16' posn='470'>
+49	احساس	NN	<fs af='احساس,n,m,sg,3,o,0,0' drel='k2:کر' name='احساس' chunkId='NP16' chunkType='head:NP16' posn='480'>
+50	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:احساس' name='کو' chunkType='child:NP16' posn='490'>
+51	فراموش	NN	<fs af='فراموش,n,m,sg,3,d,0,0' drel='pof:کر' name='فراموش' chunkId='NP17' chunkType='head:NP17' posn='500'>
+52	کر	VM	<fs af='کر,v,any,any,any,,0,0' drel='ccof:لیکن' name='کر' chunkId='VGF4' chunkType='head:VGF4' stype='declarative' voicetype='active' posn='510'>
+53	دیا	VAUX	<fs af='دے,v,m,sg,3,,یا,yA' drel='lwg__vaux:کر' name='دیا' chunkType='child:VGF4' posn='520'>
+54	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:کر' name='۔' chunkType='child:VGF4' posn='530'>
+</Sentence>
+
+<Sentence id="3">
+1	مجلس	NN	<fs af='مجلس,n,f,sg,3,d,0,0' drel='nmod__adj:حلقوں' name='مجلس' chunkType='child:NP' posn='10'>
+2	بلدی	JJ	<fs af='بلدی,adj,any,,3,,,' drel='nmod__adj:حلقوں' name='بلدی' chunkType='child:NP' posn='20'>
+3	حلقوں	NN	<fs af='حلقہ,n,m,pl,3,o,0,0' drel='r6-k2:حدبندی' name='حلقوں' chunkId='NP' chunkType='head:NP' posn='30'>
+4	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:حلقوں' name='کی' chunkType='child:NP' posn='40'>
+5	ازسرنو	RB	<fs af='از,adv,,,,,,' drel='adv:کی2' name='ازسرنو' chunkId='RBP' chunkType='head:RBP' posn='50'>
+6	حدبندی	NN	<fs af='حدبندی,n,m,sg,3,d,0,0' drel='pof:کی2' name='حدبندی' chunkId='NP2' chunkType='head:NP2' posn='80'>
+7	کی	VM	<fs af='کر,v,f,sg,any,,یا,yA' drel='ccof:اور' name='کی2' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='passive' posn='90'>
+8	گئی	VAUX	<fs af='جا,v,f,sg,any,,1یا,yA1' drel='lwg__vaux:کی2' name='گئی' chunkType='child:VGF' posn='100'>
+9	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux_cont:گئی' name='ہے' chunkType='child:VGF' posn='110'>
+10	اور	CC	<fs af='اور,avy,,,,,,' name='اور' chunkId='CCP' chunkType='head:CCP' posn='120'>
+11	کل	NN	<fs af='کل,n,m,sg,3,d,0,0' drel='k7t:پہنچا' name='کل' chunkId='NP3' chunkType='head:NP3' posn='130'>
+12	اس	DEM	<fs af='یہ,pn,any,sg,3,d,,' drel='nmod__adj:حدبندی2' name='اس' chunkType='child:NP4' posn='140'>
+13	نو	JJ	<fs af='نو,adj,any,any,,o,,' drel='nmod__adj:حدبندی2' name='نو' chunkType='child:NP4' posn='150'>
+14	حدبندی	NN	<fs af='حدبندی,n,f,sg,3,d,0,0' drel='r6:عمل' name='حدبندی2' chunkId='NP4' chunkType='head:NP4' posn='160'>
+15	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:حدبندی2' name='کے' chunkType='child:NP4' posn='170'>
+16	عمل	NN	<fs af='عمل,n,m,sg,3,o,0,0' drel='k2:پہنچا' name='عمل' chunkId='NP5' chunkType='head:NP5' posn='180'>
+17	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:عمل' name='کو' chunkType='child:NP5' posn='190'>
+18	پائے	NNC	<fs af='پائے,n,f,sg,3,d,0,0' drel='pof__cn:تکمیل' name='پائے' chunkType='child:NP6' posn='200'>
+19	تکمیل	NN	<fs af='تکمیل,n,m,sg,3,o,0,0' drel='pof:پہنچا' name='تکمیل' chunkId='NP6' chunkType='head:NP6' posn='210'>
+20	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:تکمیل' name='کو2' chunkType='child:NP6' posn='220'>
+21	بھی	RP	<fs af='بھی,avy,,,,,,' drel='lwg__rp:تکمیل' name='بھی' chunkType='child:NP6' posn='230'>
+22	پہنچا	VM	<fs af='پہنچ,v,any,any,any,,0,0' drel='ccof:اور' name='پہنچا' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='passive' posn='240'>
+23	دیا	VAUX	<fs af='دے,v,m,sg,any,,یا,yA' drel='lwg__vaux:پہنچا' name='دیا' chunkType='child:VGF2' posn='250'>
+24	گیا	VAUX	<fs af='جا,v,m,sg,3,,1یا,yA1' drel='lwg__vaux_cont:دیا' name='گیا' chunkType='child:VGF2' posn='260'>
+25	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:پہنچا' name='۔' chunkType='child:VGF2' posn='270'>
+</Sentence>
+
+<Sentence id="4">
+1	مجلس	NN	<fs af='مجلس,n,m,sg,3,d,0,0' drel='nmod__adj:بلدیہ' name='مجلس' chunkType='child:NP' posn='10'>
+2	بلدیہ	NNP	<fs af='بلدیہ,n,m,sg,3,d,0,0' drel='nmod__adj:حیدرآباد' name='بلدیہ' chunkType='child:NP' posn='20'>
+3	حیدرآباد	NNP	<fs af='حیدرآباد,n,m,sg,3,o,0,0' drel='k1:دی' name='حیدرآباد' chunkId='NP' chunkType='head:NP' posn='30'>
+4	نے	PSP	<fs af='نے,psp,,,,,,' drel='lwg__psp:حیدرآباد' name='نے' chunkType='child:NP' posn='40'>
+5	150	QC	<fs af='150,num,any,any,,any,,' drel='nmod__adj:حلقوں' name='150' chunkType='child:NP2' posn='50'>
+6	بلدی	JJ	<fs af='بلدی,adj,f,any,,d,,' drel='nmod__adj:حلقوں' name='بلدی' chunkType='child:NP2' posn='60'>
+7	حلقوں	NN	<fs af='حلقہ,n,m,pl,3,o,0,0' drel='r6-k2:ترتیب' name='حلقوں' chunkId='NP2' chunkType='head:NP2' posn='70'>
+8	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:حلقوں' name='کی' chunkType='child:NP2' posn='80'>
+9	ترتیب	NN	<fs af='ترتیب,n,m,sg,3,d,0,0' drel='pof:دی' name='ترتیب' chunkId='NP3' chunkType='head:NP3' posn='90'>
+10	دی	VM	<fs af='دے,v,f,sg,any,,یا,yA' drel='ccof:لیکن' name='دی' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='100'>
+11	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux:دی' name='ہے' chunkType='child:VGF' posn='110'>
+12	لیکن	CC	<fs af='لیکن,avy,,,,,,' name='لیکن' chunkId='CCP' chunkType='head:CCP' posn='120'>
+13	اس	DEM	<fs af='یہ,pn,any,sg,3,d,,' drel='nmod__adj:حدبندی' name='اس' chunkType='child:NP4' posn='130'>
+14	ازسرنو	JJ	<fs af='ازسرنو,adj,,,,,,' drel='nmod__adj:حدبندی' name='ازسرنو' chunkType='child:NP4' posn='140'>
+15	حدبندی	NN	<fs af='حد_بندی,n,m,sg,3,o,0,0' drel='k7:کرتے' name='حدبندی' chunkId='NP4' chunkType='head:NP4' posn='170'>
+16	میں	PSP	<fs af='میں,psp,,,,,,' drel='lwg__psp:حدبندی' name='میں' chunkType='child:NP4' posn='180'>
+17	بلدی	NNC	<fs af='بلدی,n,f,sg,3,d,0,0' drel='pof__cn:حلقہ' name='بلدی2' chunkType='child:NP5' posn='190'>
+18	حلقہ	NN	<fs af='حلقہ,n,m,sg,3,d,0,0' drel='nmod:چارمینار' name='حلقہ' chunkId='NP5' chunkType='head:NP5' posn='200'>
+19	چارمینار	NNP	<fs af='چارمینار,n,m,sg,3,o,0,0' drel='k2:کرتے' name='چارمینار' chunkId='NP6' chunkType='head:NP6' posn='210'>
+20	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:چارمینار' name='کو' chunkType='child:NP6' posn='220'>
+21	شاہ	NNPC	<fs af='شاہ,n,m,sg,3,d,0,0' drel='pof__cn:بنڈہ' name='شاہ' chunkType='child:NP7' posn='230'>
+22	علی	NNPC	<fs af='علی,n,m,sg,3,d,0,0' drel='pof__cn:بنڈہ' name='علی' chunkType='child:NP7' posn='240'>
+23	بنڈہ	NNP	<fs af='بنڈہ,n,m,sg,3,o,0,0' drel='ccof:اور' name='بنڈہ' chunkId='NP7' chunkType='head:NP7' posn='250'>
+24	اور	CC	<fs af='اور,avy,,,,,,' drel='k2s:کرتے' name='اور' chunkId='CCP2' chunkType='head:CCP2' posn='260'>
+25	حسینی	NNPC	<fs af='حسینی,n,m,sg,3,d,0,0' drel='pof__cn:علم' name='حسینی' chunkType='child:NP8' posn='270'>
+26	علم	NNP	<fs af='علم,n,m,sg,3,o,0,0' drel='ccof:اور' name='علم' chunkId='NP8' chunkType='head:NP8' posn='280'>
+27	میں	PSP	<fs af='میں,psp,,,,,,' drel='lwg__psp:علم' name='میں2' chunkType='child:NP8' posn='290'>
+28	تقسیم	JJ	<fs af='تقسیم,adj,any,any,,,,' drel='pof:کرتے' name='تقسیم' chunkId='JJP' chunkType='head:JJP' posn='300'>
+29	کرتے	VM	<fs af='کر,v,m,pl,any,,تا,wA' drel='vmod:کر' name='کرتے' chunkId='VGNF' chunkType='head:VGNF' posn='310'>
+30	ہوئے	VAUX	<fs af='ہو,v,any,pl,3,,ۓں,eN' drel='lwg__vaux:کرتے' name='ہوئے' chunkType='child:VGNF' posn='320'>
+31	بلدی	JJ	<fs af='بلدی,n,f,sg,3,d,0,0' drel='nmod__adj:حلقہ2' name='بلدی3' chunkType='child:NP9' posn='330'>
+32	حلقہ	NN	<fs af='حلقہ,n,m,sg,3,d,0,0' drel='nmod:چارمینار2' name='حلقہ2' chunkId='NP9' chunkType='head:NP9' posn='340'>
+33	چارمینار	NNP	<fs af='چارمینار,n,m,sg,3,o,0,0' drel='k2:کر' name='چارمینار2' chunkId='NP10' chunkType='head:NP10' posn='350'>
+34	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:چارمینار2' name='کو2' chunkType='child:NP10' posn='360'>
+35	ختم	JJ	<fs af='ختم,adj,any,any,,,,' drel='pof:کر' name='ختم' chunkId='JJP2' chunkType='head:JJP2' posn='370'>
+36	کر	VM	<fs af='کر,v,any,any,any,,0,0' drel='ccof:لیکن' name='کر' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='passive' posn='380'>
+37	دیا	VAUX	<fs af='دے,v,m,sg,any,,یا,yA' drel='lwg__vaux:کر' name='دیا' chunkType='child:VGF2' posn='390'>
+38	گیا	VAUX	<fs af='جا,v,m,sg,any,,1یا,yA1' drel='lwg__vaux_cont:دیا' name='گیا' chunkType='child:VGF2' posn='400'>
+39	۔	VAUX	<fs af='جا,v,m,sg,any,,1یا,yA1' drel='lwg__vaux_cont:گیا' name='۔' chunkType='child:VGF2' posn='400'>
+</Sentence>
+
+<Sentence id="5">
+1	جس	DEM	<fs af='جو,pn,any,sg,3,d,,' drel='nmod__adj:طرح' name='جس' chunkType='child:NP' posn='410'>
+2	طرح	NN	<fs af='طرح,n,m,sg,3,d,0,0' drel='sent-adv:سمجھا' name='طرح' chunkId='NP' chunkType='head:NP' posn='420'>
+3	حیدرآباد	NNP	<fs af='حیدرآباد,n,m,sg,3,o,0,0' drel='r6:شان' name='حیدرآباد' chunkId='NP2' chunkType='head:NP2' posn='430'>
+4	کی	PSP	<fs af='کا,psp,f,sg,,o,,' drel='lwg__psp:حیدرآباد' name='کی' chunkType='child:NP2' posn='440'>
+5	شان	NN	<fs af='شان,n,m,sg,3,d,0,0' drel='k2:سمجھا' name='شان' chunkId='NP3' chunkType='head:NP3' posn='450'>
+6	چارمینار	NNP	<fs af='چارمینار,n,m,sg,3,d,0,0' drel='k2s:سمجھا' name='چارمینار' chunkId='NP4' chunkType='head:NP4' posn='460'>
+7	سمجھا	VM	<fs af='سمجھ,v,m,sg,any,,یا,yA' drel='nmod__relc:طرح2' name='سمجھا' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='passive' posn='470'>
+8	جاتا	VAUX	<fs af='جاتا,v,m,sg,any,,تا,wA' drel='lwg__vaux:سمجھا' name='جاتا' chunkType='child:VGF' posn='480'>
+9	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux_cont:جاتا' name='ہے' chunkType='child:VGF' posn='490'>
+10	,	SYM	<fs af=',,punc,,,,,,' drel='rsym:سمجھا' name=',' chunkType='child:VGF' posn='500'>
+11	اسی	DEM	<fs af='اسی,pn,any,,3,d,,' drel='nmod__adj:طرح2' name='اسی' chunkType='child:NP5' posn='510'>
+12	طرح	NN	<fs af='طرح,n,m,sg,3,d,0,0' drel='sent-adv:کرنی' name='طرح2' chunkId='NP5' chunkType='head:NP5' coref='NP' posn='520'>
+13	مجلس	NNPC	<fs af='مجلس,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='مجلس' chunkType='child:NP6' posn='530'>
+14	بلدیہ	NNPC	<fs af='بلدیہ,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='بلدیہ' chunkType='child:NP6' posn='540'>
+15	عظیم	NNPC	<fs af='عظیم,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='عظیم' chunkType='child:NP6' posn='550'>
+16	تر	NNPC	<fs af='تر,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='تر' chunkType='child:NP6' posn='560'>
+17	حیدرآباد	NNP	<fs af='حیدرآباد,n,m,sg,3,o,0,0' drel='k2:کرنی' name='حیدرآباد2' chunkId='NP6' chunkType='head:NP6' posn='570'>
+18	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:حیدرآباد2' name='کو' chunkType='child:NP6' posn='580'>
+19	بھی	RP	<fs af='بھی,avy,,,,,,' drel='lwg__rp:حیدرآباد2' name='بھی' chunkType='child:NP6' posn='590'>
+20	بلدی	JJ	<fs af='بلدی,n,f,sg,3,d,0,0' drel='nmod__adj:حلقہ' name='بلدی' chunkType='child:NP7' posn='600'>
+21	حلقہ	NN	<fs af='حلقہ,n,m,sg,3,o,0,0' drel='nmod__adj:چارمینار2' name='حلقہ' chunkType='child:NP7' posn='610'>
+22	چارمینار	NNP	<fs af='چارمینار,n,m,sg,3,o,0,0' drel='r6:برقراری' name='چارمینار2' chunkId='NP7' chunkType='head:NP7' posn='620'>
+23	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:چارمینار2' name='کی2' chunkType='child:NP7' posn='630'>
+24	برقراری	NN	<fs af='برقراری,n,m,sg,3,o,0,0' drel='rt:کرنی' name='برقراری' chunkId='NP8' chunkType='head:NP8' posn='640'>
+25	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:برقراری' name='کے' chunkType='child:NP8' posn='650'>
+26	لئے	PSP	<fs af='لئے,psp,,,,,,' drel='lwg__psp:برقراری' name='لئے' chunkType='child:NP8' posn='660'>
+27	منصوبہ_بندی	NN	<fs af='منصوبہ_بندی,n,m,sg,3,d,0,0' drel='pof:کرنی' name='منصوبہ_بندی' chunkId='NP9' chunkType='head:NP9' posn='670'>
+28	کرنی	VM	<fs af='کر,v,f,sg,any,,نا,nA' name='کرنی' chunkId='VGF2' chunkType='head:VGF2' stype='imperative' voicetype='passive' posn='690'>
+29	چاہئے	VAUX	<fs af='چاہئے,v,any,any,any,,ئےں,eM' drel='lwg__vaux:کرنی' name='چاہئے' chunkType='child:VGF2' posn='700'>
+30	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:کرنی' name='۔' chunkType='child:VGF2' posn='710'>
+</Sentence>
+
+<Sentence id="6">
+1	مجلس	NNPC	<fs af='مجلس,n,f,sg,3,d,0,0' drel='pof__cn:حیدرآباد' name='مجلس' chunkType='child:NP' posn='10'>
+2	بلدیہ	NNPC	<fs af='بلدیہ,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد' name='بلدیہ' chunkType='child:NP' posn='20'>
+3	عظیم	NNPC	<fs af='عظیم,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد' name='عظیم' chunkType='child:NP' posn='30'>
+4	تر	NNPC	<fs af='تر,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد' name='تر' chunkType='child:NP' posn='40'>
+5	حیدرآباد	NNP	<fs af='حیدرآباد,n,m,sg,3,o,0,0' drel='r6:تشکیل' name='حیدرآباد' chunkId='NP' chunkType='head:NP' posn='50'>
+6	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:حیدرآباد' name='کی' chunkType='child:NP' posn='60'>
+7	جس	DEM	<fs af='جو,pn,any,sg,3,d,,' drel='nmod__adj:وقت' name='جس' chunkType='child:NP2' posn='70'>
+8	وقت	NN	<fs af='وقت,n,m,sg,3,d,0,0' drel='k7t:آ' name='وقت' chunkId='NP2' chunkType='head:NP2' posn='80'>
+9	تشکیل	NN	<fs af='تشکیل,n,m,sg,3,d,0,0' drel='k1:آ' name='تشکیل' chunkId='NP3' chunkType='head:NP3' posn='90'>
+10	عمل	NN	<fs af='عمل,n,m,sg,3,o,0,0' drel='k7:آ' name='عمل' chunkId='NP4' chunkType='head:NP4' posn='100'>
+11	میں	PSP	<fs af='میں,psp,,,,,,' drel='lwg__psp:عمل' name='میں' chunkType='child:NP4' posn='110'>
+12	آ	VM	<fs af='آ,v,any,any,any,,0,0' drel='nmod__relc:وقت2' name='آ' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='120'>
+13	رہی	VAUX	<fs af='رہی,v,f,sg,3,,یا,yA' drel='lwg__vaux:آ' name='رہی' chunkType='child:VGF' posn='130'>
+14	تھی	VAUX	<fs af='تھا,v,f,sg,any,,تھا,WA' drel='lwg__vaux_cont:رہی' name='تھی' chunkType='child:VGF' posn='140'>
+15	,	SYM	<fs af=',,punc,,,,,,' drel='rsym:آ' name=',' chunkType='child:VGF' posn='150'>
+16	اسی	DEM	<fs af='یہ,pn,any,sg,3,d,,' drel='nmod__adj:وقت2' name='اسی' chunkType='child:NP5' posn='160'>
+17	وقت	NN	<fs af='وقت,n,m,sg,3,d,0,0' drel='k7t:کرتے' name='وقت2' chunkId='NP5' chunkType='head:NP5' posn='170'>
+18	کمشنر	NNC	<fs af='کمشنر,n,m,sg,3,d,0,0' drel='pof__cn:بلدیہ2' name='کمشنر' chunkType='child:NP6' posn='180'>
+19	بلدیہ	NNP	<fs af='بلدیہ,n,m,sg,3,d,0,0' drel='nmod__adj:جاجو' name='بلدیہ2' chunkType='child:NP6' posn='190'>
+20	مسٹر	RP	<fs af='مسٹر,n,m,sg,3,d,0,0' drel='lwg__rp:بلدیہ2' name='مسٹر' chunkType='child:NP6' posn='200'>
+21	سنجے	NNPC	<fs af='سنجے,n,m,sg,3,d,0,0' drel='pof__cn:جاجو' name='سنجے' chunkType='child:NP6' posn='210'>
+22	جاجو	NNP	<fs af='جاجو,n,m,sg,3,o,0,0' drel='k1:کی2' name='جاجو' chunkId='NP6' chunkType='head:NP6' posn='220'>
+23	نے	PSP	<fs af='نے,psp,,,,,,' drel='lwg__psp:جاجو' name='نے' chunkType='child:NP6' posn='230'>
+24	غیرمعمولی	JJ	<fs af='غیر,adj,any,any,,,,' drel='nmod:اقدام' name='غیرمعمولی' chunkId='JJP' chunkType='head:JJP' posn='240'>
+25	اقدام	NN	<fs af='اقدام,n,m,sg,3,d,0,0' drel='pof:کرتے' name='اقدام' chunkId='NP7' chunkType='head:NP7' posn='260'>
+26	کرتے	VM	<fs af='کر,v,m,pl,any,,تا,wA' drel='vmod:کی2' name='کرتے' chunkId='VGNF' chunkType='head:VGNF' posn='270'>
+27	ہوئے	VAUX	<fs af='ہو,v,any,pl,3,,یا,yA' drel='lwg__vaux:کرتے' name='ہوئے' chunkType='child:VGNF' posn='280'>
+28	مجلس	NNPC	<fs af='مجلس,n,f,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='مجلس2' chunkType='child:NP8' posn='290'>
+29	بلدیہ	NNPC	<fs af='بلدیہ,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='بلدیہ3' chunkType='child:NP8' posn='300'>
+30	عظیم	NNPC	<fs af='عظیم,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='عظیم2' chunkType='child:NP8' posn='310'>
+31	تر	NNPC	<fs af='تر,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='تر2' chunkType='child:NP8' posn='320'>
+32	حیدرآباد	NNP	<fs af='حیدرآباد,n,m,sg,3,o,0,0' drel='r6:لوگوں' name='حیدرآباد2' chunkId='NP8' chunkType='head:NP8' posn='330'>
+33	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:حیدرآباد2' name='کے' chunkType='child:NP8' posn='340'>
+34	لوگوں	NN	<fs af='لوگ,n,m,pl,3,o,0,0' drel='rt:کی2' name='لوگوں' chunkId='NP9' chunkType='head:NP9' posn='350'>
+35	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:لوگوں' name='کے2' chunkType='child:NP9' posn='360'>
+36	لئے	PSP	<fs af='لئے,psp,,,,,,' drel='lwg__psp:لوگوں' name='لئے' chunkType='child:NP9' posn='370'>
+37	عوامی	JJ	<fs af='عوامی,adj,any,any,,d,,' drel='nmod__adj:رائے' name='عوامی' chunkType='child:NP10' posn='380'>
+38	رائے	NN	<fs af='رائے,n,m,sg,3,d,0,0' drel='k2:کی2' name='رائے' chunkId='NP10' chunkType='head:NP10' posn='390'>
+39	حاصل	NN	<fs af='حاصل,n,m,sg,3,d,0,0' drel='pof:کی2' name='حاصل' chunkId='NP11' chunkType='head:NP11' posn='400'>
+40	کی	VM	<fs af='کر,v,f,sg,any,,یا,yA' drel='ccof:اور' name='کی2' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='active' posn='410'>
+41	تھی	VAUX	<fs af='تھا,v,m,sg,any,,تھا,WA' drel='lwg__vaux:کی2' name='تھی2' chunkType='child:VGF2' posn='420'>
+42	اور	CC	<fs af='اور,avy,,,,,,' name='اور' chunkId='CCP' chunkType='head:CCP' posn='430'>
+43	اس	DEM	<fs af='یہ,pn,any,sg,3,d,,' drel='nmod__adj:عمل2' name='اس' chunkType='child:NP12' posn='440'>
+44	عمل	NN	<fs af='عمل,n,m,sg,3,o,0,0' drel='k7:رکھا' name='عمل2' chunkId='NP12' chunkType='head:NP12' posn='450'>
+45	میں	PSP	<fs af='میں,psp,,,,,,' drel='lwg__psp:عمل2' name='میں2' chunkType='child:NP12' posn='460'>
+46	اس	DEM	<fs af='یہ,pn,any,sg,3,d,,' drel='nmod__adj:بات' name='اس2' chunkType='child:NP13' posn='470'>
+47	بات	NN	<fs af='بات,n,f,sg,3,o,0,0' drel='r6-k2:خیال' name='بات' chunkId='NP13' chunkType='head:NP13' posn='480'>
+48	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:بات' name='کا' chunkType='child:NP13' posn='490'>
+49	خاص	JJ	<fs af='خاص,adj,any,any,,d,,' drel='nmod__adj:خیال' name='خاص' chunkType='child:NP14' posn='500'>
+50	خیال	NN	<fs af='خیال,n,m,sg,3,d,0,0' drel='pof:رکھا' name='خیال' chunkId='NP14' chunkType='head:NP14' posn='510'>
+51	رکھا	VM	<fs af='رکھ,v,m,sg,any,,یا,yA' drel='ccof:اور' name='رکھا' chunkId='VGF3' chunkType='head:VGF3' stype='declarative' voicetype='passive' posn='520'>
+52	گیا	VAUX	<fs af='جا,v,m,sg,any,,1یا,yA1' drel='lwg__vaux:رکھا' name='گیا' chunkType='child:VGF3' posn='530'>
+53	تھا	VAUX	<fs af='تھا,v,any,sg,any,,تھا,WA' drel='lwg__vaux_cont:گیا' name='تھا' chunkType='child:VGF3' posn='540'>
+54	کہ	CC	<fs af='کہ,avy,,,,,,' drel='k2:رکھا' name='کہ' chunkId='CCP2' chunkType='head:CCP2' posn='550'>
+55	مجلس	NNPC	<fs af='مجلس,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد3' name='مجلس3' chunkType='child:NP15' posn='560'>
+56	بلدیہ	NNPC	<fs af='بلدیہ,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد3' name='بلدیہ4' chunkType='child:NP15' posn='570'>
+57	عظیم	NNPC	<fs af='عظیم,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد3' name='عظیم3' chunkType='child:NP15' posn='580'>
+58	تر	NNPC	<fs af='تر,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد3' name='تر3' chunkType='child:NP15' posn='590'>
+59	حیدرآباد	NNP	<fs af='حیدرآباد,n,m,sg,3,o,0,0' drel='r6:لوگوں2' name='حیدرآباد3' chunkId='NP15' chunkType='head:NP15' posn='600'>
+60	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:حیدرآباد3' name='کے3' chunkType='child:NP15' posn='610'>
+61	لوگوں	NN	<fs af='لوگوں,n,m,pl,3,o,0,0' drel='k7:رکھا2' name='لوگوں2' chunkId='NP16' chunkType='head:NP16' posn='620'>
+62	میں	PSP	<fs af='میں,psp,,,,,,' drel='lwg__psp:لوگوں2' name='میں3' chunkType='child:NP16' posn='630'>
+63	چارمینار	NNP	<fs af='چارمینار,n,m,sg,3,o,0,0' drel='r6-k2:عکس' name='چارمینار' chunkId='NP17' chunkType='head:NP17' posn='640'>
+64	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:چارمینار' name='کا2' chunkType='child:NP17' posn='650'>
+65	عکس	NN	<fs af='عکس,n,m,sg,3,d,0,0' drel='pof:رکھا2' name='عکس' chunkId='NP18' chunkType='head:NP18' posn='660'>
+66	رکھا	VM	<fs af='رکھ,v,m,sg,any,,یا,yA' drel='ccof:کہ' name='رکھا2' chunkId='VGF4' chunkType='head:VGF4' stype='imperative' voicetype='passive' posn='670'>
+67	جائے	VAUX	<fs af='جا,v,m,sg,3,,ئےں,eM' drel='lwg__vaux:رکھا2' name='جائے' chunkType='child:VGF4' posn='680'>
+68	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:رکھا2' name='۔' chunkType='child:VGF4' posn='690'>
+</Sentence>
+
+<Sentence id="7">
+1	شہریان	NNZ	<fs af='شہریان,n,m,sg,3,d,0,0' drel='k1:کی3' name='شہریان' chunkId='NP' chunkType='head:NP' posn='10'>
+2	حیدرآباد	NNP	<fs af='حیدرآباد,n,m,sg,3,o,0,0' drel='r6:شہریان' name='حیدرآباد' chunkId='NP2' chunkType='head:NP2' posn='20'>
+3	نے	PSP	<fs af=',,,,,,,' drel='fragof:شہریان' name='نے' chunkId='FRAGP' chunkType='head:FRAGP' posn='30'>
+4	بھی	RP	<fs af='بھی,avy,,,,,,' drel='mod:نے' name='بھی' chunkType='child:FRAGP' posn='40'>
+5	اس	DEM	<fs af='یہ,pn,any,sg,3,o,,' drel='nmod__adj:مہم' name='اس' chunkType='child:NP3' posn='50'>
+6	مہم	NN	<fs af='مہم,n,m,sg,3,o,0,0' drel='k7:کرتے' name='مہم' chunkId='NP3' chunkType='head:NP3' posn='60'>
+7	پر	PSP	<fs af='پر,psp,,,,,,' drel='lwg__psp:مہم' name='پر' chunkType='child:NP3' posn='70'>
+8	زبردست	JJ	<fs af='زبردست,adj,any,any,,d,,' drel='nmod__adj:ردعمل' name='زبردست' chunkType='child:NP4' posn='80'>
+9	ردعمل	NN	<fs af='ردعمل,n,m,sg,3,d,0,0' drel='k2:کرتے' name='ردعمل' chunkId='NP4' chunkType='head:NP4' posn='90'>
+10	ظاہر	JJ	<fs af='ظاہر,adj,any,any,,,,' drel='pof:کرتے' name='ظاہر' chunkId='JJP' chunkType='head:JJP' posn='100'>
+11	کرتے	VM	<fs af='کر,v,m,pl,any,,تا,wA' drel='vmod:کی3' name='کرتے' chunkId='VGNF' chunkType='head:VGNF' posn='110'>
+12	ہوئے	VAUX	<fs af='ہو,v,any,pl,3,,یا,yA' drel='lwg__vaux:کرتے' name='ہوئے' chunkType='child:VGNF' posn='120'>
+13	مسٹر	RP	<fs af='مسٹر,n,m,sg,3,d,0,0' drel='lwg__rp:جاجو' name='مسٹر' chunkType='child:NP5' posn='130'>
+14	سنجے	NNPC	<fs af='سنجے,n,m,sg,3,d,0,0' drel='pof__cn:جاجو' name='سنجے' chunkType='child:NP5' posn='140'>
+15	جاجو	NNP	<fs af='جاجو,n,m,sg,3,o,0,0' drel='r6:کوشش' name='جاجو' chunkId='NP5' chunkType='head:NP5' posn='150'>
+16	کی	PSP	<fs af='کا,psp,f,sg,,o,,' drel='lwg__psp:جاجو' name='کی' chunkType='child:NP5' posn='160'>
+17	اس	DEM	<fs af='یہ,pn,any,sg,3,d,,' drel='nmod__adj:کوشش' name='اس2' chunkType='child:NP6' posn='170'>
+18	کوشش	NN	<fs af='کوشش,n,m,sg,3,o,0,0' drel='r6-k2:سراہنا' name='کوشش' chunkId='NP6' chunkType='head:NP6' posn='180'>
+19	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:کوشش' name='کی2' chunkType='child:NP6' posn='190'>
+20	سراہنا	NN	<fs af='سراہ,v,m,sg,any,,نا,nA' drel='pof:کی3' name='سراہنا' chunkId='NP7' chunkType='head:NP7' posn='200'>
+21	کی	VM	<fs af='کا,v,f,sg,any,,یا,yA' drel='ccof:لیکن' name='کی3' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='210'>
+22	لیکن	CC	<fs af='لیکن,avy,,,,,,' drel='ccof:تو' name='لیکن' chunkId='CCP' chunkType='head:CCP' posn='220'>
+23	اب	PRP	<fs af='اب,pn,,,,d,,' drel='nmod:چارمینار' name='اب' chunkId='NP8' chunkType='head:NP8' posn='230'>
+24	جب	PRP	<fs af='جب,pn,,,,d,,' drel='k7t:کی5' name='جب' chunkId='NP9' chunkType='head:NP9' posn='240'>
+25	مجلس	NNPC	<fs af='مجلس,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='مجلس' chunkType='child:NP10' posn='250'>
+26	بلدیہ	NNPC	<fs af='بلدیہ,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='بلدیہ' chunkType='child:NP10' posn='260'>
+27	عظیم	NNPC	<fs af='عظیم,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='عظیم' chunkType='child:NP10' posn='270'>
+28	تر	NNPC	<fs af='تر,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد2' name='تر' chunkType='child:NP10' posn='280'>
+29	حیدرآباد	NNP	<fs af='حیدرآباد,n,m,sg,3,o,0,0' drel='r6:حلقوں' name='حیدرآباد2' chunkId='NP10' chunkType='head:NP10' posn='290'>
+30	کے	PSP	<fs af='کا,psp,m,pl,,o,,' drel='lwg__psp:حیدرآباد2' name='کے' chunkType='child:NP10' posn='300'>
+31	بلدی	JJ	<fs af='بلدی,n,f,sg,3,d,0,0' drel='nmod__adj:حلقوں' name='بلدی' chunkType='child:NP11' posn='310'>
+32	حلقوں	NN	<fs af='حلقہ,n,m,sg,3,o,0,0' drel='r6-k2:حدبندی' name='حلقوں' chunkId='NP11' chunkType='head:NP11' posn='320'>
+33	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:حلقوں' name='کی4' chunkType='child:NP11' posn='330'>
+34	ازسرنو	RB	<fs af='ازسرنو,adv,,,,,,' drel='adv:کی5' name='ازسرنو' chunkId='RBP' chunkType='head:RBP' posn='340'>
+35	حدبندی	NN	<fs af='حدبندی,n,m,sg,3,d,0,0' drel='pof:کی5' name='حدبندی' chunkId='NP12' chunkType='head:NP12' posn='370'>
+36	کی	VM	<fs af='کر,v,f,sg,any,,یا,yA' drel='nmod__relc:اب' name='کی5' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='passive' posn='380'>
+37	گئی	VAUX	<fs af='جا,v,f,sg,any,,1یا,yA1' drel='lwg__vaux:کی5' name='گئی' chunkType='child:VGF2' posn='390'>
+38	تو	CC	<fs af='تو,avy,,,,,,' name='تو' chunkId='CCP2' chunkType='head:CCP2' posn='400'>
+39	اس	DEM	<fs af='یہ,pn,any,sg,3,d,,' drel='mod:اس3' name='اس3' chunkType='child:NP13' posn='410'>
+40	میں	PSP	<fs af='میں,psp,,,,,,' drel='mod:اس3' name='میں' chunkType='child:NP13' posn='420'>
+41	چارمینار	NNP	<fs af='چارمینار,n,m,sg,3,o,0,0' drel='k2:کر' name='چارمینار' chunkId='NP14' chunkType='head:NP14' posn='430'>
+42	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:چارمینار' name='کو' chunkType='child:NP14' posn='440'>
+43	فراموش	JJ	<fs af='فراموش,adj,any,any,,,,' drel='pof:کر' name='فراموش' chunkId='JJP2' chunkType='head:JJP2' posn='450'>
+44	کر	VM	<fs af='کر,v,any,any,any,,0,0' drel='ccof:لیکن' name='کر' chunkId='VGF3' chunkType='head:VGF3' stype='declarative' voicetype='passive' posn='460'>
+45	دیا	VAUX	<fs af='دے,v,any,any,any,,یا,yA' drel='lwg__vaux:کر' name='دیا' chunkType='child:VGF3' posn='470'>
+46	گیا	VAUX	<fs af='جا,v,m,sg,any,,1یا,yA1' drel='lwg__vaux_cont:دیا' name='گیا' chunkType='child:VGF3' posn='480'>
+47	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:کر' name='۔' chunkType='child:VGF3' posn='490'>
+</Sentence>
+
+<Sentence id="8">
+1	مجلس	NNPC	<fs af='مجلس,n,f,sg,3,d,0,0' drel='pof__cn:حیدرآباد' name='مجلس' chunkType='child:NP' posn='10'>
+2	بلدیہ	NNPC	<fs af='بلدیہ,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد' name='بلدیہ' chunkType='child:NP' posn='20'>
+3	عظیم_تر	NNPC	<fs af='عظیم_تر,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد' name='عظیم_تر' chunkType='child:NP' posn='30'>
+4	حیدرآباد	NNP	<fs af='حیدرآباد,n,m,sg,3,o,0,0' drel='k7:کیا' name='حیدرآباد' chunkId='NP' chunkType='head:NP' posn='50'>
+5	نے	PSP	<fs af='نے,psp,,,,,,' drel='lwg__psp:حیدرآباد' name='نے' chunkType='child:NP' posn='60'>
+6	ایک	QC	<fs af='ایک,num,any,any,,any,,' drel='nmod__adj:وقت' name='ایک' chunkType='child:NP2' posn='70'>
+7	ایسے	DEM	<fs af='ایسا,pn,m,sg,,d,,' drel='nmod__adj:وقت' name='ایسے' chunkType='child:NP2' posn='80'>
+8	وقت	NN	<fs af='وقت,n,m,sg,3,o,0,0' drel='k7t:کیا' name='وقت' chunkId='NP2' chunkType='head:NP2' coref='NP6' posn='90'>
+9	بلدی	JJ	<fs af='بلدی,n,f,sg,3,d,0,0' drel='nmod__adj:حلقوں' name='بلدی' chunkType='child:NP3' posn='100'>
+10	حلقوں	NN	<fs af='حلقہ,n,m,sg,3,o,0,0' drel='r6:حدبندی' name='حلقوں' chunkId='NP3' chunkType='head:NP3' posn='110'>
+11	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:حلقوں' name='کی' chunkType='child:NP3' posn='120'>
+12	ازسرنو	JJ	<fs af='از,adj,,,,,,' drel='nmod__adj:حدبندی' name='ازسرنو' chunkType='child:NP4' posn='130'>
+13	حدبندی	NN	<fs af='حدبندی,n,f,sg,3,d,0,0' drel='r6:اعلامیہ' name='حدبندی' chunkId='NP4' chunkType='head:NP4' posn='160'>
+14	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:حدبندی' name='کا' chunkType='child:NP4' posn='170'>
+15	اعلامیہ	NN	<fs af='اعلامیہ,n,m,sg,3,d,0,0' drel='k2:کیا' name='اعلامیہ' chunkId='NP5' chunkType='head:NP5' posn='180'>
+16	جاری	JJ	<fs af='جاری,adj,any,any,,,,' drel='pof:کیا' name='جاری' chunkId='JJP' chunkType='head:JJP' posn='190'>
+17	کیا	VM	<fs af='کر,v,m,sg,any,,یا,yA' name='کیا' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='200'>
+18	جب	PRP	<fs af='جب,pn,,,,d,,' drel='k7t:تھیں' name='جب' chunkId='NP6' chunkType='head:NP6' posn='210'>
+19	تمام	QF	<fs af='تمام,avy,,,,,,' drel='nmod__adj:جماعتیں' name='تمام' chunkType='child:NP7' posn='220'>
+20	سیاسی	JJ	<fs af='سیاسی,adj,f,any,,any,,' drel='nmod__adj:جماعتیں' name='سیاسی' chunkType='child:NP7' posn='230'>
+21	جماعتیں	NN	<fs af='جماعت,n,m,pl,3,o,0,0' drel='k1:تھیں' name='جماعتیں' chunkId='NP7' chunkType='head:NP7' posn='240'>
+22	عام	JJ	<fs af='عام,adj,any,any,,o,,' drel='nmod__adj:انتخابات' name='عام' chunkType='child:NP8' posn='250'>
+23	انتخابات	NN	<fs af='انتخاب,n,m,pl,3,o,0,0' drel='r6:سرگرمیوں' name='انتخابات' chunkId='NP8' chunkType='head:NP8' posn='260'>
+24	کی	PSP	<fs af='کا,psp,f,sg,,o,,' drel='lwg__psp:انتخابات' name='کی2' chunkType='child:NP8' posn='270'>
+25	سرگرمیوں	NN	<fs af='سرگرم,n,m,pl,3,o,0,0' drel='k7:تھیں' name='سرگرمیوں' chunkId='NP9' chunkType='head:NP9' posn='280'>
+26	میں	PSP	<fs af='میں,psp,,,,,,' drel='lwg__psp:سرگرمیوں' name='میں' chunkType='child:NP9' posn='290'>
+27	مصروف	JJ	<fs af='مصروف,adj,any,any,,,,' drel='k1s:تھیں' name='مصروف' chunkId='JJP2' chunkType='head:JJP2' posn='300'>
+28	تھیں	VM	<fs af='تھا,v,m,pl,any,,تھا,WA' drel='ccof:اور' name='تھیں' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='active' posn='310'>
+29	اور	CC	<fs af='اور,avy,,,,,,' drel='nmod__relc:وقت' name='اور' chunkId='CCP' chunkType='head:CCP' posn='320'>
+30	کسی	PRP	<fs af='کوئ,pn,any,sg,3,o,0,0' drel='r6:دھیان' name='کسی' chunkId='NP10' chunkType='head:NP10' posn='330'>
+31	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:کسی' name='کا2' chunkType='child:NP10' posn='340'>
+32	بھی	RP	<fs af='بھی,avy,,,,,,' drel='lwg__rp:کسی' name='بھی' chunkType='child:NP10' posn='350'>
+33	دھیان	NN	<fs af='دھیان,n,m,sg,3,d,0,0' drel='k2:گیا' name='دھیان' chunkId='NP11' chunkType='head:NP11' posn='360'>
+34	اس	DEM	<fs af='یہ,pn,any,sg,3,d,,' drel='nmod__adj:اعلامیہ2' name='اس' chunkType='child:NP12' posn='370'>
+35	اعلامیہ	NN	<fs af='اعلامیہ,n,m,sg,3,o,0,0' drel='rd:گیا' name='اعلامیہ2' chunkId='NP12' chunkType='head:NP12' posn='380'>
+36	کی	PSP	<fs af='کا,psp,f,sg,,o,,' drel='lwg__psp:اعلامیہ2' name='کی3' chunkType='child:NP12' posn='390'>
+37	جانب	NST	<fs af='جانب,nst,m,sg,3,d,,' drel='lwg__psp:اعلامیہ2' name='جانب' chunkType='child:NP12' posn='400'>
+38	نہیں	NEG	<fs af='نہیں,avy,,,,,,' drel='lwg__neg:گیا' name='نہیں' chunkType='child:VGF3' posn='410'>
+39	گیا	VM	<fs af='جا,v,m,sg,any,,1یا,yA1' drel='ccof:NULL' name='گیا' chunkId='VGF3' chunkType='head:VGF3' stype='declarative' voicetype='active' posn='420'>
+40	NULL	CC	<fs af='null,unk,,,,,,' drel='ccof:اور' name='NULL' chunkId='NULL__CCP' chunkType='head:NULL__CCP' mtype='gap' troot='اور'>
+41	جس	PRP	<fs af='جو,pn,any,sg,3,o,0,0' drel='rh:کر' name='جس' chunkId='NP13' chunkType='head:NP13' posn='430'>
+42	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:جس' name='کے' chunkType='child:NP13' posn='440'>
+43	باعث	PSP	<fs af='باعث,psp,,,,,,' drel='lwg__psp:جس' name='باعث' chunkType='child:NP13' posn='450'>
+44	قطعی	JJ	<fs af='قطعی,adj,any,any,,,,' drel='nmod__adj:حلقہ_جات' name='قطعی' chunkType='child:NP14' posn='460'>
+45	حلقہ_جات	NN	<fs af='حلقہ_جات,n,m,sg,3,d,0,0' drel='r6:فہرست' name='حلقہ_جات' chunkId='NP14' chunkType='head:NP14' posn='470'>
+46	کی	PSP	<fs af='کا,psp,f,sg,,o,,' drel='lwg__psp:حلقہ_جات' name='کی4' chunkType='child:NP14' posn='480'>
+47	فہرست	NN	<fs af='فہرست,n,m,sg,3,o,0,0' drel='k2:کر' name='فہرست' chunkId='NP15' chunkType='head:NP15' posn='490'>
+48	بھی	RP	<fs af='بھی,avy,,,,,,' drel='lwg__rp:فہرست' name='بھی2' chunkType='child:NP15' posn='500'>
+49	جاری	JJ	<fs af='جاری,adj,any,any,,,,' drel='pof:کر' name='جاری2' chunkId='JJP3' chunkType='head:JJP3' posn='510'>
+50	کر	VM	<fs af='کر,v,any,any,any,,0,0' drel='ccof:NULL' name='کر' chunkId='VGF4' chunkType='head:VGF4' stype='declarative' voicetype='passive' posn='520'>
+51	دی	VAUX	<fs af='دی,v,f,sg,3,,یا,yA' drel='lwg__vaux:کر' name='دی' chunkType='child:VGF4' posn='530'>
+52	گئی	VAUX	<fs af='جا,v,f,sg,any,,1یا,yA1' drel='lwg__vaux_cont:دی' name='گئی' chunkType='child:VGF4' posn='540'>
+53	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:کر' name='۔' chunkType='child:VGF4' posn='550'>
+</Sentence>
+
+<Sentence id="9">
+1	اس	DEM	<fs af='مجلس,n,f,sg,3,d,0,0' drel='nmod__adj:حلقہ' name='اس' chunkType='child:NP' posn='10'>
+2	بلدی	JJ	<fs af='بلدی,n,f,sg,3,d,0,0' drel='nmod__adj:حلقہ' name='بلدی' chunkType='child:NP' posn='20'>
+3	حلقہ	NN	<fs af='حلقہ,n,m,sg,3,o,0,0' drel='k7p:NULL' name='حلقہ' chunkId='NP' chunkType='head:NP' posn='30'>
+4	میں	PSP	<fs af='میں,psp,,,,,,' drel='lwg__psp:حلقہ' name='میں' chunkType='child:NP' posn='40'>
+5	جہاں	PRP	<fs af='جہاں,pn,,,,d,,' drel='k7:ہے' name='جہاں' chunkId='NP2' chunkType='head:NP2' posn='50'>
+6	خاطرخواہ	JJ	<fs af='خاطرخواہ,adv,,,,,,' drel='nmod__adj:تعداد' name='خاطرخواہ' chunkType='child:NP3' posn='60'>
+7	تعداد	NN	<fs af='تعداد,n,m,sg,3,d,0,0' drel='k1:NULL' name='تعداد' chunkId='NP3' chunkType='head:NP3' posn='80'>
+8	NULL	VM	<fs af='null,unk,,,,,,' drel='ccof:بلکہ' name='NULL' chunkId='NULL__VGF' chunkType='head:NULL__VGF' mtype='gap' troot='ہے' stype='declarative' voicetype='active'>
+9	بلکہ	CC	<fs af='بلکہ,avy,,,,,,' name='بلکہ' chunkId='CCP' chunkType='head:CCP' posn='90'>
+10	90	QC	<fs af='90,num,any,any,,any,,' drel='nmod__adj:فیصد' name='90' chunkType='child:NP4' posn='100'>
+11	فیصد	NN	<fs af='فیصد,n,m,sg,3,d,0,0' drel='jjmod:زائد' name='فیصد' chunkId='NP4' chunkType='head:NP4' posn='110'>
+12	سے	PSP	<fs af='سے,psp,,,,,,' drel='lwg__psp:فیصد' name='سے' chunkType='child:NP4' posn='120'>
+13	زائد	JJ	<fs af='زائد,avy,,,,,,' drel='k1s:ہے' name='زائد' chunkId='JJP' chunkType='head:JJP' posn='130'>
+14	اقلیتی	JJ	<fs af='اقلیتی,adj,any,any,,d,,' drel='nmod__adj:آبادی' name='اقلیتی' chunkType='child:NP5' posn='140'>
+15	آبادی	NN	<fs af='آبادی,n,f,sg,3,d,0,0' drel='k1:ہے' name='آبادی' chunkId='NP5' chunkType='head:NP5' posn='150'>
+16	ہے	VM	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='ccof:بلکہ' name='ہے' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='160'>
+17	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:ہے' name='۔' chunkType='child:VGF' posn='170'>
+</Sentence>
+
+<Sentence id="10">
+1	اس	DEM	<fs af='یہ,pn,any,sg,3,d,,' drel='nmod__adj:حلقہ' name='اس' chunkType='child:NP' posn='10'>
+2	حلقہ	NN	<fs af='حلقہ,n,m,sg,3,o,0,0' drel='r6:نام' name='حلقہ' chunkId='NP' chunkType='head:NP' posn='20'>
+3	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:حلقہ' name='کے' chunkType='child:NP' posn='30'>
+4	نام	NN	<fs af='نام,n,m,sg,3,o,0,0' drel='r6-k2:تبدیلی' name='نام' chunkId='NP2' chunkType='head:NP2' posn='40'>
+5	کی	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:نام' name='کی' chunkType='child:NP2' posn='50'>
+6	تبدیلی	NN	<fs af='تبدیلی,n,f,sg,3,o,0,0' drel='pof:کرتے' name='تبدیلی' chunkId='NP3' chunkType='head:NP3' posn='60'>
+7	نہ	NEG	<fs af='نہ,avy,,,,,,' drel='lwg__neg:کرتے' name='نہ' chunkType='child:VGNF' posn='70'>
+8	کرتے	VM	<fs af='کر,v,m,pl,any,,تا,wA' drel='vmod:دیا' name='کرتے' chunkId='VGNF' chunkType='head:VGNF' posn='80'>
+9	ہوئے	VAUX	<fs af='ہو,v,any,pl,3,,یا,yA' drel='lwg__vaux:کرتے' name='ہوئے' chunkType='child:VGNF' posn='90'>
+10	اس	DEM	<fs af='یہ,pn,any,sg,3,d,,' drel='nmod__adj:حلقہ2' name='اس2' chunkType='child:NP4' posn='100'>
+11	بلدی	JJ	<fs af='بلدی,adj,,,,,,' drel='nmod__adj:حلقہ2' name='بلدی' chunkType='child:NP4' posn='110'>
+12	حلقہ	NN	<fs af='حلقہ,n,m,sg,3,o,0,0' drel='k2:دیا' name='حلقہ2' chunkId='NP4' chunkType='head:NP4' posn='120'>
+13	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:حلقہ2' name='کو' chunkType='child:NP4' posn='130'>
+14	مستقل	JJ	<fs af='مستقل,adj,any,any,,o,,' drel='nmod__adj:طور' name='مستقل' chunkType='child:NP5' posn='140'>
+15	طور	NN	<fs af='طور,n,m,sg,3,o,0,0' drel='adv:دیا' name='طور' chunkId='NP5' chunkType='head:NP5' posn='150'>
+16	پر	PSP	<fs af='پر,psp,,,,,,' drel='lwg__psp:طور' name='پر' chunkType='child:NP5' posn='160'>
+17	بلدی	JJ	<fs af='بلدی,adj,,,,,,' drel='nmod__adj:حلقہ3' name='بلدی2' chunkType='child:NP6' posn='170'>
+18	حلقہ	NN	<fs af='حلقہ,n,m,sg,3,d,0,0' drel='nmod__adj:چارمینار' name='حلقہ3' chunkType='child:NP6' posn='180'>
+19	چارمینار	NNP	<fs af='چارمینار,n,m,sg,3,o,0,0' drel='nmod:نام2' name='چارمینار' chunkId='NP6' chunkType='head:NP6' posn='190'>
+20	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:چارمینار' name='کا' chunkType='child:NP6' posn='200'>
+21	نام	NN	<fs af='نام,n,m,sg,3,d,0,0' drel='k2s:دیا' name='نام2' chunkId='NP7' chunkType='head:NP7' posn='210'>
+22	دیا	VM	<fs af='دے,v,m,sg,any,,یا,yA' drel='ccof:NULL' name='دیا' chunkId='VGF' chunkType='head:VGF' stype='imperative' voicetype='passive' posn='220'>
+23	جانا	VAUX	<fs af='جان,v,m,sg,any,,نا,nA' drel='lwg__vaux:دیا' name='جانا' chunkType='child:VGF' posn='230'>
+24	چاہئے	VAUX	<fs af='چاہئے,v,any,any,any,,یا,yA' drel='lwg__vaux_cont:جانا' name='چاہئے' chunkType='child:VGF' posn='240'>
+25	,	SYM	<fs af=',,punc,,,,,,' drel='rsym:دیا' name=',' chunkType='child:VGF' posn='250'>
+26	NULL	CC	<fs af='null,unk,,,,,,' name='NULL' chunkId='NULL__CCP' chunkType='head:NULL__CCP' mtype='gap' troot='اور'>
+27	اس	DEM	<fs af='یہ,pn,any,sg,3,d,,' drel='nmod__adj:سلسلے' name='اس3' chunkType='child:NP8' posn='10'>
+28	سلسلے	NN	<fs af='سلسلہ,n,m,sg,3,o,0,0' drel='k7:آنا' name='سلسلے' chunkId='NP8' chunkType='head:NP8' posn='20'>
+29	میں	PSP	<fs af='میں,psp,,,,,,' drel='lwg__psp:سلسلے' name='میں' chunkType='child:NP8' posn='30'>
+30	سیاسی	JJ	<fs af='سیاسی,adj,any,any,,o,,' drel='nmod__adj:جماعتوں' name='سیاسی' chunkType='child:NP9' posn='40'>
+31	جماعتوں	NN	<fs af='جماعت,n,m,pl,3,o,0,0' drel='k2:آنا' name='جماعتوں' chunkId='NP9' chunkType='head:NP9' posn='50'>
+32	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:جماعتوں' name='کو2' chunkType='child:NP9' posn='60'>
+33	بھی	RP	<fs af='بھی,avy,,,,,,' drel='lwg__rp:جماعتوں' name='بھی' chunkType='child:NP9' posn='70'>
+34	آگے	NST	<fs af='آگے,nst,m,sg,3,d,,' drel='rd:آنا' name='آگے' chunkId='NP10' chunkType='head:NP10' posn='80'>
+35	آنا	VM	<fs af='آ,v,m,sg,any,,نا,nA' drel='ccof:تاکہ' name='آنا' chunkId='VGF2' chunkType='head:VGF2' stype='imperative' voicetype='passive' posn='90'>
+36	چاہئے	VAUX	<fs af='چاہئے,v,any,any,any,,ئےں,eM' drel='lwg__vaux:آنا' name='چاہئے2' chunkType='child:VGF2' posn='100'>
+37	تاکہ	CC	<fs af='تاکہ,avy,,,,,,' drel='rh:NULL' name='تاکہ' chunkId='CCP' chunkType='head:CCP' posn='110'>
+38	اس	DEM	<fs af='یہ,pn,any,sg,3,d,,' drel='nmod__adj:شہر' name='اس4' chunkType='child:NP11' posn='120'>
+39	شہر	NNZ	<fs af='شہر,n,m,sg,3,d,0,0' drel='r6:شناخت' name='شہر' chunkId='NP11' chunkType='head:NP11' posn='140'>
+40	الفت	NN	<fs af='الفت,n,m,sg,3,o,0,0' drel='r6:شہر' name='الفت' chunkType='child:NP11' posn='140'>
+41	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:شہر' name='کی2' chunkType='child:NP11' posn='150'>
+42	شناخت	NN	<fs af='شناخت,n,m,sg,3,o,0,0' drel='k2:رکھا' name='شناخت' chunkId='NP12' chunkType='head:NP12' posn='160'>
+43	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:شناخت' name='کو3' chunkType='child:NP12' posn='170'>
+44	برقرار	JJ	<fs af='برقرار,adj,any,any,,,,' drel='pof:رکھا' name='برقرار' chunkId='JJP' chunkType='head:JJP' posn='180'>
+45	رکھا	VM	<fs af='رکھ,v,m,sg,any,,یا,yA' drel='ccof:اور' name='رکھا' chunkId='VGF3' chunkType='head:VGF3' stype='imperative' voicetype='passive' posn='190'>
+46	جائے	VAUX	<fs af='جائے,v,m,sg,3,,یا,yA' drel='lwg__vaux:رکھا' name='جائے' chunkType='child:VGF3' posn='200'>
+47	اور	CC	<fs af='اور,avy,,,,,,' drel='ccof:تاکہ' name='اور' chunkId='CCP2' chunkType='head:CCP2' posn='210'>
+48	بلدی	JJ	<fs af='بلدی,adj,,,,,,' drel='nmod__adj:حلقہ4' name='بلدی3' chunkType='child:NP13' posn='220'>
+49	حلقہ	NN	<fs af='حلقہ,n,m,sg,3,d,0,0' drel='nmod__adj:چارمینار2' name='حلقہ4' chunkType='child:NP13' posn='230'>
+50	چارمینار	NNP	<fs af='چارمینار,n,m,sg,3,d,0,0' drel='k1:ہونے' name='چارمینار2' chunkId='NP13' chunkType='head:NP13' posn='240'>
+51	ختم	JJ	<fs af='ختم,adj,any,any,,,,' drel='pof:ہونے' name='ختم' chunkId='JJP2' chunkType='head:JJP2' posn='250'>
+52	نہ	NEG	<fs af='نہ,avy,,,,,,' drel='lwg__neg:ہونے' name='نہ2' chunkType='child:VGF4' posn='260'>
+53	ہونے	VM	<fs af='ہو,v,m,pl,any,,نا,nA' drel='ccof:اور' name='ہونے' chunkId='VGF4' chunkType='head:VGF4' stype='imperative' voicetype='passive' posn='270'>
+54	پائے	VAUX	<fs af='پا,v,any,any,any,,ئےں,eM' drel='lwg__vaux:ہونے' name='پائے' chunkType='child:VGF4' posn='280'>
+55	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:ہونے' name='۔' chunkType='child:VGF4' posn='290'>
+</Sentence>
+
+<Sentence id="11">
+1	سیاسی	JJ	<fs af='سیاسی,adj,any,any,,o,,' drel='nmod__adj:قائدین' name='سیاسی' chunkType='child:NP' posn='10'>
+2	قائدین	NN	<fs af='قائد,n,m,pl,3,o,0,0' drel='k1:چاہئے' name='قائدین' chunkId='NP' chunkType='head:NP' posn='20'>
+3	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:قائدین' name='کو' chunkType='child:NP' posn='30'>
+4	چاہئے	VM	<fs af='چاہئے,v,any,any,any,,ئےں,eM' name='چاہئے' chunkId='VGF' chunkType='head:VGF' stype='imperative' voicetype='passive' posn='40'>
+5	کہ	CC	<fs af='کہ,avy,,,,,,' drel='rs:چاہئے' name='کہ' chunkId='CCP' chunkType='head:CCP' posn='50'>
+6	وہ	PRP	<fs af='وہ,pn,any,pl,3,d,0,0' drel='k1:کرتے' name='وہ' chunkId='NP2' chunkType='head:NP2' posn='60'>
+7	اپنے	PRP	<fs af='اپنا,pn,any,any,any,o,0,0' drel='r6:اثر' name='اپنے' chunkId='NP3' chunkType='head:NP3' posn='70'>
+8	اثر	NN	<fs af='اثر,n,m,sg,3,o,0,0' drel='ccof:و' name='اثر' chunkId='NP4' chunkType='head:NP4' posn='80'>
+9	و	CC	<fs af='و,avy,,,,,,' drel='r6-k2:استعمال' name='و' chunkId='CCP2' chunkType='head:CCP2' posn='90'>
+10	رسوخ	NN	<fs af='رسوخ,n,m,sg,3,o,0,0' drel='ccof:و' name='رسوخ' chunkId='NP5' chunkType='head:NP5' posn='100'>
+11	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:رسوخ' name='کا' chunkType='child:NP5' posn='110'>
+12	استعمال	NN	<fs af='استعمال,n,m,sg,3,d,0,0' drel='pof:کرتے' name='استعمال' chunkId='NP6' chunkType='head:NP6' posn='120'>
+13	کرتے	VM	<fs af='کر,v,m,pl,any,,تا,wA' drel='vmod:کریں' name='کرتے' chunkId='VGNF' chunkType='head:VGNF' posn='130'>
+14	ہوئے	VAUX	<fs af='ہو,v,any,pl,3,,یا,yA' drel='lwg__vaux:کرتے' name='ہوئے' chunkType='child:VGNF' posn='140'>
+15	مجلس	NNPC	<fs af='مجلس,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد' name='مجلس' chunkType='child:NP7' posn='150'>
+16	بلدیہ	NNPC	<fs af='بلدیہ,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد' name='بلدیہ' chunkType='child:NP7' posn='160'>
+17	عظیم	NNPC	<fs af='عظیم,n,m,sg,3,d,0,0' drel='pof__cn:حیدرآباد' name='عظیم' chunkType='child:NP7' posn='170'>
+18	حیدرآباد	NNP	<fs af='حیدرآباد,n,m,sg,3,o,0,0' drel='k7:کریں' name='حیدرآباد' chunkId='NP7' chunkType='head:NP7' posn='180'>
+19	میں	PSP	<fs af='میں,psp,,,,,,' drel='lwg__psp:حیدرآباد' name='میں' chunkType='child:NP7' posn='190'>
+20	بلدی	JJ	<fs af='بلدی,adj,any,any,,,,' drel='nmod__adj:حلقہ' name='بلدی' chunkType='child:NP8' posn='200'>
+21	حلقہ	NN	<fs af='حلقہ,n,m,sg,3,o,0,0' drel='nmod__adj:چارمینار' name='حلقہ' chunkType='child:NP8' posn='210'>
+22	چارمینار	NNP	<fs af='چارمینار,n,m,sg,3,o,0,0' drel='r6:نام' name='چارمینار' chunkId='NP8' chunkType='head:NP8' posn='220'>
+23	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:چارمینار' name='کا2' chunkType='child:NP8' posn='230'>
+24	نام	NN	<fs af='نام,n,m,sg,3,d,0,0' drel='k2:رکھنے' name='نام' chunkId='NP9' chunkType='head:NP9' posn='240'>
+25	شامل	JJ	<fs af='شامل,adj,any,any,,any,,' drel='pof:رکھنے' name='شامل' chunkId='JJP' chunkType='head:JJP' posn='250'>
+26	رکھنے	VM	<fs af='رکھ,v,m,pl,any,,نا,nA' drel='rt:کریں' name='رکھنے' chunkId='VGNN' chunkType='head:VGNN' posn='260'>
+27	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:رکھنے' name='کے' chunkType='child:VGNN' posn='270'>
+28	لئے	PSP	<fs af='لئے,psp,,,,,,' drel='lwg__psp:رکھنے' name='لئے' chunkType='child:VGNN' posn='280'>
+29	مثبت	JJ	<fs af='مثبت,adj,any,any,,d,,' drel='nmod__adj:نمائندگی' name='مثبت' chunkType='child:NP10' posn='290'>
+30	نمائندگی	NN	<fs af='نمائندگی,n,f,sg,3,d,0,0' drel='pof:کریں' name='نمائندگی' chunkId='NP10' chunkType='head:NP10' posn='300'>
+31	کریں	VM	<fs af='کر,v,any,pl,3,,ئےں,eM' drel='ccof:تاکہ' name='کریں' chunkId='VGF2' chunkType='head:VGF2' stype='imperative' voicetype='passive' posn='310'>
+32	تاکہ	CC	<fs af='تاکہ,avy,,,,,,' drel='ccof:کہ' name='تاکہ' chunkId='CCP3' chunkType='head:CCP3' posn='320'>
+33	اس	DEM	<fs af='یہ,pn,any,sg,3,d,,' drel='nmod__adj:شہر' name='اس' chunkType='child:NP11' posn='330'>
+34	شہر	NNZ	<fs af='شہر,n,m,sg,3,o,0,0' drel='r6:باوقار' name='شہر' chunkId='NP11' chunkType='head:NP11' posn='340'>
+35	فرخندہ_بنیاد	JJ	<fs af='فرخندہ_بنیاد,adj,any,any,,o,,' name='فرخندہ_بنیاد' chunkType='child:NP11' posn='350'>
+36	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:شہر' name='کی' chunkType='child:NP11' posn='370'>
+37	اس	DEM	<fs af='یہ,pn,any,sg,3,d,,' drel='nmod__adj:باوقار' name='اس2' chunkType='child:NP12' posn='380'>
+38	باوقار	NN	<fs af='باوقار,n,m,sg,3,o,0,0' drel='ccof:و2' name='باوقار' chunkId='NP12' chunkType='head:NP12' posn='390'>
+39	و	CC	<fs af='و,avy,,,,,,' drel='r6:شناخت' name='و2' chunkId='CCP4' chunkType='head:CCP4' posn='400'>
+40	عظیم	JJ	<fs af='عظیم,adj,any,any,,o,,' drel='nmod__adj:عمارت' name='عظیم2' chunkType='child:NP13' posn='410'>
+41	عمارت	NN	<fs af='عمارت,n,m,sg,3,o,0,0' drel='ccof:و2' name='عمارت' chunkId='NP13' chunkType='head:NP13' posn='420'>
+42	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:عمارت' name='کی2' chunkType='child:NP13' posn='430'>
+43	شناخت	NN	<fs af='شناخت,n,m,sg,3,o,0,0' drel='k4:ہو' name='شناخت' chunkId='NP14' chunkType='head:NP14' posn='440'>
+44	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:شناخت' name='کو2' chunkType='child:NP14' posn='450'>
+45	آئندہ	JJ	<fs af='آئندہ,adj,any,any,,o,,' drel='nmod__adj:صدیوں' name='آئندہ' chunkType='child:NP15' posn='460'>
+46	صدیوں	NN	<fs af='صدی,n,m,pl,3,o,0,0' drel='k7t:ہو' name='صدیوں' chunkId='NP15' chunkType='head:NP15' posn='470'>
+47	میں	PSP	<fs af='میں,psp,,,,,,' drel='lwg__psp:صدیوں' name='میں2' chunkType='child:NP15' posn='480'>
+48	مسئلہ	NN	<fs af='مسئلہ,n,m,sg,3,d,0,0' drel='k2:ہو' name='مسئلہ' chunkId='NP16' chunkType='head:NP16' posn='490'>
+49	نہ	NEG	<fs af='نہ,avy,,,,,,' drel='vmod:ہو' name='نہ' chunkId='NEGP' chunkType='head:NEGP' posn='500'>
+50	پیدا	JJ	<fs af='پیدا,adj,any,any,,,,' drel='pof:ہو' name='پیدا' chunkId='JJP2' chunkType='head:JJP2' posn='510'>
+51	ہو	VM	<fs af='ہو,v,any,any,any,,0,0' drel='ccof:تاکہ' name='ہو' chunkId='VGF3' chunkType='head:VGF3' stype='imperative' voicetype='passive' posn='520'>
+52	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:ہو' name='۔' chunkType='child:VGF3' posn='530'>
+</Sentence>
+

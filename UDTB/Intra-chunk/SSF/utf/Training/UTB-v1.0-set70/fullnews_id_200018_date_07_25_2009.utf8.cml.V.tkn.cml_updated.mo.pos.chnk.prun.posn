@@ -1,0 +1,713 @@
+<Sentence id="1">
+1	میرا	NNPC	<fs af='میرا,n,m,sg,3,d,0,0' drel='pof__cn:شنکر' name='میرا' chunkType='child:NP' posn='10'>
+2	شنکر	NNP	<fs af='شنکر,n,m,sg,3,o,0,0' drel='nmod:سفارت_کار' name='شنکر' chunkId='NP' chunkType='head:NP' posn='20'>
+3	ہندوستانی	NNC	<fs af='ہندوستانی,n,f,sg,3,d,0,0' drel='mod:سفارت_کار' name='ہندوستانی' chunkType='child:NP2' posn='30'>
+4	سفارت_کار	NNC	<fs af='سفارت_کار,null,m,sg,3,o,0,0' drel='k1:کہا' name='سفارت_کار' chunkId='NP2' chunkType='head:NP2' posn='40'>
+5	نے	PSP	<fs af='نے,psp,,,,,,' drel='mod:سفارت_کار' name='نے' chunkType='child:NP2' posn='50'>
+6	آج	NN	<fs af='آج,n,m,sg,3,d,0,0' drel='k7t:ہوتا' name='آج' chunkId='NP3' chunkType='head:NP3' posn='60'>
+7	اےک	QC	<fs af='اےک,num,any,any,,any,,' drel='nmod__adj:بیان' name='اےک' chunkType='child:NP4' posn='70'>
+8	اہم	JJ	<fs af='اہم,adj,any,any,,d,,' drel='nmod__adj:بیان' name='اہم' chunkType='child:NP4' posn='80'>
+9	بیان	NN	<fs af='بیان,n,m,sg,3,d,0,0' drel='k2:دیتے' name='بیان' chunkId='NP4' chunkType='head:NP4' posn='90'>
+10	دیتے	VM	<fs af='دے,v,m,pl,any,,تا,wA' drel='vmod:کہا' name='دیتے' chunkId='VGNF' chunkType='head:VGNF' posn='100'>
+11	ہوئے	VAUX	<fs af='ہو,v,any,pl,any,,یا,yA' drel='lwg__vaux:دیتے' name='ہوئے' chunkType='child:VGNF' posn='110'>
+12	کہا	VM	<fs af='کہہ,v,m,sg,any,,یا,yA' name='کہا' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='120'>
+13	کہ	CC	<fs af='کہ,avy,,,,,,' drel='k2:کہا' name='کہ' chunkId='CCP' chunkType='head:CCP' posn='130'>
+14	دہشت_گردی	NN	<fs af='دہشت_گردی,n,f,sg,,o,0,0' drel='r6:دباؤ' name='دہشت_گردی' chunkId='NP5' chunkType='head:NP5' posn='140'>
+15	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:دہشت_گردی' name='کے' chunkType='child:NP5' posn='150'>
+16	دباؤ	NN	<fs af='دباؤ,n,m,sg,3,o,0,0' drel='vmod:ہوتا' name='دباؤ' chunkId='NP6' chunkType='head:NP6' posn='160'>
+17	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:دباؤ' name='کے2' chunkType='child:NP6' posn='170'>
+18	باوجود	PSP	<fs af='باوجود,psp,,,,,,' drel='lwg__psp:دباؤ' name='باوجود' chunkType='child:NP6' posn='180'>
+19	اگر	CC	<fs af='اگر,avy,,,,,,' drel='vmod:ہونی' name='اگر' chunkId='CCP2' chunkType='head:CCP2' posn='190'>
+20	ہند	NNP	<fs af='ہند,n,m,sg,3,o,0,0' drel='nmod__adj:پاک' name='ہند' chunkType='child:NP7' posn='200'>
+21	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:ہند' name='۔' chunkType='child:NP7' posn='210'>
+22	پاک	NNP	<fs af='پاک,n,m,sg,3,o,0,0' drel='k7:ہوتا' name='پاک' chunkId='NP7' chunkType='head:NP7' posn='220'>
+23	کے	PSP	<fs af='کے,psp,m,sg,,o,,' drel='lwg__psp:پاک' name='کے3' chunkType='child:NP7' posn='230'>
+24	مابین	NST	<fs af='مابین,nst,m,sg,3,d,,' drel='lwg__psp:پاک' name='مابین' chunkType='child:NP7' posn='240'>
+25	مذاکرات	NN	<fs af='مذاکراہ,n,m,pl,3,o,0,0' drel='r6-k1:احیا' name='مذاکرات' chunkId='NP8' chunkType='head:NP8' posn='250'>
+26	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:مذاکرات' name='کا' chunkType='child:NP8' posn='260'>
+27	احیا	NN	<fs af='احیا,n,m,sg,3,d,0,0' drel='pof:ہوتا' name='احیا' chunkId='NP9' chunkType='head:NP9' posn='270'>
+28	ہوتا	VM	<fs af='ہو,v,m,sg,any,,تا,wA' drel='ccof:اگر' name='ہوتا' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='active' posn='280'>
+29	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux:ہوتا' name='ہے' chunkType='child:VGF2' posn='290'>
+30	تو	CC	<fs af='تو,avy,,,,,,' drel='ccof:کہ' name='تو' chunkId='CCP3' chunkType='head:CCP3' posn='300'>
+31	اس	DEM	<fs af='یہ,pn,any,sg,3,o,,' drel='nmod__adj:صورت' name='اس' chunkType='child:NP10' posn='310'>
+32	صورت	NN	<fs af='صورت,n,f,sg,3,o,0,0' drel='k7:ہونی' name='صورت' chunkId='NP10' chunkType='head:NP10' posn='320'>
+33	مےں	PSP	<fs af='مےں,psp,,,,,,' drel='lwg__psp:صورت' name='مےں' chunkType='child:NP10' posn='330'>
+34	کوشش	NN	<fs af='کوشش,n,f,sg,3,d,0,0' drel='k1:ہونی' name='کوشش' chunkId='NP11' chunkType='head:NP11' posn='340'>
+35	یہ	PRP	<fs af='یہ,pn,any,sg,3,d,0,0' drel='k1s:ہونی' name='یہ' chunkId='NP12' chunkType='head:NP12' posn='350'>
+36	ہونی	VM	<fs af='ہو,v,f,sg,any,,نا,nA' drel='ccof:تو' name='ہونی' chunkId='VGF3' chunkType='head:VGF3' stype='declarative' voicetype='active' posn='360'>
+37	چاہیئے	VAUX	<fs af='چاہئے,v,any,any,any,,0,0' drel='lwg__vaux:ہونی' name='چاہیئے' chunkType='child:VGF3' posn='370'>
+38	کہ	CC	<fs af='کہ,avy,,,,,,' drel='rs:یہ' name='کہ2' chunkId='CCP4' chunkType='head:CCP4' posn='380'>
+39	ممبئی	NNC	<fs af='ممبئی,n,m,sg,3,d,0,0' drel='pof__cn:حملوں' name='ممبئی' chunkType='child:NP13' posn='390'>
+40	حملوں	NN	<fs af='حملہ,n,m,pl,3,o,0,0' drel='r6:خاطیوں' name='حملوں' chunkId='NP13' chunkType='head:NP13' posn='400'>
+41	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:حملوں' name='کے4' chunkType='child:NP13' posn='410'>
+42	خاطیوں	NN	<fs af='خاطیوں,n,m,pl,3,o,0,0' drel='k2:پہنچانے' name='خاطیوں' chunkId='NP14' chunkType='head:NP14' posn='420'>
+43	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:خاطیوں' name='کو' chunkType='child:NP14' posn='430'>
+44	کیفر	NN	<fs af='کیفر,n,m,sg,3,o,0,0' drel='k7:پہنچانے' name='کیفر' chunkId='NP15' chunkType='head:NP15' posn='440'>
+45	کردار	NN	<fs af='کردار,n,m,sg,3,o,0,0' drel='r6:کیفر' name='کردار' chunkId='NP16' chunkType='head:NP16' posn='450'>
+46	تک	PSP	<fs af='تک,psp,,,,,,' drel='fragof:کیفر' name='تک' chunkId='FRAGP' chunkType='head:FRAGP' posn='460'>
+47	پہنچانے	VM	<fs af='پہنچ,v,m,pl,any,,نا,nA' drel='k7:کی' name='پہنچانے' chunkId='VGNN' chunkType='head:VGNN' posn='470'>
+48	پر	PSP	<fs af='پر,psp,,,,,,' drel='lwg__psp:پہنچانے' name='پر' chunkType='child:VGNN' posn='480'>
+49	زیادہ	JJ	<fs af='زیادہ,adj,any,any,,d,,' drel='nmod__adj:توجہ' name='زیادہ' chunkType='child:NP17' posn='490'>
+50	توجہ	NN	<fs af='توجہ,n,m,sg,3,d,0,0' drel='k2:کی' name='توجہ' chunkId='NP17' chunkType='head:NP17' posn='500'>
+51	صرف	NN	<fs af='صرف,n,m,sg,3,d,0,0' drel='pof:کی' name='صرف' chunkId='NP18' chunkType='head:NP18' posn='510'>
+52	کی	VM	<fs af='کر,v,f,sg,any,,یا,yA' drel='ccof:کہ2' name='کی' chunkId='VGF4' chunkType='head:VGF4' stype='declarative' voicetype='active' posn='520'>
+53	جائے	VAUX	<fs af='جا,v,any,any,,,ئےں,eM' drel='lwg__vaux:کی' name='جائے' chunkType='child:VGF4' posn='530'>
+54	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:کی' name='۔2' chunkType='child:VGF4' posn='540'>
+</Sentence>
+
+<Sentence id="2">
+1	ہندوستانی	NNC	<fs af='ہندوستانی,n,m,sg,3,d,0,0' drel='mod:سفیر' name='ہندوستانی' chunkType='child:NP' posn='10'>
+2	سفیر	NNC	<fs af='سفیر,n,m,sg,3,o,0,0' drel='nmod:شنکر' name='سفیر' chunkId='NP' chunkType='head:NP' posn='20'>
+3	میرا	NNPC	<fs af='میرا,n,m,sg,3,d,0,0' drel='pof__cn:شنکر' name='میرا' chunkType='child:NP2' posn='30'>
+4	شنکر	NNP	<fs af='شنکر,n,m,sg,3,o,0,0' drel='k1:کہا' name='شنکر' chunkId='NP2' chunkType='head:NP2' posn='40'>
+5	نے	PSP	<fs af='نے,psp,,,,,,' drel='lwg__psp:شنکر' name='نے' chunkType='child:NP2' posn='50'>
+6	کہا	VM	<fs af='کہہ,v,m,sg,any,,یا,yA' name='کہا' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='60'>
+7	کہ	CC	<fs af='کہ,avy,,,,,,' drel='k2:کہا' name='کہ' chunkId='CCP' chunkType='head:CCP' posn='70'>
+8	ہند	NNP	<fs af='ہند,n,m,sg,3,o,0,0' drel='ccof:و' name='ہند' chunkId='NP3' chunkType='head:NP3' posn='80'>
+9	و	CC	<fs af='و,avy,,,,,,' drel='nmod:بات_چیت' name='و' chunkId='CCP2' chunkType='head:CCP2' posn='90'>
+10	پاک	NNP	<fs af='پاک,n,m,sg,3,o,0,0' drel='ccof:و' name='پاک' chunkId='NP4' chunkType='head:NP4' posn='100'>
+11	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:پاک' name='کے' chunkType='child:NP4' posn='110'>
+12	مابین	NST	<fs af='مابین,nst,m,sg,3,d,,' drel='lwg__psp:پاک' name='مابین' chunkType='child:NP4' posn='120'>
+13	بات_چیت	NN	<fs af='بات_چیت,n,f,sg,3,d,0,0' drel='k2:ہونی' name='بات_چیت' chunkId='NP5' chunkType='head:NP5' posn='130'>
+14	ثمرآور	JJ	<fs af='ثمرآور,adj,any,any,,,,' drel='k2s:ہونی' name='ثمرآور' chunkId='JJP' chunkType='head:JJP' posn='140'>
+15	ہونی	VM	<fs af='ہو,v,f,sg,any,,نا,nA' drel='ccof:کہ' name='ہونی' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='active' posn='150'>
+16	چاہیئے	VAUX	<fs af='چاہئے,v,any,any,any,,ئےں,eM' drel='lwg__vaux:ہونی' name='چاہیئے' chunkType='child:VGF2' posn='160'>
+17	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:ہونی' name='۔' chunkType='child:VGF2' posn='170'>
+</Sentence>
+
+<Sentence id="3">
+1	ہندوستان	NNP	<fs af='ہندوستان,n,m,sg,3,o,0,0' drel='k1:ہے' name='ہندوستان' chunkId='NP' chunkType='head:NP' posn='10'>
+2	,	SYM	<fs af=',,punc,,,,,,' drel='rsym:ہندوستان' name=',' chunkType='child:NP' posn='20'>
+3	پاکستان	NNP	<fs af='پاکستان,n,m,sg,3,o,0,0' drel='ras-k1:ہے' name='پاکستان' chunkId='NP2' chunkType='head:NP2' posn='30'>
+4	کے	PSP	<fs af='کے,psp,,,,o,,' drel='lwg__psp:پاکستان' name='کے' chunkType='child:NP2' posn='40'>
+5	ساتھ	NST	<fs af='ساتھ,nst,m,sg,,d,,' drel='lwg__psp:پاکستان' name='ساتھ' chunkType='child:NP2' posn='50'>
+6	اےک	QC	<fs af='اےک,num,any,any,,any,,' drel='nmod:مستقبل' name='اےک' chunkId='NP3' chunkType='head:NP3' posn='60'>
+7	مستحکم	JJ	<fs af='مستحکم,adj,any,any,,o,,' drel='nmod__adj:مستقبل' name='مستحکم' chunkType='child:NP4' posn='70'>
+8	مستقبل	NN	<fs af='مستقبل,n,m,sg,3,o,0,0' drel='r6:تعمیر' name='مستقبل' chunkId='NP4' chunkType='head:NP4' posn='80'>
+9	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:مستقبل' name='کی' chunkType='child:NP4' posn='90'>
+10	تعمیر	NN	<fs af='تعمیر,n,m,sg,3,o,0,0' drel='r6-k2:خواہاں' name='تعمیر' chunkId='NP5' chunkType='head:NP5' posn='100'>
+11	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:تعمیر' name='کا' chunkType='child:NP5' posn='110'>
+12	خواہاں	JJ	<fs af='خواہاں,adj,any,any,,,,' drel='pof:ہے' name='خواہاں' chunkId='JJP' chunkType='head:JJP' posn='120'>
+13	ہے	VM	<fs af='ہے,v,any,sg,3,,ہے,hE' name='ہے' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='130'>
+14	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:ہے' name='۔' chunkType='child:VGF' posn='140'>
+</Sentence>
+
+<Sentence id="4">
+1	دونوں	QC	<fs af='دو,num,any,pl,,o,,' drel='nmod__adj:ممالک' name='دونوں' chunkType='child:NP' posn='10'>
+2	ممالک	NN	<fs af='مُلک,n,m,pl,3,o,0,0' drel='k1:کریں' name='ممالک' chunkId='NP' chunkType='head:NP' posn='20'>
+3	تعاون	NN	<fs af='تعاون,n,m,sg,3,o,0,0' drel='r6:طاقت' name='تعاون' chunkId='NP2' chunkType='head:NP2' posn='30'>
+4	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:تعاون' name='کی' chunkType='child:NP2' posn='40'>
+5	طاقت	NN	<fs af='طاقت,n,f,sg,3,o,0,0' drel='r6-k2:استعمال' name='طاقت' chunkId='NP3' chunkType='head:NP3' posn='50'>
+6	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:طاقت' name='کا' chunkType='child:NP3' posn='60'>
+7	استعمال	NN	<fs af='استعمال,n,m,sg,3,d,0,0' drel='pof:کریں' name='استعمال' chunkId='NP4' chunkType='head:NP4' posn='70'>
+8	کریں	VM	<fs af='کر,v,any,pl,any,,ئےں,eM' name='کریں' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='80'>
+9	نہ	NEG	<fs af='نہ,avy,,,,,,' drel='lwg__neg:کہ' name='نہ' chunkType='child:CCP' posn='90'>
+10	کہ	CC	<fs af='کہ,avy,,,,,,' drel='vmod:کریں' name='کہ' chunkId='CCP' chunkType='head:CCP' posn='100'>
+11	ٹکراؤ	NN	<fs af='ٹکراؤ,n,m,sg,3,o,0,0' drel='r6:موقف' name='ٹکراؤ' chunkId='NP5' chunkType='head:NP5' posn='110'>
+12	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:ٹکراؤ' name='کا2' chunkType='child:NP5' posn='120'>
+13	موقف	NN	<fs af='موقف,n,m,sg,3,d,0,0' drel='ccof:کہ' name='موقف' chunkId='NP6' chunkType='head:NP6' posn='130'>
+14	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:موقف' name='۔' chunkType='child:NP6' posn='140'>
+</Sentence>
+
+<Sentence id="5">
+1	کیوںکہ	CC	<fs af='کیوںکہ,avy,,,,,,' name='کیوںکہ' chunkId='CCP' chunkType='head:CCP' posn='10'>
+2	اسی	DEM	<fs af='اسی,pn,any,any,,o,,' drel='rh:ہو' name='اسی' chunkId='NP' chunkType='head:NP' posn='20'>
+3	کے	PSP	<fs af='کے,psp,m,sg,,o,,' drel='mod:اسی' name='کے' chunkType='child:NP' posn='30'>
+4	ذریعہ	PSP	<fs af='ذریعہ,psp,m,sg,,d,,' drel='mod:اسی' name='ذریعہ' chunkType='child:NP' posn='40'>
+5	پاکستان	NNP	<fs af='پاکستان,n,m,sg,3,o,0,0' drel='k1:ہو' name='پاکستان' chunkId='NP2' chunkType='head:NP2' posn='50'>
+6	بھی	RP	<fs af='بھی,avy,,,,,,' drel='lwg__rp:پاکستان' name='بھی' chunkType='child:NP2' posn='60'>
+7	خوشحالی	NN	<fs af='خوشحال,n,m,sg,3,o,0,0' drel='ccof:اور' name='خوشحالی' chunkId='NP3' chunkType='head:NP3' posn='70'>
+8	اور	CC	<fs af='اور,avy,,,,,,' drel='k2p:ہو' name='اور' chunkId='CCP2' chunkType='head:CCP2' posn='80'>
+9	امن	NN	<fs af='امن,n,m,sg,3,o,0,0' drel='ccof:اور' name='امن' chunkId='NP4' chunkType='head:NP4' posn='90'>
+10	کی	PSP	<fs af='کا,psp,f,sg,,o,,' drel='lwg__psp:امن' name='کی' chunkType='child:NP4' posn='100'>
+11	جانب	NST	<fs af='جانب,nst,m,sg,3,d,,' drel='lwg__psp:امن' name='جانب' chunkType='child:NP4' posn='110'>
+12	گامزن	JJ	<fs af='گامزن,adj,any,any,,,,' drel='pof:ہو' name='گامزن' chunkId='JJP' chunkType='head:JJP' posn='120'>
+13	ہو	VM	<fs af='ہو,v,any,any,any,,0,0' drel='ccof:کیوںکہ' name='ہو' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='130'>
+14	سکتا	VAUX	<fs af='سک,v,m,sg,any,,تا,wA' drel='lwg__vaux:ہو' name='سکتا' chunkType='child:VGF' posn='140'>
+15	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux_cont:سکتا' name='ہے' chunkType='child:VGF' posn='150'>
+16	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:ہو' name='۔' chunkType='child:VGF' posn='160'>
+</Sentence>
+
+<Sentence id="6">
+1	ہارورڈ	NNPC	<fs af='ہارورڈ,n,m,sg,3,d,0,0' drel='pof__cn:کینیڈی' name='ہارورڈ' chunkType='child:NP' posn='10'>
+2	کینیڈی	NNP	<fs af='کینیڈی,n,m,sg,3,o,0,0' drel='nmod__adj:اسکول' name='کینیڈی' chunkType='child:NP' posn='20'>
+3	اسکول	NN	<fs af='اسکول,n,m,sg,3,o,0,0' drel='r6:طلباء' name='اسکول' chunkId='NP' chunkType='head:NP' posn='30'>
+4	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:اسکول' name='کے' chunkType='child:NP' posn='40'>
+5	طلباء	NN	<fs af='طلباء,n,m,sg,3,o,0,0' drel='k2:کرتے' name='طلباء' chunkId='NP2' chunkType='head:NP2' posn='50'>
+6	سے	PSP	<fs af='سے,psp,,,,,,' drel='lwg__psp:طلباء' name='سے' chunkType='child:NP2' posn='60'>
+7	خطاب	NN	<fs af='خطاب,n,m,sg,3,d,0,0' drel='pof:کرتے' name='خطاب' chunkId='NP3' chunkType='head:NP3' posn='70'>
+8	کرتے	VM	<fs af='کر,v,m,pl,any,,تا,wA' drel='vmod:کہا' name='کرتے' chunkId='VGNF' chunkType='head:VGNF' posn='80'>
+9	ہوئے	VAUX	<fs af='ہو,v,any,pl,any,,یا,yA' drel='lwg__vaux:کرتے' name='ہوئے' chunkType='child:VGNF' posn='90'>
+10	انہوں	PRP	<fs af='وہ,pn,m,sg,3h,o,0,0' drel='k1:کہا' name='انہوں' chunkId='NP4' chunkType='head:NP4' posn='100'>
+11	نے	PSP	<fs af='نے,psp,,,,,,' drel='lwg__psp:انہوں' name='نے' chunkType='child:NP4' posn='110'>
+12	کہا	VM	<fs af='کہہ,v,m,sg,any,,یا,yA' name='کہا' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='120'>
+13	کہ	CC	<fs af='کہ,avy,,,,,,' drel='k2:کہا' name='کہ' chunkId='CCP' chunkType='head:CCP' posn='130'>
+14	ہندوستان	NNP	<fs af='ہندوستان,n,m,sg,3,o,0,0' drel='k1:بڑھایا' name='ہندوستان' chunkId='NP5' chunkType='head:NP5' posn='140'>
+15	نے	PSP	<fs af='نے,psp,,,,,,' drel='lwg__psp:ہندوستان' name='نے2' chunkType='child:NP5' posn='150'>
+16	ہمیشہ	RB	<fs af='ہمیشہ,adv,,,,,,' drel='adv:بڑھایا' name='ہمیشہ' chunkId='RBP' chunkType='head:RBP' posn='160'>
+17	پاکستان	NNP	<fs af='پاکستان,n,m,sg,3,o,0,0' drel='rad:بڑھایا' name='پاکستان' chunkId='NP6' chunkType='head:NP6' posn='170'>
+18	کی	PSP	<fs af='کا,psp,f,sg,,o,,' drel='lwg__psp:پاکستان' name='کی' chunkType='child:NP6' posn='180'>
+19	جانب	NST	<fs af='جانب,nst,m,sg,3,d,,' drel='lwg__psp:پاکستان' name='جانب' chunkType='child:NP6' posn='190'>
+20	دوستی	NN	<fs af='دوستی,n,f,sg,3,o,0,0' drel='r6:ہاتھ' name='دوستی' chunkId='NP7' chunkType='head:NP7' posn='200'>
+21	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:دوستی' name='کا' chunkType='child:NP7' posn='210'>
+22	ہاتھ	NN	<fs af='ہاتھ,n,m,sg,3,d,0,0' drel='k2:بڑھایا' name='ہاتھ' chunkId='NP8' chunkType='head:NP8' posn='220'>
+23	بڑھایا	VM	<fs af='بڑھا,v,m,sg,any,,یا,yA' drel='ccof:کہ' name='بڑھایا' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='active' posn='230'>
+24	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux:بڑھایا' name='ہے' chunkType='child:VGF2' posn='240'>
+25	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:بڑھایا' name='۔' chunkType='child:VGF2' posn='250'>
+</Sentence>
+
+<Sentence id="7">
+1	حالانکہ	CC	<fs af='حالانکہ,avy,,,,,,' name='حالانکہ' chunkId='CCP' chunkType='head:CCP' posn='10'>
+2	پاکستان	NNP	<fs af='پاکستان,n,m,sg,3,o,0,0' drel='r6:سرزمین' name='پاکستان' chunkId='NP' chunkType='head:NP' posn='20'>
+3	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:پاکستان' name='کی' chunkType='child:NP' posn='30'>
+4	سرزمین	NN	<fs af='سرزمین,n,m,sg,3,o,0,0' drel='k5:رہا' name='سرزمین' chunkId='NP2' chunkType='head:NP2' posn='40'>
+5	سے	PSP	<fs af='سے,psp,,,,,,' drel='lwg__psp:سرزمین' name='سے' chunkType='child:NP2' posn='50'>
+6	ہندوستان	NNP	<fs af='ہندوستان,n,m,sg,3,o,0,0' drel='k4:رہا' name='ہندوستان' chunkId='NP3' chunkType='head:NP3' posn='60'>
+7	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:ہندوستان' name='کو' chunkType='child:NP3' posn='70'>
+8	ہمیشہ	RB	<fs af='ہمیشہ,adv,,,,,,' drel='adv:رہا' name='ہمیشہ' chunkId='RBP' chunkType='head:RBP' posn='80'>
+9	دہشت_گردی	NN	<fs af='دہشت_گردی,n,f,sg,,o,0,0' drel='r6-k2:سامنا' name='دہشت_گردی' chunkId='NP4' chunkType='head:NP4' posn='90'>
+10	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:دہشت_گردی' name='کا' chunkType='child:NP4' posn='100'>
+11	سامنا	NN	<fs af='سامنا,n,m,sg,3,d,0,0' drel='pof:رہا' name='سامنا' chunkId='NP5' chunkType='head:NP5' posn='110'>
+12	رہا	VM	<fs af='رہ,v,m,sg,any,,یا,yA' drel='ccof:حالانکہ' name='رہا' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='120'>
+13	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux:رہا' name='ہے' chunkType='child:VGF' posn='130'>
+14	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:رہا' name='۔' chunkType='child:VGF' posn='140'>
+</Sentence>
+
+<Sentence id="8">
+1	یہ	DEM	<fs af='یہ,pn,any,sg,3,d,,' drel='nmod__adj:بات' name='یہ' chunkType='child:NP' posn='10'>
+2	بات	NN	<fs af='بات,n,f,sg,3,d,0,0' drel='k1:رہی' name='بات' chunkId='NP' chunkType='head:NP' posn='20'>
+3	اب	PRP	<fs af='اب,pn,,,,d,,' drel='k7t:چھپی' name='اب' chunkId='NP2' chunkType='head:NP2' posn='30'>
+4	ڈھکی	VMC	<fs af='ڈھک,v,f,sg,any,,یا,yA' drel='pof__cv:چھپی' name='ڈھکی' chunkType='child:VGNF' posn='40'>
+5	چھپی	VM	<fs af='چھپ,v,m,sg,3,o,0,0' drel='k1s:رہی' name='چھپی' chunkId='VGNF' chunkType='head:VGNF' posn='40'>
+6	نہیں	NEG	<fs af='نہیں,avy,,,,,,' drel='lwg__neg:رہی' name='نہیں' chunkType='child:VGF' posn='60'>
+7	رہی	VM	<fs af='رہ,v,f,sg,any,,یا,yA' name='رہی' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='70'>
+8	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:رہی' name='۔' chunkType='child:VGF' posn='80'>
+</Sentence>
+
+<Sentence id="9">
+1	ممبئی	NNC	<fs af='ممبئی,n,m,sg,3,d,0,0' drel='pof__cn:حملوں' name='ممبئی' chunkType='child:NP' posn='10'>
+2	حملوں	NN	<fs af='حملہ,n,m,pl,3,o,0,0' drel='r6:واقعات' name='حملوں' chunkId='NP' chunkType='head:NP' posn='20'>
+3	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:حملوں' name='کے' chunkType='child:NP' posn='30'>
+4	واقعات	NN	<fs af='واقع,n,m,pl,3,o,0,0' drel='ccof:اور' name='واقعات' chunkId='NP2' chunkType='head:NP2' posn='40'>
+5	اور	CC	<fs af='اور,avy,,,,,,' drel='k1:ہے' name='اور' chunkId='CCP' chunkType='head:CCP' posn='50'>
+6	امریکی	NNC	<fs af='امریکی,n,m,sg,3,d,0,0' drel='pof__cn:شہری' name='امریکی' chunkType='child:NP3' posn='60'>
+7	شہری	NN	<fs af='شہری,n,m,sg,3,o,0,0' drel='nmod:ہیڈلی' name='شہری' chunkId='NP3' chunkType='head:NP3' posn='70'>
+8	ڈیوڈ	NNPC	<fs af='ڈیوڈ,n,m,sg,3,d,0,0' drel='pof__cn:ہیڈلی' name='ڈیوڈ' chunkType='child:NP4' posn='80'>
+9	ہیڈلی	NNP	<fs af='ہیڈلی,n,m,sg,3,o,0,0' drel='r6:اعتراف' name='ہیڈلی' chunkId='NP4' chunkType='head:NP4' posn='90'>
+10	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:ہیڈلی' name='کا' chunkType='child:NP4' posn='100'>
+11	اعتراف	NN	<fs af='اعتراف,n,m,sg,3,o,0,0' drel='ccof:اور' name='اعتراف' chunkId='NP5' chunkType='head:NP5' posn='110'>
+12	اس	DEM	<fs af='یہ,pn,any,sg,3,o,,' drel='nmod__adj:بات' name='اس' chunkType='child:NP6' posn='120'>
+13	بات	NN	<fs af='بات,n,f,sg,3,o,0,0' drel='r6:ثبوت' name='بات' chunkId='NP6' chunkType='head:NP6' posn='130'>
+14	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:بات' name='کا2' chunkType='child:NP6' posn='140'>
+15	بین	NN	<fs af='بین,n,m,sg,3,d,0,0' drel='nmod__adj:ثبوت' name='بین' chunkType='child:NP7' posn='150'>
+16	ثبوت	NN	<fs af='ثبوت,n,m,sg,3,d,0,0' drel='k1s:ہے' name='ثبوت' chunkId='NP7' chunkType='head:NP7' posn='160'>
+17	ہے	VM	<fs af='ہے,v,any,sg,3,,ہے,hE' name='ہے' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='170'>
+18	کہ	CC	<fs af='کہ,avy,,,,,,' drel='rs:ثبوت' name='کہ' chunkId='CCP2' chunkType='head:CCP2' posn='180'>
+19	سرحدپار	NN	<fs af='سرحدپار,n,m,sg,3,d,0,0' drel='nmod:دہشت_گردی' name='سرحدپار' chunkId='NP8' chunkType='head:NP8' posn='190'>
+20	دہشت_گردی	NN	<fs af='دہشت_گردی,n,f,sg,,d,,' drel='k7:ہے2' name='دہشت_گردی' chunkId='NP9' chunkType='head:NP9' posn='200'>
+21	مےں	PSP	<fs af='مےں,psp,,,,,,' drel='lwg__psp:دہشت_گردی' name='مےں' chunkType='child:NP9' posn='210'>
+22	پاکستان	NNP	<fs af='پاکستان,n,m,sg,3,d,0,0' drel='k1:ہے2' name='پاکستان' chunkId='NP10' chunkType='head:NP10' posn='220'>
+23	ملوث	JJ	<fs af='ملوث,adj,any,any,,,,' drel='pof:ہے2' name='ملوث' chunkId='JJP' chunkType='head:JJP' posn='230'>
+24	ہے	VM	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='ccof:کہ' name='ہے2' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='active' posn='240'>
+25	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:ہے2' name='۔' chunkType='child:VGF2' posn='250'>
+</Sentence>
+
+<Sentence id="10">
+1	ہندوستان	NNP	<fs af='ہندوستان,n,m,sg,3,o,0,0' drel='k1:کی' name='ہندوستان' chunkId='NP' chunkType='head:NP' posn='10'>
+2	نے	PSP	<fs af='نے,psp,,,,,,' drel='lwg__psp:ہندوستان' name='نے' chunkType='child:NP' posn='20'>
+3	پاکستان	NNP	<fs af='پاکستان,n,m,sg,3,o,0,0' drel='ras-k1:کی' name='پاکستان' chunkId='NP2' chunkType='head:NP2' posn='30'>
+4	کے	PSP	<fs af='کے,psp,m,sg,,o,,' drel='lwg__psp:پاکستان' name='کے' chunkType='child:NP2' posn='40'>
+5	ساتھ	NST	<fs af='ساتھ,nst,m,sg,,d,,' drel='lwg__psp:پاکستان' name='ساتھ' chunkType='child:NP2' posn='50'>
+6	بات_چیت	NN	<fs af='بات_چیت,n,f,sg,,o,0,0' drel='r6:احیاء' name='بات_چیت' chunkId='NP3' chunkType='head:NP3' posn='60'>
+7	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:بات_چیت' name='کے2' chunkType='child:NP3' posn='70'>
+8	احیاء	NN	<fs af='احیاء,n,m,sg,3,o,0,0' drel='rt:کی' name='احیاء' chunkId='NP4' chunkType='head:NP4' posn='80'>
+9	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:احیاء' name='کے3' chunkType='child:NP4' posn='90'>
+10	لیے	PSP	<fs af='لیے,psp,,,,,,' drel='lwg__psp:احیاء' name='لیے' chunkType='child:NP4' posn='100'>
+11	رضامندی	NN	<fs af='رضامندی,n,m,sg,3,o,0,0' drel='k2:کی' name='رضامندی' chunkId='NP5' chunkType='head:NP5' posn='110'>
+12	بھی	RP	<fs af='بھی,avy,,,,,,' drel='lwg__rp:رضامندی' name='بھی' chunkType='child:NP5' posn='120'>
+13	ظاہر	JJ	<fs af='ظاہر,adj,any,any,,,,' drel='pof:کی' name='ظاہر' chunkId='JJP' chunkType='head:JJP' posn='130'>
+14	کی	VM	<fs af='کر,v,f,sg,any,,یا,yA' name='کی' chunkId='VGF' chunkType='head:VGF' posn='140'>
+15	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux:کی' name='ہے' chunkType='child:VGF' posn='150'>
+16	جیساکہ	CC	<fs af='جیسا,avy,,,,,,' drel='vmod:کی' name='جیساکہ' chunkId='CCP' chunkType='head:CCP' posn='160'>
+17	حال	NN	<fs af='حال,n,m,sg,3,o,0,0' drel='k7t:کیا' name='حال' chunkId='NP6' chunkType='head:NP6' posn='170'>
+18	ہی	RP	<fs af='ہی,avy,,,,,,' drel='lwg__rp:حال' name='ہی' chunkType='child:NP6' posn='180'>
+19	مےں	PSP	<fs af='مےں,psp,,,,,,' drel='lwg__psp:حال' name='مےں' chunkType='child:NP6' posn='190'>
+20	اختتام_پذیر	JJ	<fs af='اختتام_پذیر,adj,any,any,,d,,' drel='nmod__adj:ورلڈکپ' name='اختتام_پذیر' chunkType='child:NP7' posn='200'>
+21	کرکٹ	NNPC	<fs af='کرکٹ,adj,m,sg,3,d,0,0' drel='pof__cn:ورلڈکپ' name='کرکٹ' chunkType='child:NP7' posn='210'>
+22	ورلڈکپ	NNP	<fs af='ورلڈکپ,n,m,sg,3,o,0,0' drel='r6:میچ' name='ورلڈکپ' chunkId='NP7' chunkType='head:NP7' posn='220'>
+23	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:ورلڈکپ' name='کے4' chunkType='child:NP7' posn='230'>
+24	سیمی	NNC	<fs af='سیمی,n,m,sg,3,d,0,0' drel='pof__cn:فائنل' name='سیمی' chunkType='child:NP8' posn='240'>
+25	فائنل	NN	<fs af='فائنل,n,m,sg,3,o,0,0' drel='nmod__adj:میچ' name='فائنل' chunkType='child:NP8' posn='250'>
+26	میچ	NN	<fs af='میچ,n,m,sg,3,o,0,0' drel='nmod:ٹکراؤ' name='میچ' chunkId='NP8' chunkType='head:NP8' posn='260'>
+27	مےں	PSP	<fs af='مےں,psp,,,,,,' drel='lwg__psp:میچ' name='مےں2' chunkType='child:NP8' posn='270'>
+28	ہندوستان	NNP	<fs af='ہندوستان,n,m,sg,3,o,0,0' drel='ccof:اور' name='ہندوستان2' chunkId='NP9' chunkType='head:NP9' posn='280'>
+29	اور	CC	<fs af='اور,avy,,,,,,' drel='r6:ٹکراؤ' name='اور' chunkId='CCP2' chunkType='head:CCP2' posn='290'>
+30	پاکستان	NNP	<fs af='پاکستان,n,m,sg,3,o,0,0' drel='ccof:اور' name='پاکستان2' chunkId='NP10' chunkType='head:NP10' posn='300'>
+31	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:پاکستان2' name='کے5' chunkType='child:NP10' posn='310'>
+32	ٹکراؤ	NN	<fs af='ٹکراؤ,n,m,sg,3,o,0,0' drel='r6:مظاہرہ' name='ٹکراؤ' chunkId='NP11' chunkType='head:NP11' posn='320'>
+33	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:ٹکراؤ' name='کا' chunkType='child:NP11' posn='330'>
+34	مظاہرہ	NN	<fs af='مظاہرہ,n,m,sg,3,d,0,0' drel='pof:کرنے' name='مظاہرہ' chunkId='NP12' chunkType='head:NP12' posn='340'>
+35	کرنے	VM	<fs af='کر,v,m,any,any,d,نا,nA' drel='rt:کیا' name='کرنے' chunkId='VGNN' chunkType='head:VGNN' posn='350'>
+36	وزیراعطم	NNPC	<fs af='وزیراعطم,n,m,sg,3,d,0,0' drel='pof__cn:پاکستان3' name='وزیراعطم' chunkType='child:NP13' posn='360'>
+37	پاکستان	NNP	<fs af='پاکستان,n,m,sg,3,o,0,0' drel='nmod__adj:گیلانی' name='پاکستان3' chunkType='child:NP13' posn='370'>
+38	یوسف	NNPC	<fs af='یوسف,n,m,sg,3,d,0,0' drel='pof__cn:گیلانی' name='یوسف' chunkType='child:NP13' posn='380'>
+39	رضا	NNPC	<fs af='رضا,n,m,sg,3,d,0,0' drel='pof__cn:گیلانی' name='رضا' chunkType='child:NP13' posn='390'>
+40	گیلانی	NNP	<fs af='گیلانی,n,m,sg,3,o,0,0' drel='k4:کیا' name='گیلانی' chunkId='NP13' chunkType='head:NP13' posn='400'>
+41	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:گیلانی' name='کو' chunkType='child:NP13' posn='410'>
+42	بھی	RP	<fs af='بھی,avy,,,,,,' drel='lwg__rp:گیلانی' name='بھی2' chunkType='child:NP13' posn='420'>
+43	اسٹیڈیم	NN	<fs af='اسٹیڈیم,n,m,sg,3,o,0,0' drel='k7p:کیا' name='اسٹیڈیم' chunkId='NP14' chunkType='head:NP14' posn='430'>
+44	مےں	PSP	<fs af='مےں,psp,,,,,,' drel='lwg__psp:اسٹیڈیم' name='مےں3' chunkType='child:NP14' posn='440'>
+45	مدعو	JJ	<fs af='مدعو,adj,any,any,,,,' drel='pof:کیا' name='مدعو' chunkId='JJP2' chunkType='head:JJP2' posn='450'>
+46	کیا	VM	<fs af='کر,v,m,sg,any,,یا,yA' drel='ccof:اور2' name='کیا' chunkId='VGF2' chunkType='head:VGF2' posn='460'>
+47	گیا	VAUX	<fs af='جا,v,m,sg,any,,1یا,yA1' drel='lwg__vaux:کیا' name='گیا' chunkType='child:VGF2' posn='470'>
+48	تھا	VAUX	<fs af='تھا,v,m,sg,3,,تھا,WA' drel='lwg__vaux_cont:گیا' name='تھا' chunkType='child:VGF2' posn='480'>
+49	اور	CC	<fs af='اور,avy,,,,,,' drel='ccof:جیساکہ' name='اور2' chunkId='CCP3' chunkType='head:CCP3' posn='490'>
+50	انہوں	PRP	<fs af='وہ,pn,m,sg,3h,o,0,0' drel='k1:کہا' name='انہوں' chunkId='NP15' chunkType='head:NP15' posn='500'>
+51	نے	PSP	<fs af='نے,psp,,,,,,' drel='lwg__psp:انہوں' name='نے2' chunkType='child:NP15' posn='510'>
+52	بھی	RP	<fs af='بھی,avy,,,,,,' drel='lwg__rp:انہوں' name='بھی3' chunkType='child:NP15' posn='520'>
+53	گرم_جوشانہ	JJ	<fs af='گرم_جوشانہ,adj,any,any,,o,,' drel='nmod__adj:انداز' name='گرم_جوشانہ' chunkType='child:NP16' posn='530'>
+54	انداز	NN	<fs af='انداز,n,m,sg,3,o,0,0' drel='k7:کہا' name='انداز' chunkId='NP16' chunkType='head:NP16' posn='540'>
+55	مےں	PSP	<fs af='مےں,psp,,,,,,' drel='lwg__psp:انداز' name='مےں4' chunkType='child:NP16' posn='550'>
+56	اپنی	PRP	<fs af='اپنا,pn,any,any,any,o,0,0' drel='r6:مصروفیتوں' name='اپنی' chunkId='NP17' chunkType='head:NP17' posn='560'>
+57	دیگر	DEM	<fs af='دیگر,pn,any,any,,d,,' drel='nmod__adj:مصروفیتوں' name='دیگر' chunkType='child:NP18' posn='570'>
+58	تمام	QF	<fs af='تمام,avy,,,,,,' drel='nmod__adj:مصروفیتوں' name='تمام' chunkType='child:NP18' posn='580'>
+59	سرکاری	JJ	<fs af='سرکاری,adj,any,any,,o,,' drel='nmod__adj:مصروفیتوں' name='سرکاری' chunkType='child:NP18' posn='590'>
+60	مصروفیتوں	NN	<fs af='مصروفیت,n,m,pl,3,o,0,0' drel='k2:رکھتے' name='مصروفیتوں' chunkId='NP18' chunkType='head:NP18' posn='600'>
+61	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:مصروفیتوں' name='کو2' chunkType='child:NP18' posn='610'>
+62	بالائے	NST	<fs af='بالائے,nst,m,sg,3,d,,' drel='lwg__psp:طاق' name='بالائے' chunkType='child:NP19' posn='620'>
+63	طاق	NN	<fs af='طاق,n,m,sg,3,d,0,0' drel='pof:رکھتے' name='طاق' chunkId='NP19' chunkType='head:NP19' posn='630'>
+64	رکھتے	VM	<fs af='رکھ,v,m,pl,any,,تا,wA' drel='vmod:کہا' name='رکھتے' chunkId='VGNF' chunkType='head:VGNF' posn='640'>
+65	ہوئے	VAUX	<fs af='ہو,v,any,pl,any,,یا,yA' drel='lwg__vaux:رکھتے' name='ہوئے' chunkType='child:VGNF' posn='650'>
+66	منموہن	NNPC	<fs af='منموہن,n,m,sg,3,d,0,0' drel='pof__cn:سنگھ' name='منموہن' chunkType='child:NP20' posn='660'>
+67	سنگھ	NNP	<fs af='سنگھ,n,m,sg,3,o,0,0' drel='r6:دعوت' name='سنگھ' chunkId='NP20' chunkType='head:NP20' posn='670'>
+68	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:سنگھ' name='کی2' chunkType='child:NP20' posn='680'>
+69	دعوت	NN	<fs af='دعوت,n,f,sg,3,o,0,0' drel='k7:کہا' name='دعوت' chunkId='NP21' chunkType='head:NP21' posn='690'>
+70	پر	PSP	<fs af='پر,psp,,,,,,' drel='lwg__psp:دعوت' name='پر' chunkType='child:NP21' posn='700'>
+71	لبیک	RB	<fs af='لبیک,adv,,,,,,' drel='pof:کہا' name='لبیک' chunkId='RBP' chunkType='head:RBP' posn='710'>
+72	کہا	VM	<fs af='کہہ,v,m,sg,any,,یا,yA' drel='ccof:اور2' name='کہا' chunkId='VGF3' chunkType='head:VGF3' posn='720'>
+73	تھا	VAUX	<fs af='تھا,v,m,sg,3,,تھا,WA' drel='lwg__vaux:کہا' name='تھا2' chunkType='child:VGF3' posn='730'>
+74	اور	CC	<fs af='اور,avy,,,,,,' drel='ccof:اور2' name='اور3' chunkId='CCP4' chunkType='head:CCP4' posn='740'>
+75	اسٹیڈیم	NN	<fs af='اسٹیڈیم,n,m,sg,3,o,0,0' drel='k7p:پہنچ' name='اسٹیڈیم2' chunkId='NP22' chunkType='head:NP22' posn='750'>
+76	پہنچ	VM	<fs af='پہنچ,v,any,any,any,,0,0' drel='vmod:کیا2' name='پہنچ' chunkId='VGNF2' chunkType='head:VGNF2' posn='760'>
+77	کر	VAUX	<fs af='کر,v,any,any,any,,0,0' drel='lwg__vaux:پہنچ' name='کر' chunkType='child:VGNF2' posn='770'>
+78	ہند	NNP	<fs af='ہند,n,m,sg,3,o,0,0' drel='ccof:و' name='ہند' chunkId='NP23' chunkType='head:NP23' posn='780'>
+79	و	CC	<fs af='و,avy,,,,,,' drel='r6:کھلاڑیوں' name='و' chunkId='CCP5' chunkType='head:CCP5' posn='790'>
+80	پاک	NNP	<fs af='پاک,n,m,sg,3,o,0,0' drel='ccof:و' name='پاک' chunkId='NP24' chunkType='head:NP24' posn='800'>
+81	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:پاک' name='کے6' chunkType='child:NP24' posn='810'>
+82	کھلاڑیوں	NN	<fs af='کھلاڑی,n,m,pl,3,o,0,0' drel='ras-k1:کیا2' name='کھلاڑیوں' chunkId='NP25' chunkType='head:NP25' posn='820'>
+83	سے	PSP	<fs af='سے,psp,,,,,,' drel='lwg__psp:کھلاڑیوں' name='سے' chunkType='child:NP25' posn='830'>
+84	مصافحہ	NN	<fs af='مصافحہ,n,m,sg,3,o,0,0' drel='k2:کیا2' name='مصافحہ' chunkId='NP26' chunkType='head:NP26' posn='840'>
+85	بھی	RP	<fs af='بھی,avy,,,,,,' drel='lwg__rp:مصافحہ' name='بھی4' chunkType='child:NP26' posn='850'>
+86	کیا	VM	<fs af='کر,v,m,sg,any,,یا,yA' drel='ccof:اور3' name='کیا2' chunkId='VGF4' chunkType='head:VGF4' posn='860'>
+87	تھا	VAUX	<fs af='تھا,v,m,sg,3,,تھا,WA' drel='lwg__vaux:کیا2' name='تھا3' chunkType='child:VGF4' posn='870'>
+88	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:کیا2' name='۔' chunkType='child:VGF4' posn='880'>
+</Sentence>
+
+<Sentence id="11">
+1	میرا	NNPC	<fs af='میرا,n,m,sg,3,d,0,0' drel='pof__cn:شنکر' name='میرا' chunkType='child:NP' posn='10'>
+2	شنکر	NNP	<fs af='شنکر,n,m,sg,3,o,0,0' drel='k7a:کرنا' name='شنکر' chunkId='NP' chunkType='head:NP' posn='20'>
+3	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:شنکر' name='کے' chunkType='child:NP' posn='30'>
+4	مطابق	PSP	<fs af='مطابق,psp,,,,,,' drel='lwg__psp:شنکر' name='مطابق' chunkType='child:NP' posn='40'>
+5	اگر	CC	<fs af='اگر,avy,,,,,,' drel='vmod:کرنا' name='اگر' chunkId='CCP' chunkType='head:CCP' posn='50'>
+6	ہند	NNC	<fs af='ہند,n,m,sg,3,o,0,0' drel='pof__cn:بات_چیت' name='ہند' chunkType='child:NP2' posn='60'>
+7	و	RP	<fs af='و,avy,,,,,,' drel='lwg__rp:بات_چیت' name='و' chunkType='child:NP2' posn='70'>
+8	پاک	NNC	<fs af='پاک,n,m,sg,3,o,0,0' drel='pof__cn:بات_چیت' name='پاک' chunkType='child:NP2' posn='80'>
+9	بات_چیت	NN	<fs af='بات_چیت,n,f,sg,,o,0,0' drel='k2:بنانے' name='بات_چیت' chunkId='NP2' chunkType='head:NP2' posn='90'>
+10	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:بات_چیت' name='کو' chunkType='child:NP2' posn='100'>
+11	ثمرآور	JJ	<fs af='ثمرآور,adj,any,any,,,,' drel='k2s:بنانے' name='ثمرآور' chunkId='JJP' chunkType='head:JJP' posn='110'>
+12	بنانے	VM	<fs af='بنا,v,m,pl,any,,نا,nA' drel='r6:خواہاں' name='بنانے' chunkId='VGNN' chunkType='head:VGNN' posn='120'>
+13	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:بنانے' name='کے2' chunkType='child:VGNN' posn='130'>
+14	خواہاں	JJ	<fs af='خواہاں,adj,any,any,,,,' drel='k1:ہےں' name='خواہاں' chunkId='JJP2' chunkType='head:JJP2' posn='140'>
+15	ہےں	VM	<fs af='ہے,v,any,pl,3,,ہے,hE' drel='ccof:اگر' name='ہےں' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='150'>
+16	تو	CC	<fs af='تو,avy,,,,,,' name='تو' chunkId='CCP2' chunkType='head:CCP2' posn='160'>
+17	سب	PRP	<fs af='سب,pn,,,,,,' drel='mod:پہلے' name='سب' chunkType='child:JJP3' posn='170'>
+18	سے	INTF	<fs af='سے,avy,,,,,,' drel='mod:پہلے' name='سے' chunkType='child:JJP3' posn='180'>
+19	پہلے	QO	<fs af='پہلا,num,m,sg,,o,,' drel='adv:کرنا' name='پہلے' chunkId='JJP3' chunkType='head:JJP3' posn='190'>
+20	پاکستان	NNP	<fs af='پاکستان,n,m,sg,3,o,0,0' drel='k1:کرنا' name='پاکستان' chunkId='NP3' chunkType='head:NP3' posn='200'>
+21	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:پاکستان' name='کو2' chunkType='child:NP3' posn='210'>
+22	ہندوستان	NNP	<fs af='ہندوستان,n,m,sg,3,o,0,0' drel='r6:خدشے' name='ہندوستان' chunkId='NP4' chunkType='head:NP4' posn='220'>
+23	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:ہندوستان' name='کے3' chunkType='child:NP4' posn='230'>
+24	اس	DEM	<fs af='یہ,pn,any,sg,3,o,,' drel='nmod__adj:خدشے' name='اس' chunkType='child:NP5' posn='240'>
+25	خدشے	NN	<fs af='خدشہ,n,m,sg,3,o,0,0' drel='k2:کرنا' name='خدشے' chunkId='NP5' chunkType='head:NP5' posn='250'>
+26	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:خدشے' name='کو3' chunkType='child:NP5' posn='260'>
+27	دور	JJ	<fs af='دور,adj,any,any,,,,' drel='pof:کرنا' name='دور' chunkId='JJP4' chunkType='head:JJP4' posn='270'>
+28	کرنا	VM	<fs af='کر,v,m,sg,any,,نا,nA' drel='k1:تو' name='کرنا' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='active' posn='280'>
+29	ہوگا	VAUX	<fs af='ہو,v,m,sg,3,,گا,ga' drel='lwg__vaux:کرنا' name='ہوگا' chunkType='child:VGF2' posn='290'>
+30	جس	PRP	<fs af='جو,pn,any,sg,3,o,0,0' drel='k7:کرتا' name='جس' chunkId='NP6' chunkType='head:NP6' posn='300'>
+31	کے	PSP	<fs af='کے,psp,,,,o,,' drel='lwg__psp:جس' name='کے4' chunkType='child:NP6' posn='310'>
+32	تحت	PSP	<fs af='تحت,psp,m,sg,,o,,' drel='lwg__psp:جس' name='تحت' chunkType='child:NP6' posn='320'>
+33	ہندوستان	NNP	<fs af='ہندوستان,n,m,sg,3,o,0,0' drel='k1:کرتا' name='ہندوستان2' chunkId='NP7' chunkType='head:NP7' posn='330'>
+34	,	SYM	<fs af=',,punc,,,,,,' drel='rsym:ہندوستان2' name=',' chunkType='child:NP7' posn='340'>
+35	پاکستان	NNP	<fs af='پاکستان,n,m,sg,3,o,0,0' drel='k2:کرتا' name='پاکستان2' chunkId='NP8' chunkType='head:NP8' posn='350'>
+36	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:پاکستان2' name='کو4' chunkType='child:NP8' posn='360'>
+37	ہی	RP	<fs af='ہی,avy,,,,,,' drel='lwg__rp:پاکستان2' name='ہی' chunkType='child:NP8' posn='370'>
+38	دہشت_گردی	NN	<fs af='دہشت_گردی,n,f,sg,,o,0,0' drel='k1:ٹھکانہ' name='دہشت_گردی' chunkId='NP9' chunkType='head:NP9' posn='380'>
+39	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:دہشت_گردی' name='کا' chunkType='child:NP9' posn='390'>
+40	محفوظ	JJ	<fs af='محفوظ,adj,any,any,,d,,' drel='nmod__adj:ٹھکانہ' name='محفوظ' chunkType='child:NP10' posn='400'>
+41	ٹھکانہ	NN	<fs af='ٹھکانہ,n,m,sg,3,d,0,0' drel='k2s:کرتا' name='ٹھکانہ' chunkId='NP10' chunkType='head:NP10' posn='410'>
+42	تصور	NN	<fs af='تصور,n,m,sg,3,d,0,0' drel='pof:کرتا' name='تصور' chunkId='NP11' chunkType='head:NP11' posn='420'>
+43	کرتا	VM	<fs af='کر,v,m,sg,any,,تا,wA' drel='nmod__relc:خدشے' name='کرتا' chunkId='VGF3' chunkType='head:VGF3' stype='declarative' voicetype='active' posn='430'>
+44	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux:کرتا' name='ہے' chunkType='child:VGF3' posn='440'>
+45	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:کرتا' name='۔' chunkType='child:VGF3' posn='450'>
+</Sentence>
+
+<Sentence id="12">
+1	دوسری	QO	<fs af='دوسری,num,f,sg,,d,,' drel='nmod__adj:طرف' name='دوسری' chunkType='child:NP' posn='10'>
+2	طرف	NN	<fs af='طرف,n,m,sg,3,d,0,0' drel='vmod:رہا' name='طرف' chunkId='NP' chunkType='head:NP' posn='20'>
+3	ممبئی	NNC	<fs af='ممبئی,n,m,sg,3,d,0,0' drel='pof__cn:حملوں' name='ممبئی' chunkType='child:NP2' posn='30'>
+4	حملوں	NN	<fs af='حملہ,n,m,pl,3,o,0,0' drel='r6:خاطیوں' name='حملوں' chunkId='NP2' chunkType='head:NP2' posn='40'>
+5	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:حملوں' name='کے' chunkType='child:NP2' posn='50'>
+6	تمام	JJ	<fs af='تمام,adj,any,any,,o,,' drel='nmod__adj:خاطیوں' name='تمام' chunkType='child:NP3' posn='60'>
+7	خاطیوں	NN	<fs af='خاطی,n,m,pl,3,o,0,0' drel='k2:پہنچانا' name='خاطیوں' chunkId='NP3' chunkType='head:NP3' posn='70'>
+8	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:خاطیوں' name='کو' chunkType='child:NP3' posn='80'>
+9	کیفر	NN	<fs af='کیفر,n,m,sg,3,o,0,0' drel='k7:پہنچانا' name='کیفر' chunkId='NP4' chunkType='head:NP4' posn='90'>
+10	کردار	NN	<fs af='کردار,n,m,sg,3,o,0,0' drel='r6:کیفر' name='کردار' chunkId='NP5' chunkType='head:NP5' posn='100'>
+11	تک	PSP	<fs af='تک,psp,,,,,,' drel='fragof:کیفر' name='تک' chunkId='FRAGP' chunkType='head:FRAGP' posn='110'>
+12	پہنچانا	VM	<fs af='پہنچ,v,m,sg,any,,نا,nA' drel='k1:رہا' name='پہنچانا' chunkId='VGNN' chunkType='head:VGNN' posn='120'>
+13	بھی	RP	<fs af='بھی,avy,,,,,,' drel='lwg__rp:پہنچانا' name='بھی' chunkType='child:VGNN' posn='130'>
+14	ہندوستان	NNP	<fs af='ہندوستان,n,m,sg,3,o,0,0' drel='r6:تشویش' name='ہندوستان' chunkId='NP6' chunkType='head:NP6' posn='140'>
+15	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:ہندوستان' name='کی' chunkType='child:NP6' posn='150'>
+16	تشویش	NN	<fs af='تشویش,n,m,sg,3,o,0,0' drel='k7:رہا' name='تشویش' chunkId='NP7' chunkType='head:NP7' posn='160'>
+17	مےں	PSP	<fs af='مےں,psp,,,,,,' drel='lwg__psp:تشویش' name='مےں' chunkType='child:NP7' posn='170'>
+18	شامل	JJ	<fs af='شامل,adj,any,any,,,,' drel='pof:رہا' name='شامل' chunkId='JJP' chunkType='head:JJP' posn='180'>
+19	رہا	VM	<fs af='رہ,v,m,sg,any,,یا,yA' name='رہا' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='190'>
+20	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux:رہا' name='ہے' chunkType='child:VGF' posn='200'>
+21	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:رہا' name='۔' chunkType='child:VGF' posn='210'>
+</Sentence>
+
+<Sentence id="13">
+1	پاکستان	NNP	<fs af='پاکستان,n,m,sg,3,o,0,0' drel='r6:دہشت_گردی' name='پاکستان' chunkId='NP' chunkType='head:NP' posn='10'>
+2	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:پاکستان' name='کی' chunkType='child:NP' posn='20'>
+3	دہشت_گردی	NN	<fs af='دہشت_گردی,n,m,sg,3,o,0,0' drel='rh:NULL' name='دہشت_گردی' chunkId='NP2' chunkType='head:NP2' posn='30'>
+4	سے	PSP	<fs af='سے,psp,,,,,,' drel='lwg__psp:دہشت_گردی' name='سے' chunkType='child:NP2' posn='40'>
+5	نہ	NEG	<fs af='نہ,avy,,,,,,' drel='vmod:NULL' name='نہ' chunkId='NEGP' chunkType='head:NEGP' posn='60'>
+6	صرف	RP	<fs af='صرف,avy,,,,,,' drel='lwg__rp:نہ' name='صرف' chunkType='child:NEGP' posn='60'>
+7	برصغیر	NN	<fs af='برصغیر,n,m,sg,3,o,0,0' drel='k1:NULL' name='برصغیر' chunkId='NP3' chunkType='head:NP3' posn='70'>
+8	NULL	VM	<fs af='null,unk,,,,,,' drel='ccof:بلکہ' name='NULL' chunkId='NULL__VGF' chunkType='head:NULL__VGF'>
+9	بلکہ	CC	<fs af='بلکہ,avy,,,,,,' name='بلکہ' chunkId='CCP' chunkType='head:CCP' posn='80'>
+10	عالمی	JJ	<fs af='عالمی,adj,any,any,,o,,' drel='nmod__adj:سطح' name='عالمی' chunkType='child:NP4' posn='90'>
+11	سطح	NN	<fs af='سطح,n,m,sg,3,o,0,0' drel='k7:کیے' name='سطح' chunkId='NP4' chunkType='head:NP4' posn='100'>
+12	پر	PSP	<fs af='پر,psp,,,,,,' drel='lwg__psp:سطح' name='پر' chunkType='child:NP4' posn='110'>
+13	اس	PRP	<fs af='یہ,pn,any,sg,3,o,0,0' drel='r6:اثرات' name='اس' chunkId='NP5' chunkType='head:NP5' posn='120'>
+14	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:اس' name='کے' chunkType='child:NP5' posn='130'>
+15	اثرات	NN	<fs af='اثر,n,m,pl,3,d,0,0' drel='k2:کیے' name='اثرات' chunkId='NP6' chunkType='head:NP6' posn='140'>
+16	محسوس	JJ	<fs af='محسوس,adj,any,any,,,,' drel='pof:کیے' name='محسوس' chunkId='JJP' chunkType='head:JJP' posn='150'>
+17	کیے	VM	<fs af='کر,v,any,pl,any,,یا,yA' drel='ccof:بلکہ' name='کیے' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='passive' posn='160'>
+18	جا	VAUX	<fs af='جا,v,any,any,any,,0,0' drel='lwg__vaux:کیے' name='جا' chunkType='child:VGF' posn='170'>
+19	رہے	VAUX	<fs af='رہے,v,any,pl,any,,یا,yA' drel='lwg__vaux_cont:جا' name='رہے' chunkType='child:VGF' posn='180'>
+20	ہےں	VAUX	<fs af='ہے,v,any,pl,3,,ہے,hE' drel='lwg__vaux_cont:رہے' name='ہےں' chunkType='child:VGF' posn='190'>
+21	جس	PRP	<fs af='جو,pn,any,sg,3,o,0,0' drel='k7:کر' name='جس' chunkId='NP7' chunkType='head:NP7' posn='200'>
+22	مےں	PSP	<fs af='مےں,psp,,,,,,' drel='lwg__psp:جس' name='مےں' chunkType='child:NP7' posn='210'>
+23	ہم	PRP	<fs af='مےں,pn,any,pl,1,o,0,0' drel='k1:کر' name='ہم' chunkId='NP8' chunkType='head:NP8' posn='220'>
+24	مشرقی	NNPC	<fs af='مشرقی,n,m,sg,3,d,0,0' drel='pof__cn:ایشیاء' name='مشرقی' chunkType='child:NP9' posn='230'>
+25	ایشیاء	NNP	<fs af='ایشیاء,n,m,sg,3,o,0,0' drel='ccof:اور' name='ایشیاء' chunkId='NP9' chunkType='head:NP9' posn='240'>
+26	اور	CC	<fs af='اور,avy,,,,,,' drel='r6:طور' name='اور' chunkId='CCP2' chunkType='head:CCP2' posn='250'>
+27	مغربی	NNPC	<fs af='مغربی,n,m,sg,3,d,0,0' drel='pof__cn:ایشیاء2' name='مغربی' chunkType='child:NP10' posn='260'>
+28	ایشیاء	NNP	<fs af='ایشیاء,n,m,sg,3,o,0,0' drel='ccof:اور' name='ایشیاء2' chunkId='NP10' chunkType='head:NP10' posn='270'>
+29	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:ایشیاء2' name='کا' chunkType='child:NP10' posn='280'>
+30	خصوصی	JJ	<fs af='خصوصی,adj,any,any,,o,,' drel='nmod__adj:طور' name='خصوصی' chunkType='child:NP11' posn='290'>
+31	طور	NN	<fs af='طور,n,m,sg,3,o,0,0' drel='k7:کر' name='طور' chunkId='NP11' chunkType='head:NP11' posn='300'>
+32	پر	PSP	<fs af='پر,psp,,,,,,' drel='lwg__psp:طور' name='پر2' chunkType='child:NP11' posn='310'>
+33	ذکر	NN	<fs af='ذکر,n,m,sg,3,d,0,0' drel='pof:کر' name='ذکر' chunkId='NP12' chunkType='head:NP12' posn='320'>
+34	کر	VM	<fs af='کر,v,any,any,any,,0,0' drel='vmod:کیے' name='کر' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='active' posn='330'>
+35	سکتے	VAUX	<fs af='سک,v,m,pl,any,,تا,wA' drel='lwg__vaux:کر' name='سکتے' chunkType='child:VGF2' posn='340'>
+36	ہیں	VAUX	<fs af='ہے,v,any,pl,3,,ہے,hE' drel='lwg__vaux_cont:سکتے' name='ہیں' chunkType='child:VGF2' posn='350'>
+37	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:کر' name='۔' chunkType='child:VGF2' posn='360'>
+</Sentence>
+
+<Sentence id="14">
+1	میرا	NNPC	<fs af='میرا,n,m,sg,3,d,0,0' drel='pof__cn:شنکر' name='میرا' chunkType='child:NP' posn='10'>
+2	شنکر	NNP	<fs af='شنکر,n,m,sg,3,o,0,0' drel='k7a:NULL' name='شنکر' chunkId='NP' chunkType='head:NP' posn='20'>
+3	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:شنکر' name='کے' chunkType='child:NP' posn='30'>
+4	مطابق	PSP	<fs af='مطابق,psp,,,,,,' drel='lwg__psp:شنکر' name='مطابق' chunkType='child:NP' posn='40'>
+5	نہ	NEG	<fs af='نہ,avy,,,,,,' drel='vmod:NULL' name='نہ' chunkId='NEGP' chunkType='head:NEGP' posn='60'>
+6	صرف	RP	<fs af='صرف,avy,,,,,,' drel='lwg__rp:نہ' name='صرف' chunkType='child:NEGP' posn='60'>
+7	افغانی	NNC	<fs af='افغانی,n,f,sg,3,d,0,0' drel='pof__cn:عوام' name='افغانی' chunkType='child:NP2' posn='70'>
+8	عوام	NN	<fs af='عوام,n,m,sg,3,o,0,0' drel='k1:NULL' name='عوام' chunkId='NP2' chunkType='head:NP2' posn='80'>
+9	NULL	VM	<fs af='null,unk,,,,,,' drel='ccof:بلکہ' name='NULL' chunkId='NULL__VGF' chunkType='head:NULL__VGF'>
+10	بلکہ	CC	<fs af='بلکہ,avy,,,,,,' name='بلکہ' chunkId='CCP' chunkType='head:CCP' posn='90'>
+11	جنوبی	NNPC	<fs af='جنوبی,n,m,sg,3,d,0,0' drel='pof__cn:ایشیاء' name='جنوبی' chunkType='child:NP3' posn='100'>
+12	ایشیاء	NNP	<fs af='ایشیاء,n,m,sg,3,o,0,0' drel='rt:ہوگی' name='ایشیاء' chunkId='NP3' chunkType='head:NP3' posn='110'>
+13	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:ایشیاء' name='کے2' chunkType='child:NP3' posn='120'>
+14	لیے	PSP	<fs af='لئے,psp,,,,,,' drel='lwg__psp:ایشیاء' name='لیے' chunkType='child:NP3' posn='130'>
+15	بھی	RP	<fs af='بھی,avy,,,,,,' drel='lwg__rp:ایشیاء' name='بھی' chunkType='child:NP3' posn='140'>
+16	یہ	PRP	<fs af='یہ,pn,any,sg,3,d,0,0' drel='k1:ہوگی' name='یہ' chunkId='NP4' chunkType='head:NP4' posn='150'>
+17	اےک	QC	<fs af='اےک,num,any,any,,any,,' drel='mod:یہ' name='اےک' chunkType='child:NP4' posn='160'>
+18	اہم	JJ	<fs af='اہم,adj,any,any,,d,,' drel='nmod__adj:بات' name='اہم' chunkType='child:NP5' posn='170'>
+19	بات	NN	<fs af='بات,n,f,sg,3,d,0,0' drel='k1s:ہوگی' name='بات' chunkId='NP5' chunkType='head:NP5' posn='180'>
+20	ہوگی	VM	<fs af='ہو,v,f,sg,3,,گا,ga' drel='ccof:بلکہ' name='ہوگی' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='190'>
+21	کہ	CC	<fs af='کہ,avy,,,,,,' drel='rs:بات' name='کہ' chunkId='CCP2' chunkType='head:CCP2' posn='200'>
+22	افغانستان	NNP	<fs af='افغانستان,n,m,sg,3,o,0,0' drel='k7p:کیا' name='افغانستان' chunkId='NP6' chunkType='head:NP6' posn='210'>
+23	مےں	PSP	<fs af='مےں,psp,,,,,,' drel='lwg__psp:افغانستان' name='مےں' chunkType='child:NP6' posn='220'>
+24	افغانی	NNC	<fs af='افغانی,n,f,sg,3,d,0,0' drel='pof__cn:باشندوں' name='افغانی2' chunkType='child:NP7' posn='230'>
+25	باشندوں	NN	<fs af='باشندہ,n,m,pl,3,o,0,0' drel='k4:کیا' name='باشندوں' chunkId='NP7' chunkType='head:NP7' posn='240'>
+26	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:باشندوں' name='کو' chunkType='child:NP7' posn='250'>
+27	اےک	QC	<fs af='اےک,num,any,any,,any,,' drel='nmod__adj:حکومت' name='اےک2' chunkType='child:NP8' posn='260'>
+28	مستحکم	JJ	<fs af='مستحکم,adj,any,any,,o,,' drel='nmod__adj:حکومت' name='مستحکم' chunkType='child:NP8' posn='270'>
+29	حکومت	NN	<fs af='حکومت,n,f,sg,3,o,0,0' drel='r6:تشکیل' name='حکومت' chunkId='NP8' chunkType='head:NP8' posn='280'>
+30	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:حکومت' name='کی' chunkType='child:NP8' posn='290'>
+31	تشکیل	NN	<fs af='تشکیل,n,m,sg,3,o,0,0' drel='rt:کیا' name='تشکیل' chunkId='NP9' chunkType='head:NP9' posn='300'>
+32	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:تشکیل' name='کے3' chunkType='child:NP9' posn='310'>
+33	لیے	PSP	<fs af='لیے,psp,,,,,,' drel='lwg__psp:تشکیل' name='لیے2' chunkType='child:NP9' posn='320'>
+34	بھرپور	JJ	<fs af='بھرپور,adj,any,any,,,,' drel='nmod__adj:تعاون' name='بھرپور' chunkType='child:NP10' posn='330'>
+35	تعاون	NN	<fs af='تعاون,n,m,sg,3,d,0,0' drel='k2:کیا' name='تعاون' chunkId='NP10' chunkType='head:NP10' posn='340'>
+36	کیا	VM	<fs af='کر,v,m,sg,any,,یا,yA' drel='ccof:کہ' name='کیا' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='passive' posn='350'>
+37	جائے	VAUX	<fs af='جا,v,any,pl,any,,ئےں,eM' drel='lwg__vaux:کیا' name='جائے' chunkType='child:VGF2' posn='360'>
+38	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:کیا' name='۔' chunkType='child:VGF2' posn='370'>
+</Sentence>
+
+<Sentence id="15">
+1	افغانستان	NNP	<fs af='افغانستان,n,m,sg,3,d,0,0' drel='k1:ابھرنا' name='افغانستان' chunkId='NP' chunkType='head:NP' posn='10'>
+2	اےک	QC	<fs af='اےک,num,any,any,,any,,' drel='nmod__adj:ملک' name='اےک' chunkType='child:NP2' posn='20'>
+3	ایسے	DEM	<fs af='ایسا,pn,m,sg,,o,,' drel='nmod__adj:ملک' name='ایسے' chunkType='child:NP2' posn='30'>
+4	ملک	NN	<fs af='ملک,n,m,sg,3,o,0,0' drel='k1s:ابھرنا' name='ملک' chunkId='NP2' chunkType='head:NP2' posn='40'>
+5	کے	PSP	<fs af='کے,psp,m,sg,,o,,' drel='lwg__psp:ملک' name='کے' chunkType='child:NP2' posn='50'>
+6	طور	PSP	<fs af='طور,psp,m,sg,,o,,' drel='lwg__psp:ملک' name='طور' chunkType='child:NP2' posn='60'>
+7	پر	PSP	<fs af='پر,psp,,,,,,' drel='lwg__psp:ملک' name='پر' chunkType='child:NP2' posn='70'>
+8	ابھرنا	VM	<fs af='ابھر,v,m,sg,any,,نا,nA' name='ابھرنا' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='80'>
+9	چاہیئے	VAUX	<fs af='چاہیے,v,any,any,any,,0,0' drel='lwg__vaux:ابھرنا' name='چاہیئے' chunkType='child:VGF' posn='90'>
+10	جہاں	PRP	<fs af='جہاں,pn,,,,d,,' drel='k7p:ہو' name='جہاں' chunkId='NP3' chunkType='head:NP3' posn='100'>
+11	کسی	PRP	<fs af='کوی,pn,any,sg,3,d,0,0' drel='nmod:طاقت' name='کسی' chunkId='NP4' chunkType='head:NP4' posn='110'>
+12	بھی	RP	<fs af='بھی,avy,,,,,,' drel='lwg__rp:کسی' name='بھی' chunkType='child:NP4' posn='120'>
+13	بیرونی	JJ	<fs af='بیرونی,adj,any,any,,o,,' drel='nmod__adj:طاقت' name='بیرونی' chunkType='child:NP5' posn='130'>
+14	طاقت	NN	<fs af='طاقت,n,f,sg,3,o,0,0' drel='r6:دباؤ' name='طاقت' chunkId='NP5' chunkType='head:NP5' posn='140'>
+15	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:طاقت' name='کا' chunkType='child:NP5' posn='150'>
+16	دباؤ	NN	<fs af='دباؤ,n,m,sg,3,d,0,0' drel='k1:ہو' name='دباؤ' chunkId='NP6' chunkType='head:NP6' posn='160'>
+17	نہ	NEG	<fs af='نہ,avy,,,,,,' drel='lwg__neg:ہو' name='نہ' chunkType='child:VGF2' posn='170'>
+18	ہو	VM	<fs af='ہو,v,any,any,any,,0,0' drel='nmod__relc:ملک' name='ہو' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='active' posn='180'>
+19	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:ہو' name='۔' chunkType='child:VGF2' posn='190'>
+</Sentence>
+
+<Sentence id="16">
+1	میرا	NNPC	<fs af='میرا,n,m,sg,3,d,0,0' drel='pof__cn:شنکر' name='میرا' chunkType='child:NP' posn='10'>
+2	شنکر	NNP	<fs af='شنکر,n,m,sg,3,o,0,0' drel='k1:کہا' name='شنکر' chunkId='NP' chunkType='head:NP' posn='20'>
+3	نے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:شنکر' name='نے' chunkType='child:NP' posn='30'>
+4	ہندوستان	NNP	<fs af='ہندوستان,n,m,sg,3,o,0,0' drel='r6:تعلقات' name='ہندوستان' chunkId='NP2' chunkType='head:NP2' posn='40'>
+5	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:ہندوستان' name='کے' chunkType='child:NP2' posn='50'>
+6	چین	NNP	<fs af='چین,n,m,sg,3,o,0,0' drel='nmod:تعلقات' name='چین' chunkId='NP3' chunkType='head:NP3' posn='60'>
+7	سے	PSP	<fs af='سے,psp,,,,,,' drel='lwg__psp:چین' name='سے' chunkType='child:NP3' posn='70'>
+8	تعلقات	NN	<fs af='تعلق,n,m,pl,3,o,0,0' drel='k7:کرتے' name='تعلقات' chunkId='NP4' chunkType='head:NP4' posn='80'>
+9	پر	PSP	<fs af='پر,psp,,,,,,' drel='lwg__psp:تعلقات' name='پر' chunkType='child:NP4' posn='90'>
+10	اپنے	PRP	<fs af='اپنا,pn,any,any,any,o,0,0' drel='r6:خیالات' name='اپنے' chunkId='NP5' chunkType='head:NP5' posn='100'>
+11	خیالات	NN	<fs af='خیال,n,m,pl,3,o,0,0' drel='r6-k2:اظہار' name='خیالات' chunkId='NP6' chunkType='head:NP6' posn='110'>
+12	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:خیالات' name='کا' chunkType='child:NP6' posn='120'>
+13	اظہار	NN	<fs af='اظہار,n,m,sg,3,d,0,0' drel='pof:کرتے' name='اظہار' chunkId='NP7' chunkType='head:NP7' posn='130'>
+14	کرتے	VM	<fs af='کر,v,m,pl,any,,تا,wA' drel='vmod:کہا' name='کرتے' chunkId='VGNF' chunkType='head:VGNF' posn='140'>
+15	ہوئے	VAUX	<fs af='ہو,v,any,pl,any,,یا,yA' drel='lwg__vaux:کرتے' name='ہوئے' chunkType='child:VGNF' posn='150'>
+16	کہا	VM	<fs af='کہہ,v,m,sg,any,,یا,yA' name='کہا' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='160'>
+17	کہ	CC	<fs af='کہ,avy,,,,,,' drel='k2:کہا' name='کہ' chunkId='CCP' chunkType='head:CCP' posn='170'>
+18	دونوں	QC	<fs af='دو,num,any,any,any,,,' drel='nmod__adj:ممالک' name='دونوں' chunkType='child:NP8' posn='180'>
+19	ممالک	NN	<fs af='مُلک,n,m,pl,3,o,0,0' drel='r6:نمائندگان' name='ممالک' chunkId='NP8' chunkType='head:NP8' posn='190'>
+20	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:ممالک' name='کے2' chunkType='child:NP8' posn='200'>
+21	سیاسی	NNC	<fs af='سیاسی,n,f,sg,3,d,0,0' drel='pof__cn:نمائندگان' name='سیاسی' chunkType='child:NP9' posn='210'>
+22	نمائندگان	NN	<fs af='نمائندگان,n,m,sg,3,d,0,0' drel='k1:ہےں' name='نمائندگان' chunkId='NP9' chunkType='head:NP9' posn='220'>
+23	متنازعہ	JJ	<fs af='متنازعہ,adj,any,any,,,,' drel='nmod:مسائل' name='متنازعہ' chunkId='JJP' chunkType='head:JJP' posn='230'>
+24	سرحدی	NNC	<fs af='سرحدی,n,f,sg,3,d,0,0' drel='pof__cn:مسائل' name='سرحدی' chunkType='child:NP10' posn='240'>
+25	مسائل	NN	<fs af='مسلہ,n,m,pl,3,d,0,0' drel='r6:یکسوئی' name='مسائل' chunkId='NP10' chunkType='head:NP10' posn='250'>
+26	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:مسائل' name='کی' chunkType='child:NP10' posn='260'>
+27	یکسوئی	NN	<fs af='یکسوئی,n,m,sg,3,o,0,0' drel='k7:ہےں' name='یکسوئی' chunkId='NP11' chunkType='head:NP11' posn='270'>
+28	مےں	PSP	<fs af='مےں,psp,,,,,,' drel='lwg__psp:یکسوئی' name='مےں' chunkType='child:NP11' posn='280'>
+29	شبانہ	RBC	<fs af='شبانہ,avy,,,,,,' drel='mod:روز' name='شبانہ' chunkType='child:RBP' posn='290'>
+30	روز	RB	<fs af='روز,adv,,,,,,' drel='k7t:ہےں' name='روز' chunkId='RBP' chunkType='head:RBP' posn='300'>
+31	مصروف	JJ	<fs af='مصروف,adj,any,any,,,,' drel='k1s:ہےں' name='مصروف' chunkId='JJP2' chunkType='head:JJP2' posn='310'>
+32	ہےں	VM	<fs af='ہے,v,any,pl,3,,ہے,hE' drel='ccof:اور' name='ہےں' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='active' posn='320'>
+33	اور	CC	<fs af='اور,avy,,,,,,' drel='ccof:کہ' name='اور' chunkId='CCP2' chunkType='head:CCP2' posn='330'>
+34	انہیں	PRP	<fs af='وہ,pn,m,sg,3h,d,کو,ko' drel='k1:ہے' name='انہیں' chunkId='NP12' chunkType='head:NP12' posn='340'>
+35	توقع	NN	<fs af='توقع,n,m,sg,3,d,0,0' drel='pof:ہے' name='توقع' chunkId='NP13' chunkType='head:NP13' posn='350'>
+36	ہے	VM	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='ccof:اور' name='ہے' chunkId='VGF3' chunkType='head:VGF3' stype='declarative' voicetype='active' posn='360'>
+37	کہ	CC	<fs af='کہ,avy,,,,,,' drel='rs:توقع' name='کہ2' chunkId='CCP3' chunkType='head:CCP3' posn='370'>
+38	جلد	RB	<fs af='جلد,adv,,,,,,' drel='adv:نکل' name='جلد' chunkId='RBP2' chunkType='head:RBP2' posn='380'>
+39	ہی	RP	<fs af='ہی,avy,,,,,,' drel='lwg__rp:جلد' name='ہی' chunkType='child:RBP2' posn='390'>
+40	کوئی	PRP	<fs af='کوئی,pn,any,sg,3,d,0,0' drel='mod:کوئی2' name='کوئی' chunkType='child:NP14' posn='400'>
+41	نہ	RP	<fs af='نہ,avy,,,,,,' drel='mod:کوئی2' name='نہ' chunkType='child:NP14' posn='410'>
+42	کوئی	PRP	<fs af='کوئی,pn,any,sg,3,d,0,0' drel='mod:کوئی2' name='کوئی2' chunkType='child:NP14' posn='420'>
+43	حل	NN	<fs af='حل,n,m,sg,3,d,0,0' drel='k1:نکل' name='حل' chunkId='NP15' chunkType='head:NP15' posn='430'>
+44	نکل	VM	<fs af='نکل,v,any,any,any,,0,0' drel='ccof:کہ2' name='نکل' chunkId='VGF4' chunkType='head:VGF4' stype='declarative' voicetype='active' posn='440'>
+45	آئے	VAUX	<fs af='آ,v,any,any,any,,یا,yA' drel='lwg__vaux:نکل' name='آئے' chunkType='child:VGF4' posn='450'>
+46	گا	VAUX	<fs af='گا,v,m,sg,3,,گا,gA' drel='lwg__vaux_cont:آئے' name='گا' chunkType='child:VGF4' posn='460'>
+47	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:نکل' name='۔' chunkType='child:VGF4' posn='470'>
+</Sentence>
+
+<Sentence id="17">
+1	انہوں	PRP	<fs af='وہ,pn,m,sg,3h,o,0,0' drel='k1:کیا' name='انہوں' chunkId='NP' chunkType='head:NP' posn='10'>
+2	نے	PSP	<fs af='نے,psp,,,,,,' drel='lwg__psp:انہوں' name='نے' chunkType='child:NP' posn='20'>
+3	اعتراف	NN	<fs af='اعتراف,n,m,sg,3,d,0,0' drel='pof:کیا' name='اعتراف' chunkId='NP2' chunkType='head:NP2' posn='30'>
+4	کیا	VM	<fs af='کر,v,m,sg,any,,یا,yA' name='کیا' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='40'>
+5	کہ	CC	<fs af='کہ,avy,,,,,,' drel='rs:اعتراف' name='کہ' chunkId='CCP' chunkType='head:CCP' posn='50'>
+6	چین	NNP	<fs af='چین,n,m,sg,3,o,0,0' drel='ccof:اور' name='چین' chunkId='NP3' chunkType='head:NP3' posn='60'>
+7	اور	CC	<fs af='اور,avy,,,,,,' drel='k1:کیا2' name='اور' chunkId='CCP2' chunkType='head:CCP2' posn='70'>
+8	ہندوستان	NNP	<fs af='ہندوستان,n,m,sg,3,o,0,0' drel='ccof:اور' name='ہندوستان' chunkId='NP4' chunkType='head:NP4' posn='80'>
+9	نے	PSP	<fs af='نے,psp,,,,,,' drel='lwg__psp:ہندوستان' name='نے2' chunkType='child:NP4' posn='90'>
+10	حالانکہ	CC	<fs af='حالانکہ,avy,,,,,,' drel='ccof:کہ' name='حالانکہ' chunkId='CCP3' chunkType='head:CCP3' posn='100'>
+11	مسائل	NN	<fs af='مسئلہ,n,m,pl,3,o,0,0' drel='r6:یکسوئی' name='مسائل' chunkId='NP5' chunkType='head:NP5' posn='110'>
+12	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:مسائل' name='کی' chunkType='child:NP5' posn='120'>
+13	یکسوئی	NN	<fs af='یکسوئی,n,m,sg,3,o,0,0' drel='rt:کیا2' name='یکسوئی' chunkId='NP6' chunkType='head:NP6' posn='130'>
+14	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:یکسوئی' name='کے' chunkType='child:NP6' posn='140'>
+15	لیے	PSP	<fs af='لیے,psp,,,,,,' drel='lwg__psp:یکسوئی' name='لیے' chunkType='child:NP6' posn='150'>
+16	اس	DEM	<fs af='یہ,pn,any,sg,3,o,,' drel='nmod__adj:تیزرفتاری' name='اس' chunkType='child:NP7' posn='160'>
+17	تیزرفتاری	NN	<fs af='تیزرفتاری,n,m,sg,3,o,0,0' drel='r6-k2:مظاہرہ' name='تیزرفتاری' chunkId='NP7' chunkType='head:NP7' posn='170'>
+18	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:تیزرفتاری' name='کا' chunkType='child:NP7' posn='180'>
+19	مظاہرہ	NN	<fs af='مظاہرہ,n,m,sg,3,d,0,0' drel='pof:کیا2' name='مظاہرہ' chunkId='NP8' chunkType='head:NP8' posn='190'>
+20	نہیں	NEG	<fs af='نہیں,avy,,,,,,' drel='lwg__neg:کیا2' name='نہیں' chunkType='child:VGF2' posn='200'>
+21	کیا	VM	<fs af='کر,v,m,sg,any,,یا,yA' drel='ccof:حالانکہ' name='کیا2' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='active' posn='210'>
+22	جیساکہ	PRP	<fs af='جیساکہ,avy,,,,,,' drel='vmod:تھیں' name='جیساکہ' chunkId='NP9' chunkType='head:NP9' posn='220'>
+23	عوام	NN	<fs af='عوام,n,m,sg,3,o,0,0' drel='r6:حالات' name='عوام' chunkId='NP10' chunkType='head:NP10' posn='230'>
+24	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:عوام' name='کی2' chunkType='child:NP10' posn='240'>
+25	توقعات	NN	<fs af='توقع,n,m,pl,3,d,0,0' drel='k2:تھیں' name='توقعات' chunkId='NP11' chunkType='head:NP11' posn='250'>
+26	تھیں	VM	<fs af='تھا,v,f,sg,3,,تھا,WA' drel='ccof:لیکن' name='تھیں' chunkId='VGF3' chunkType='head:VGF3' stype='declarative' voicetype='active' posn='260'>
+27	لیکن	CC	<fs af='لیکن,avy,,,,,,' drel='ccof:حالانکہ' name='لیکن' chunkId='CCP4' chunkType='head:CCP4' posn='270'>
+28	اس	PRP	<fs af='یہ,pn,any,sg,3,o,0,0' drel='vmod:ہیں' name='اس2' chunkId='NP12' chunkType='head:NP12' posn='280'>
+29	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:اس2' name='کے2' chunkType='child:NP12' posn='290'>
+30	باوجود	PSP	<fs af='باوجود,psp,,,,,,' drel='lwg__psp:اس2' name='باوجود' chunkType='child:NP12' posn='300'>
+31	ہند	NNP	<fs af='ہند,n,m,sg,3,o,0,0' drel='nmod__adj:چین2' name='ہند' chunkType='child:NP13' posn='310'>
+32	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:ہند' name='۔' chunkType='child:NP13' posn='320'>
+33	چین	NNP	<fs af='چین,n,m,sg,3,o,0,0' drel='k1:حالات' name='چین2' chunkId='NP13' chunkType='head:NP13' posn='330'>
+34	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:چین2' name='کی3' chunkType='child:NP13' posn='340'>
+35	سرحدوں	NN	<fs af='سرحد,n,m,pl,3,o,0,0' drel='k7:ہیں' name='سرحدوں' chunkId='NP14' chunkType='head:NP14' posn='350'>
+36	جیساکہ	PSP	<fs af='جیساکہ,avy,,,,,,' drel='lwg__psp:سرحدوں' name='جیساکہ2' chunkType='child:NP14' posn='220'>
+37	حالات	NN	<fs af='حال,n,m,pl,3,d,0,0' drel='k1:ہیں' name='حالات' chunkId='NP15' chunkType='head:NP15' posn='370'>
+38	پرسکون	JJ	<fs af='پرسکون,adj,any,any,,,,' drel='k1s:ہیں' name='پرسکون' chunkId='JJP' chunkType='head:JJP' posn='380'>
+39	ہیں	VM	<fs af='ہے,v,any,pl,3,,ہے,hE' drel='ccof:لیکن' name='ہیں' chunkId='VGF4' chunkType='head:VGF4' stype='declarative' voicetype='active' posn='390'>
+40	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:ہیں' name='۔2' chunkType='child:VGF4' posn='400'>
+</Sentence>
+
+<Sentence id="18">
+1	جھڑپوں	NN	<fs af='جھڑپ,n,m,pl,3,o,0,0' drel='vmod:دی' name='جھڑپوں' chunkId='NP' chunkType='head:NP' posn='10'>
+2	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:جھڑپوں' name='کے' chunkType='child:NP' posn='20'>
+3	بجائے	NEG	<fs af='بجائے,avy,,,,,,' drel='lwg__neg:جھڑپوں' name='بجائے' chunkType='child:NP' posn='30'>
+4	بات_چیت	NN	<fs af='بات_چیت,n,f,sg,3,o,0,0' drel='k2:دی' name='بات_چیت' chunkId='NP2' chunkType='head:NP2' posn='40'>
+5	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:بات_چیت' name='کو' chunkType='child:NP2' posn='50'>
+6	زیادہ	JJ	<fs af='زیادہ,adj,any,any,,d,,' drel='nmod__adj:اہمیت' name='زیادہ' chunkType='child:NP3' posn='60'>
+7	اہمیت	NN	<fs af='اہمیت,n,f,sg,3,d,0,0' drel='pof:دی' name='اہمیت' chunkId='NP3' chunkType='head:NP3' posn='70'>
+8	دی	VM	<fs af='دے,v,f,sg,any,,یا,yA' drel='ccof:کیوںکہ' name='دی' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='passive' posn='80'>
+9	جا	VAUX	<fs af='جا,v,any,any,any,,0,0' drel='lwg__vaux:دی' name='جا' chunkType='child:VGF' posn='90'>
+10	رہی	VAUX	<fs af='رہ,v,f,sg,any,,یا,yA' drel='lwg__vaux_cont:جا' name='رہی' chunkType='child:VGF' posn='100'>
+11	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux_cont:رہی' name='ہے' chunkType='child:VGF' posn='110'>
+12	کیوںکہ	CC	<fs af='کیوںکہ,avy,,,,,,' name='کیوںکہ' chunkId='CCP' chunkType='head:CCP' posn='120'>
+13	اسی	DEM	<fs af='اسی,pn,any,any,,d,,' drel='nmod__adj:طرح' name='اسی' chunkType='child:NP4' posn='130'>
+14	طرح	NN	<fs af='طرح,n,m,sg,3,o,0,0' drel='adv:دی2' name='طرح' chunkId='NP4' chunkType='head:NP4' posn='140'>
+15	باہمی	JJ	<fs af='باہمی,adj,any,any,,o,,' drel='nmod__adj:اعتماد' name='باہمی' chunkType='child:NP5' posn='150'>
+16	اعتماد	NN	<fs af='اعتماد,n,m,sg,3,o,0,0' drel='k7:کرتے' name='اعتماد' chunkId='NP5' chunkType='head:NP5' posn='160'>
+17	مےں	PSP	<fs af='مےں,psp,,,,,,' drel='lwg__psp:اعتماد' name='مےں' chunkType='child:NP5' posn='170'>
+18	اضافہ	NN	<fs af='اضافہ,n,m,sg,3,d,0,0' drel='pof:کرتے' name='اضافہ' chunkId='NP6' chunkType='head:NP6' posn='180'>
+19	کرتے	VM	<fs af='کر,v,m,pl,any,,تا,wA' drel='vmod:دی2' name='کرتے' chunkId='VGNF' chunkType='head:VGNF' posn='190'>
+20	ہوئے	VAUX	<fs af='کر,v,m,pl,any,,یا,yA' drel='lwg__vaux:کرتے' name='ہوئے' chunkType='child:VGNF' posn='200'>
+21	معاشی	JJ	<fs af='معاشی,adj,any,any,,o,,' drel='ccof:اور' name='معاشی' chunkId='JJP' chunkType='head:JJP' posn='210'>
+22	اور	CC	<fs af='اور,avy,,,,,,' drel='k2:دی2' name='اور' chunkId='CCP2' chunkType='head:CCP2' posn='220'>
+23	سیاسی	JJ	<fs af='سیاسی,adj,any,any,,o,,' drel='nmod__adj:موقف' name='سیاسی' chunkType='child:NP7' posn='230'>
+24	موقف	NN	<fs af='موقف,n,m,sg,3,o,0,0' drel='ccof:اور' name='موقف' chunkId='NP7' chunkType='head:NP7' posn='240'>
+25	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:موقف' name='کو2' chunkType='child:NP7' posn='250'>
+26	وسعت	NN	<fs af='وسعت,n,m,sg,3,d,0,0' drel='k2s:دی2' name='وسعت' chunkId='NP8' chunkType='head:NP8' posn='260'>
+27	دی	VM	<fs af='دے,v,f,sg,any,,یا,yA' drel='ccof:کیوںکہ' name='دی2' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='passive' posn='270'>
+28	جا	VAUX	<fs af='جا,v,any,any,any,,0,0' drel='lwg__vaux:دی2' name='جا2' chunkType='child:VGF2' posn='280'>
+29	سکتی	VAUX	<fs af='سک,v,f,sg,any,,تا,wA' drel='lwg__vaux_cont:جا2' name='سکتی' chunkType='child:VGF2' posn='290'>
+30	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux_cont:سکتی' name='ہے2' chunkType='child:VGF2' posn='300'>
+31	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:دی2' name='۔' chunkType='child:VGF2' posn='310'>
+</Sentence>
+
+<Sentence id="19">
+1	چین	NNP	<fs af='چین,n,m,sg,3,o,0,0' drel='ras-k1:ہےں' name='چین' chunkId='NP' chunkType='head:NP' posn='10'>
+2	کے	PSP	<fs af='کے,psp,m,sg,,o,,' drel='lwg__psp:چین' name='کے' chunkType='child:NP' posn='20'>
+3	ساتھ	NST	<fs af='ساتھ,nst,m,sg,3,d,,' drel='lwg__psp:چین' name='ساتھ' chunkType='child:NP' posn='30'>
+4	ہمارے	PRP	<fs af='مےں,pn,m,pl,1,d,کا,ka' drel='r6:تعلقات' name='ہمارے' chunkId='NP2' chunkType='head:NP2' posn='40'>
+5	تعلقات	NN	<fs af='تعلق,n,m,pl,3,o,0,0' drel='k1:ہےں' name='تعلقات' chunkId='NP3' chunkType='head:NP3' posn='50'>
+6	نہ	NEG	<fs af='نہ,avy,,,,,,' drel='vmod:ہےں' name='نہ' chunkId='NEGP' chunkType='head:NEGP' posn='70'>
+7	صرف	RP	<fs af='صرف,avy,,,,,,' drel='lwg__rp:نہ' name='صرف' chunkType='child:NEGP' posn='70'>
+8	ہندوستان	NNP	<fs af='ہندوستان,n,m,sg,3,o,0,0' drel='rt:ہےں' name='ہندوستان' chunkId='NP4' chunkType='head:NP4' posn='80'>
+9	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:ہندوستان' name='کے2' chunkType='child:NP4' posn='90'>
+10	لیے	PSP	<fs af='لیے,psp,,,,,,' drel='lwg__psp:ہندوستان' name='لیے' chunkType='child:NP4' posn='100'>
+11	اہم	JJ	<fs af='اہم,adj,any,any,,,,' drel='k1s:ہےں' name='اہم' chunkId='JJP' chunkType='head:JJP' posn='110'>
+12	ہےں	VM	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='ccof:بلکہ' name='ہےں' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='120'>
+13	بلکہ	CC	<fs af='بلکہ,avy,,,,,,' name='بلکہ' chunkId='CCP' chunkType='head:CCP' posn='130'>
+14	پورے	JJ	<fs af='پورا,adj,m,pl,,d,,' drel='nmod__adj:خطہ' name='پورے' chunkType='child:NP5' posn='140'>
+15	خطہ	NN	<fs af='خطہ,n,m,sg,3,o,0,0' drel='rt:ہے' name='خطہ' chunkId='NP5' chunkType='head:NP5' posn='150'>
+16	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:خطہ' name='کے3' chunkType='child:NP5' posn='160'>
+17	لیے	PSP	<fs af='لیے,psp,,,,,,' drel='lwg__psp:خطہ' name='لیے2' chunkType='child:NP5' posn='170'>
+18	یہ	PRP	<fs af='یہ,pn,any,sg,3,d,0,0' drel='nmod:نعمت' name='یہ' chunkId='NP6' chunkType='head:NP6' posn='180'>
+19	اےک	QC	<fs af='اےک,num,any,any,,any,,' drel='nmod__adj:نعمت' name='اےک' chunkType='child:NP7' posn='190'>
+20	نعمت	NN	<fs af='نعمت,n,m,sg,3,d,0,0' drel='k1:ہے' name='نعمت' chunkId='NP7' chunkType='head:NP7' posn='200'>
+21	غیر_مترقبہ	JJ	<fs af='غیر_مترقبہ,adj,any,any,,,,' drel='k1s:ہے' name='غیر_مترقبہ' chunkId='JJP2' chunkType='head:JJP2' posn='210'>
+22	ہے	VM	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='ccof:بلکہ' name='ہے' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='active' posn='220'>
+23	جس	PRP	<fs af='جو,pn,any,sg,3,o,0,0' drel='k7:ہے2' name='جس' chunkId='NP8' chunkType='head:NP8' posn='230'>
+24	پر	PSP	<fs af='پر,psp,,,,,,' drel='lwg__psp:جس' name='پر' chunkType='child:NP8' posn='240'>
+25	مستقبل	NN	<fs af='مستقبل,n,m,sg,3,o,0,0' drel='r6:تعلقات2' name='مستقبل' chunkId='NP9' chunkType='head:NP9' posn='250'>
+26	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:مستقبل' name='کے4' chunkType='child:NP9' posn='260'>
+27	تعلقات	NN	<fs af='تعلق,n,m,pl,3,o,0,0' drel='r6:انحصار' name='تعلقات2' chunkId='NP10' chunkType='head:NP10' posn='270'>
+28	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:تعلقات2' name='کا' chunkType='child:NP10' posn='280'>
+29	انحصار	NN	<fs af='انحصار,n,m,sg,3,d,0,0' drel='k1:ہے2' name='انحصار' chunkId='NP11' chunkType='head:NP11' posn='290'>
+30	ہے	VM	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='nmod__relc:نعمت' name='ہے2' chunkId='VGF3' chunkType='head:VGF3' stype='declarative' voicetype='active' posn='300'>
+31	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:ہے2' name='۔' chunkType='child:VGF3' posn='310'>
+</Sentence>
+
+<Sentence id="20">
+1	آج	NN	<fs af='آج,n,m,sg,3,d,0,0' drel='k7t:ہےں' name='آج' chunkId='NP' chunkType='head:NP' posn='10'>
+2	ہند	NNP	<fs af='ہند,n,m,sg,3,o,0,0' drel='ccof:،' name='ہند' chunkId='NP2' chunkType='head:NP2' posn='20'>
+3	،	CC	<fs af='،,avy,,,,,,' drel='k1:ہےں' name='،' chunkId='CCP' chunkType='head:CCP' posn='30'>
+4	چین	NNP	<fs af='چین,n,m,sg,3,o,0,0' drel='ccof:،' name='چین' chunkId='NP3' chunkType='head:NP3' posn='40'>
+5	ایسے	DEM	<fs af='ایسا,pn,m,sg,,o,,' drel='nmod__adj:موقف' name='ایسے' chunkType='child:NP4' posn='50'>
+6	موقف	NN	<fs af='موقف,n,m,sg,3,o,0,0' drel='k7:ہےں' name='موقف' chunkId='NP4' chunkType='head:NP4' posn='60'>
+7	مےں	PSP	<fs af='مےں,psp,,,,,,' drel='lwg__psp:موقف' name='مےں' chunkType='child:NP4' posn='70'>
+8	ہےں	VM	<fs af='ہے,v,any,sg,3,,ہے,hE' name='ہےں' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='80'>
+9	کہ	CC	<fs af='کہ,avy,,,,,,' drel='rs:موقف' name='کہ' chunkId='CCP2' chunkType='head:CCP2' posn='90'>
+10	دونوں	NN	<fs af='دو,n,m,pl,3,o,0,0' drel='r6:کوششوں' name='دونوں' chunkId='NP5' chunkType='head:NP5' posn='100'>
+11	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:دونوں' name='کی' chunkType='child:NP5' posn='110'>
+12	مشترکہ	JJ	<fs af='مشترکہ,adj,any,any,,d,,' drel='nmod__adj:کوششوں' name='مشترکہ' chunkType='child:NP6' posn='120'>
+13	کوششوں	NN	<fs af='کوشش,n,f,pl,3,d,0,0' drel='ccof:اور' name='کوششوں' chunkId='NP6' chunkType='head:NP6' posn='130'>
+14	اور	CC	<fs af='اور,avy,,,,,,' drel='rh:ہو' name='اور' chunkId='CCP3' chunkType='head:CCP3' posn='140'>
+15	دوستی	NN	<fs af='دوستی,n,f,sg,3,o,0,0' drel='ccof:اور' name='دوستی' chunkId='NP7' chunkType='head:NP7' posn='150'>
+16	سے	PSP	<fs af='سے,psp,,,,,,' drel='lwg__psp:دوستی' name='سے' chunkType='child:NP7' posn='160'>
+17	عالمی	NNC	<fs af='عالمی,n,f,sg,3,d,0,0' drel='pof__cn:سطح' name='عالمی' chunkType='child:NP8' posn='170'>
+18	سطح	NN	<fs af='سطح,n,m,sg,3,o,0,0' drel='k7:ہو' name='سطح' chunkId='NP8' chunkType='head:NP8' posn='180'>
+19	پر	PSP	<fs af='پر,psp,,,,,,' drel='lwg__psp:سطح' name='پر' chunkType='child:NP8' posn='190'>
+20	بھی	RP	<fs af='بھی,avy,,,,,,' drel='lwg__rp:سطح' name='بھی' chunkType='child:NP8' posn='200'>
+21	خوشحالی	NN	<fs af='خوشحالی,n,m,sg,3,o,0,0' drel='r6:دورہ' name='خوشحالی' chunkId='NP9' chunkType='head:NP9' posn='210'>
+22	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:خوشحالی' name='کا' chunkType='child:NP9' posn='220'>
+23	دور	NN	<fs af='دور,n,m,sg,3,d,0,0' drel='nmod__adj:دورہ' name='دور' chunkType='child:NP10' posn='230'>
+24	دورہ	NN	<fs af='دورہ,n,m,sg,3,d,0,0' drel='k1:ہو' name='دورہ' chunkId='NP10' chunkType='head:NP10' posn='240'>
+25	ہو	VM	<fs af='ہو,v,any,any,any,,0,0' drel='ccof:کہ' name='ہو' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='active' posn='250'>
+26	سکتا	VAUX	<fs af='سک,v,m,sg,any,,تا,wA' drel='lwg__vaux:ہو' name='سکتا' chunkType='child:VGF2' posn='260'>
+27	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux_cont:سکتا' name='ہے' chunkType='child:VGF2' posn='270'>
+28	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:ہو' name='۔' chunkType='child:VGF2' posn='280'>
+</Sentence>
+
+<Sentence id="21">
+1	میرا	NNPC	<fs af='میرا,n,m,sg,3,d,0,0' drel='pof__cn:شنکر' name='میرا' chunkType='child:NP' posn='10'>
+2	شنکر	NNP	<fs af='شنکر,n,m,sg,3,o,0,0' drel='k1:کہا' name='شنکر' chunkId='NP' chunkType='head:NP' posn='20'>
+3	نے	PSP	<fs af='نے,psp,,,,,,' drel='lwg__psp:شنکر' name='نے' chunkType='child:NP' posn='30'>
+4	دریں	PSP	<fs af='دریں,psp,,,,,,' drel='lwg__psp:اثناء' name='دریں' chunkType='child:NP2' posn='40'>
+5	اثناء	NN	<fs af='اثناء,n,m,sg,3,o,0,0' drel='k7t:کہا' name='اثناء' chunkId='NP2' chunkType='head:NP2' posn='50'>
+6	مغربی	NNPC	<fs af='مغربی,n,m,sg,3,d,0,0' drel='pof__cn:ایشیاء' name='مغربی' chunkType='child:NP3' posn='60'>
+7	ایشیاء	NNP	<fs af='ایشیاء,n,m,sg,3,o,0,0' drel='r6-k2:حوالہ' name='ایشیاء' chunkId='NP3' chunkType='head:NP3' posn='70'>
+8	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:ایشیاء' name='کا' chunkType='child:NP3' posn='80'>
+9	حوالہ	NN	<fs af='حوالہ,n,m,sg,3,d,0,0' drel='pof:دیتے' name='حوالہ' chunkId='NP4' chunkType='head:NP4' posn='90'>
+10	دیتے	VM	<fs af='دے,v,m,pl,any,,تا,wA' drel='vmod:کہا' name='دیتے' chunkId='VGNF' chunkType='head:VGNF' posn='100'>
+11	ہوئے	VAUX	<fs af='ہو,v,any,pl,any,,یا,yA' drel='lwg__vaux:دیتے' name='ہوئے' chunkType='child:VGNF' posn='110'>
+12	کہا	VM	<fs af='کہہ,v,m,sg,any,,یا,yA' name='کہا' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='120'>
+13	کہ	CC	<fs af='کہ,avy,,,,,,' drel='k2:کہا' name='کہ' chunkId='CCP' chunkType='head:CCP' posn='130'>
+14	ایران	NNP	<fs af='ایران,n,m,sg,3,o,0,0' drel='r6:معاملہ' name='ایران' chunkId='NP5' chunkType='head:NP5' posn='140'>
+15	کے	PSP	<fs af='کا,psp,m,sg,,o,,' drel='lwg__psp:ایران' name='کے' chunkType='child:NP5' posn='150'>
+16	نیوکلیئر	NNC	<fs af='نیوکلیئر,n,m,sg,3,d,0,0' drel='pof__cn:معاملہ' name='نیوکلیئر' chunkType='child:NP6' posn='160'>
+17	معاملہ	NN	<fs af='معاملہ,n,m,sg,3,o,0,0' drel='r6:یکسوئی' name='معاملہ' chunkId='NP6' chunkType='head:NP6' posn='170'>
+18	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:معاملہ' name='کی' chunkType='child:NP6' posn='180'>
+19	عاجلانہ	JJ	<fs af='عاجلانہ,adj,any,any,,,,' drel='nmod__adj:یکسوئی' name='عاجلانہ' chunkType='child:NP7' posn='190'>
+20	یکسوئی	NN	<fs af='یکسوئی,n,m,sg,3,d,0,0' drel='k1:ہونی' name='یکسوئی' chunkId='NP7' chunkType='head:NP7' posn='200'>
+21	ہونی	VM	<fs af='ہو,v,f,sg,any,,نا,nA' drel='ccof:کہ' name='ہونی' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='active' posn='210'>
+22	چاہیئے	VAUX	<fs af='چاہیے,v,any,any,any,,0,0' drel='lwg__vaux:ہونی' name='چاہیئے' chunkType='child:VGF2' posn='220'>
+23	جس	PRP	<fs af='جو,pn,any,sg,3,o,0,0' drel='k1:کر' name='جس' chunkId='NP8' chunkType='head:NP8' posn='230'>
+24	نے	PSP	<fs af='نے,psp,,,,,,' drel='lwg__psp:جس' name='نے2' chunkType='child:NP8' posn='240'>
+25	ایران	NNP	<fs af='ایران,n,m,sg,3,o,0,0' drel='ccof:اور' name='ایران2' chunkId='NP9' chunkType='head:NP9' posn='250'>
+26	اور	CC	<fs af='اور,avy,,,,,,' drel='k7:کر' name='اور' chunkId='CCP2' chunkType='head:CCP2' posn='260'>
+27	مغربی	NNC	<fs af='مغربی,n,f,sg,3,d,0,0' drel='pof__cn:ممالک' name='مغربی2' chunkType='child:NP10' posn='270'>
+28	ممالک	NN	<fs af='مُلک,n,m,pl,3,o,0,0' drel='ccof:اور' name='ممالک' chunkId='NP10' chunkType='head:NP10' posn='280'>
+29	کے	PSP	<fs af='کے,psp,,,,,,' drel='lwg__psp:ممالک' name='کے2' chunkType='child:NP10' posn='290'>
+30	مابین	NST	<fs af='مابین,nst,m,sg,3,d,,' drel='lwg__psp:ممالک' name='مابین' chunkType='child:NP10' posn='300'>
+31	ٹکراؤ	NN	<fs af='ٹکراؤ,n,m,sg,3,o,0,0' drel='r6:موقف' name='ٹکراؤ' chunkId='NP11' chunkType='head:NP11' posn='310'>
+32	کا	PSP	<fs af='کا,psp,m,sg,,d,,' drel='lwg__psp:ٹکراؤ' name='کا2' chunkType='child:NP11' posn='320'>
+33	موقف	NN	<fs af='موقف,n,m,sg,3,d,0,0' drel='k2:کر' name='موقف' chunkId='NP12' chunkType='head:NP12' posn='330'>
+34	پیدا	JJ	<fs af='پیدا,adj,any,any,,,,' drel='pof:کر' name='پیدا' chunkId='JJP' chunkType='head:JJP' posn='340'>
+35	کر	VM	<fs af='کر,v,any,any,any,,0,0' drel='nmod__relc:معاملہ' name='کر' chunkId='VGF3' chunkType='head:VGF3' stype='declarative' voicetype='active' posn='350'>
+36	دیا	VAUX	<fs af='دے,v,m,sg,any,,یا,yA' drel='lwg__vaux:کر' name='دیا' chunkType='child:VGF3' posn='360'>
+37	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux_cont:دیا' name='ہے' chunkType='child:VGF3' posn='370'>
+38	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:کر' name='۔' chunkType='child:VGF3' posn='380'>
+</Sentence>
+

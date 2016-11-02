@@ -1,0 +1,32 @@
+<Sentence id="2">
+1	مہمانان	NNZ	<fs af='مہمان,n,m,sg,3,d,0,0' drel='k7:ہیں' name='مہمانان' chunkId='NP' chunkType='head:NP'>
+2	خصوصی	JJ	<fs af='خصوصی,adj,any,any,,o,,' name='خصوصی' chunkType='child:NP'>
+3	میں	PSP	<fs af='میں,psp,,,,,,' drel='lwg__psp:مہمانان' name='میں' chunkType='child:NP'>
+4	کونسلیٹ	NNC	<fs af='کونسلیٹ,n,m,sg,3,d,0,0' drel='pof__cn:ایران' name='کونسلیٹ' chunkType='child:NP2'>
+5	جنرل	NNC	<fs af='جنرل,n,m,sg,3,d,0,0' drel='pof__cn:ایران' name='جنرل' chunkType='child:NP2'>
+6	اسلامی	NNPC	<fs af='اسلامی,n,m,sg,3,d,0,0' drel='pof__cn:ایران' name='اسلامی' chunkType='child:NP2'>
+7	جمہوریہ	NNPC	<fs af='جمہوریہ,n,m,sg,3,d,0,0' drel='pof__cn:ایران' name='جمہوریہ' chunkType='child:NP2'>
+8	ایران	NNP	<fs af='ایران,n,m,sg,3,d,0,0' drel='nmod:مقدم' name='ایران' chunkId='NP2' chunkType='head:NP2'>
+9	آقائی	NNPC	<fs af='آقائی,n,m,sg,3,d,0,0' drel='pof__cn:مقدم' name='آقائی' chunkType='child:NP3'>
+10	حسین	NNPC	<fs af='حسین,n,m,sg,3,d,0,0' drel='pof__cn:مقدم' name='حسین' chunkType='child:NP3'>
+11	یزدان	NNPC	<fs af='یزدان,n,m,sg,3,d,0,0' drel='pof__cn:مقدم' name='یزدان' chunkType='child:NP3'>
+12	مقدم	NNP	<fs af='مقدم,n,m,sg,3,d,0,0' drel='k1:ہیں' name='مقدم' chunkId='NP3' chunkType='head:NP3'>
+13	شامل	JJ	<fs af='شامل,adj,any,any,,,,' drel='pof:ہیں' name='شامل' chunkId='JJP' chunkType='head:JJP'>
+14	ہیں	VM	<fs af='ہے,v,m,pl,any,,ہے,hE' name='ہیں' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active'>
+15	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:ہیں' name='۔' chunkType='child:VGF'>
+</Sentence>
+
+<Sentence id="3">
+1	ادب	NNC	<fs af='ادب,n,m,sg,3,d,0,0' drel='pof__cn:دوست' name='ادب' chunkType='child:NP'>
+2	دوست	NN	<fs af='دوست,n,m,sg,3,d,0,0' drel='nmod__adj:حضرات' name='دوست' chunkType='child:NP'>
+3	حضرات	NN	<fs af='حضرت,n,m,pl,3,o,0,0' drel='k2:کی2' name='حضرات' chunkId='NP' chunkType='head:NP'>
+4	سے	PSP	<fs af='سے,psp,,,,,,' drel='lwg__psp:حضرات' name='سے' chunkType='child:NP'>
+5	شرکت	NN	<fs af='شرکت,n,f,sg,3,o,0,0' drel='r6:خواہش' name='شرکت' chunkId='NP2' chunkType='head:NP2'>
+6	کی	PSP	<fs af='کا,psp,f,sg,,d,,' drel='lwg__psp:شرکت' name='کی' chunkType='child:NP2'>
+7	خواہش	NN	<fs af='خواہش,n,f,sg,3,d,0,0' drel='pof:کی2' name='خواہش' chunkId='NP3' chunkType='head:NP3'>
+8	کی	VM	<fs af='کر,v,f,sg,any,,یا,yA' name='کی2' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='passive'>
+9	جاتی	VAUX	<fs af='جا,v,f,sg,any,,تا,wA' drel='lwg__vaux:کی2' name='جاتی' chunkType='child:VGF'>
+10	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux_cont:جاتی' name='ہے' chunkType='child:VGF'>
+11	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:کی2' name='۔' chunkType='child:VGF'>
+</Sentence>
+

@@ -1,0 +1,111 @@
+<Sentence id="1">
+1	ایک	QC	<fs af='کیشئر,num,any,any,,any,,' drel='nmod__adj:شخص' name='ایک' chunkType='child:NP' posn='10'>
+2	شخص	NN	<fs af='شخص,n,m,sg,3,d,0,0' drel='k1:لے' name='شخص' chunkId='NP' chunkType='head:NP' posn='20'>
+3	موٹر	NNC	<fs af='موٹر,n,f,sg,3,d,0,0' drel='pof__cn:سائیکل' name='موٹر' chunkType='child:NP2' posn='30'>
+4	سائیکل	NN	<fs af='سائیکل,n,f,sg,3,o,0,0' drel='k7p:لے' name='سائیکل' chunkId='NP2' chunkType='head:NP2' posn='40'>
+5	پر	PSP	<fs af='پر,psp,,,,,,' drel='lwg__psp:سائیکل' name='پر' chunkType='child:NP2' posn='50'>
+6	دس	QCC	<fs af='دس,num,any,any,,any,,' drel='mod:لاکھ' name='دس' chunkType='child:NP3' posn='60'>
+7	لاکھ	QC	<fs af='لاکھ,num,any,any,,any,,' drel='nmod__adj:روپئے' name='لاکھ' chunkType='child:NP3' posn='60'>
+8	روپئے	NN	<fs af='روپیہ,n,m,sg,3,d,0,0' drel='k2:لے' name='روپئے' chunkId='NP3' chunkType='head:NP3' posn='80'>
+9	بیاگ	NN	<fs af='بیاگ,n,m,sg,3,o,0,0' drel='k7p:لے' name='بیاگ' chunkId='NP4' chunkType='head:NP4' posn='90'>
+10	میں	PSP	<fs af='میں,psp,,,,,,' drel='lwg__psp:بیاگ' name='میں' chunkType='child:NP4' posn='100'>
+11	لے	VM	<fs af='لے,v,any,any,any,,یا,yA' drel='vmod:جا' name='لے' chunkId='VGNF' chunkType='head:VGNF' posn='110'>
+12	کر	VAUX	<fs af='کر,v,any,any,any,,0,0' drel='lwg__vaux:لے' name='کر' chunkType='child:VGNF' posn='120'>
+13	بینک	NN	<fs af='بینک,n,m,sg,3,o,0,0' drel='k7p:کرنے' name='بینک' chunkId='NP5' chunkType='head:NP5' posn='130'>
+14	میں	PSP	<fs af='میں,psp,,,,,,' drel='lwg__psp:بینک' name='میں2' chunkType='child:NP5' posn='140'>
+15	جمع	NN	<fs af='جمع,n,m,sg,3,d,0,0' drel='pof:کرنے' name='جمع' chunkId='NP6' chunkType='head:NP6' posn='150'>
+16	کرنے	VM	<fs af='کر,v,any,any,any,o,نا,nA' drel='rt:جا' name='کرنے' chunkId='VGNN' chunkType='head:VGNN' posn='160'>
+17	جا	VM	<fs af='جا,v,m,sg,3,,0,0' name='جا' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='170'>
+18	رہا	VAUX	<fs af='رہ,v,m,sg,3,,یا,yA' drel='lwg__vaux:جا' name='رہا' chunkType='child:VGF' posn='180'>
+19	تھا	VAUX	<fs af='تھا,v,m,sg,any,,تھا,WA' drel='lwg__vaux_cont:رہا' name='تھا' chunkType='child:VGF' posn='190'>
+20	کہ	CC	<fs af='کہ,avy,,,,,,' drel='k7t:جا' name='کہ' chunkId='CCP' chunkType='head:CCP' posn='200'>
+21	تین	QC	<fs af='تین,num,any,any,,any,,' drel='nmod__adj:سائیکلوں' name='تین' chunkType='child:NP7' posn='210'>
+22	موٹر	NNC	<fs af='موٹر,n,m,sg,3,d,0,0' drel='pof__cn:سائیکلوں' name='موٹر2' chunkType='child:NP7' posn='220'>
+23	سائیکلوں	NN	<fs af='سائیکل,n,f,pl,3,o,0,0' drel='jjmod:سوار' name='سائیکلوں' chunkId='NP7' chunkType='head:NP7' posn='230'>
+24	پر	PSP	<fs af='پر,psp,,,,,,' drel='lwg__psp:سائیکلوں' name='پر2' chunkType='child:NP7' posn='240'>
+25	سوار	JJ	<fs af='سوار,adj,any,any,,,,' drel='nmod:افراد' name='سوار' chunkId='JJP' chunkType='head:JJP' posn='250'>
+26	افراد	NN	<fs af='فرد,n,m,pl,3,o,0,0' drel='k1:روک' name='افراد' chunkId='NP8' chunkType='head:NP8' posn='260'>
+27	نے	PSP	<fs af='نے,psp,,,,,,' drel='lwg__psp:افراد' name='نے' chunkType='child:NP8' posn='270'>
+28	اس	DEM	<fs af='یہ,pn,any,sg,3,o,,' drel='nmod__adj:شخص2' name='اس' chunkType='child:NP9' posn='280'>
+29	شخص	NN	<fs af='شخص,n,m,sg,3,o,0,0' drel='k2:روک' name='شخص2' chunkId='NP9' chunkType='head:NP9' posn='290'>
+30	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:شخص2' name='کو' chunkType='child:NP9' posn='300'>
+31	روک	VM	<fs af='روک,v,any,any,any,,0,0' drel='vmod:کیا' name='روک' chunkId='VGNF2' chunkType='head:VGNF2' posn='310'>
+32	کر	VAUX	<fs af='کر,v,any,any,any,,0,0' drel='lwg__vaux:روک' name='کر2' chunkType='child:VGNF2' posn='320'>
+33	اس	DEM	<fs af='یہ,pn,any,sg,3,o,,' drel='mod:اس2' name='اس2' chunkType='child:NP10' posn='330'>
+34	پر	PSP	<fs af='پر,psp,,,,,,' drel='mod:اس2' name='پر3' chunkType='child:NP10' posn='340'>
+35	حملہ	NN	<fs af='حملہ,n,m,sg,3,d,0,0' drel='pof:کیا' name='حملہ' chunkId='NP11' chunkType='head:NP11' posn='350'>
+36	کیا	VM	<fs af='کر,v,m,sg,any,,یا,yA' drel='ccof:کہ' name='کیا' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='active' posn='360'>
+</Sentence>
+
+<Sentence id="2">
+1	پولیس	NN	<fs af='پولیس,n,f,sg,3,o,0,0' drel='k1:کہا' name='پولیس' chunkId='NP' chunkType='head:NP' posn='370'>
+2	نے	PSP	<fs af='نے,psp,,,,,,' drel='lwg__psp:پولیس' name='نے' chunkType='child:NP' posn='380'>
+3	کہا	VM	<fs af='کہہ,v,m,sg,any,,یا,yA' name='کہا' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='390'>
+4	کہ	CC	<fs af='کہ,avy,,,,,,' drel='k2:کہا' name='کہ' chunkId='CCP' chunkType='head:CCP' posn='400'>
+5	بھگوان	NNPC	<fs af='بھگوان,n,m,sg,3,d,0,0' drel='pof__cn:چوک' name='بھگوان' chunkType='child:NP2' posn='410'>
+6	پور	NNPC	<fs af='پور,n,m,sg,3,d,0,0' drel='pof__cn:چوک' name='پور' chunkType='child:NP2' posn='420'>
+7	چوک	NNP	<fs af='چوک,n,m,sg,3,o,0,0' drel='k7p:لے' name='چوک' chunkId='NP2' chunkType='head:NP2' posn='430'>
+8	میں	PSP	<fs af='میں,psp,,,,,,' drel='lwg__psp:چوک' name='میں' chunkType='child:NP2' posn='440'>
+9	آج	NN	<fs af='آج,n,m,sg,3,d,0,0' drel='k7t:لے' name='آج' chunkId='NP3' chunkType='head:NP3' posn='450'>
+10	ایک	QC	<fs af='ایک,num,any,any,,any,,' drel='nmod__adj:سائیکل' name='ایک' chunkType='child:NP4' posn='460'>
+11	موٹر	NNC	<fs af='موٹر,n,m,sg,3,d,0,0' drel='pof__cn:سائیکل' name='موٹر' chunkType='child:NP4' posn='470'>
+12	سائیکل	NN	<fs af='سائیکل,n,f,sg,3,o,0,0' drel='k7:لے' name='سائیکل' chunkId='NP4' chunkType='head:NP4' posn='480'>
+13	پر	PSP	<fs af='پر,psp,,,,,,' drel='lwg__psp:سائیکل' name='پر' chunkType='child:NP4' posn='490'>
+14	دس	QCC	<fs af='دس,num,any,any,,any,,' drel='mod:لاکھ' name='دس' chunkType='child:NP5' posn='500'>
+15	لاکھ	QC	<fs af='لاکھ,num,any,any,,any,,' drel='nmod__adj:روپئے' name='لاکھ' chunkType='child:NP5' posn='60'>
+16	روپئے	NN	<fs af='روپیہ,n,m,pl,3,d,0,0' drel='k2:لے' name='روپئے' chunkId='NP5' chunkType='head:NP5' posn='520'>
+17	لے	VM	<fs af='لے,v,any,any,any,o,یا,' drel='nmod:بھائی' name='لے' chunkId='VGNN' chunkType='head:VGNN' posn='530'>
+18	جانے	VAUX	<fs af='جا,v,any,any,any,o,نا,nA' drel='lwg__vaux:لے' name='جانے' chunkType='child:VGNN' posn='540'>
+19	والے	PSP	<fs af='والا,psp,m,sg,,o,,' drel='lwg__psp:جانے' name='والے' chunkType='child:VGNN' posn='550'>
+20	دھیرو	NNPC	<fs af='دھیرو,n,m,sg,3,d,0,0' drel='pof__cn:بھائی' name='دھیرو' chunkType='child:NP6' posn='560'>
+21	بھائی	NNP	<fs af='بھائی,n,m,sg,3,o,0,0' drel='k2:روک' name='بھائی' chunkId='NP6' chunkType='head:NP6' posn='570'>
+22	کو	PSP	<fs af='کو,psp,,,,,,' drel='lwg__psp:بھائی' name='کو' chunkType='child:NP6' posn='580'>
+23	روک	VM	<fs af='روک,v,any,any,any,,0,0' drel='vmod:کی' name='روک' chunkId='VGNF' chunkType='head:VGNF' posn='590'>
+24	کر	VAUX	<fs af='کر,v,any,any,any,,0,0' drel='lwg__vaux:روک' name='کر' chunkType='child:VGNF' posn='600'>
+25	ان	PRP	<fs af='یہ,pn,any,pl,3,o,0,0' drel='k7:کی' name='ان' chunkId='NP7' chunkType='head:NP7' posn='610'>
+26	پر	PSP	<fs af='پر,psp,,,,,,' drel='lwg__psp:ان' name='پر2' chunkType='child:NP7' posn='620'>
+27	فائرنگ	NN	<fs af='فائرنگ,n,f,sg,3,o,0,0' drel='pof:کی' name='فائرنگ' chunkId='NP8' chunkType='head:NP8' posn='630'>
+28	کی	VM	<fs af='کر,v,f,sg,any,,یا,yA' drel='ccof:کہ' name='کی' chunkId='VGF2' chunkType='head:VGF2' stype='declarative' voicetype='passive' posn='640'>
+29	گئی	VAUX	<fs af='جا,v,f,sg,any,,1یا,yA1' drel='lwg__vaux:کی' name='گئی' chunkType='child:VGF2' posn='650'>
+30	جس	PRP	<fs af='جو,pn,any,sg,3,o,0,0' drel='k7:ہو' name='جس' chunkId='NP9' chunkType='head:NP9' posn='660'>
+31	میں	PSP	<fs af='میں,psp,,,,,,' drel='lwg__psp:جس' name='میں2' chunkType='child:NP9' posn='670'>
+32	وہ	PRP	<fs af='وہ,pn,any,sg,3,d,0,0' drel='k1:ہو' name='وہ' chunkId='NP10' chunkType='head:NP10' posn='680'>
+33	ہلاک	JJ	<fs af='ہلاک,adj,any,any,,,,' drel='pof:ہو' name='ہلاک' chunkId='JJP' chunkType='head:JJP' posn='690'>
+34	ہو	VM	<fs af='ہو,v,any,any,any,,0,0' drel='nmod__relc:فائرنگ' name='ہو' chunkId='VGF3' chunkType='head:VGF3' stype='declarative' voicetype='active' posn='700'>
+35	گیا	VM	<fs af='حا,v,m,sg,any,,1یا,yA1' drel='mod:ہو' name='گیا' chunkType='child:VGF3' posn='710'>
+36	۔	SYM	<fs af='۔,punc,,,,,,' drel='mod:ہو' name='۔' chunkType='child:VGF3' posn='720'>
+</Sentence>
+
+<Sentence id="3">
+1	بعد	NST	<fs af='بعد,n,m,sg,3,d,,' drel='adv:گئے' name='بعد' chunkId='NP' chunkType='head:NP' posn='10'>
+2	ازاں	PSP	<fs af='ازاں,psp,,,,,,' drel='lwg__psp:بعد' name='ازاں' chunkType='child:NP' posn='20'>
+3	وہ	DEM	<fs af='وہ,pn,any,sg,3,d,,' drel='nmod__adj:تینوں' name='وہ' chunkType='child:NP2' posn='30'>
+4	تینوں	NN	<fs af='تین,num,any,any,,any,,' drel='nmod__adj:سائیکل' name='تینوں' chunkType='child:NP2' posn='60'>
+5	موٹر	NNC	<fs af='موٹر,n,m,sg,3,d,0,0' drel='pof__cn:سائیکل' name='موٹر' chunkType='child:NP2' posn='50'>
+6	سائیکل	NN	<fs af='سائیکل,n,m,sg,3,o,0,0' drel='nmod:افراد' name='سائیکل' chunkId='NP2' chunkType='head:NP2' posn='60'>
+7	والے	PSP	<fs af='والا,psp,m,sg,,o,,' drel='lwg__psp:سائیکل' name='والے' chunkType='child:NP2' posn='70'>
+8	افراد	NN	<fs af='فرد,n,m,pl,3,d,0,0' drel='k1:لے' name='افراد' chunkId='NP3' chunkType='head:NP3' posn='80'>
+9	دس	QCC	<fs af='دس,num,any,any,,any,,' drel='mod:لاکھ' name='دس' chunkType='child:NP4' posn='90'>
+10	لاکھ	QC	<fs af='لاکھ,num,any,any,,any,,' drel='nmod__adj:روپئے' name='لاکھ' chunkType='child:NP4' posn='60'>
+11	روپئے	NN	<fs af='روپیہ,n,m,pl,3,d,0,0' drel='k2:لے' name='روپئے' chunkId='NP4' chunkType='head:NP4' posn='110'>
+12	لے	VM	<fs af='لے,v,any,sg,3,,0,0' drel='vmod:گئے' name='لے' chunkId='VGNF' chunkType='head:VGNF' posn='120'>
+13	کر	VAUX	<fs af='کر,v,any,any,any,,0,0' drel='lwg__vaux:لے' name='کر' chunkType='child:VGNF' posn='130'>
+14	بھاگ	NN	<fs af='بھاگ,n,m,sg,3,d,0,0' drel='pof:گئے' name='بھاگ' chunkId='NP5' chunkType='head:NP5' posn='140'>
+15	گئے	VM	<fs af='جا,v,m,pl,any,,1یا,yA1' name='گئے' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='150'>
+16	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:گئے' name='۔' chunkType='child:VGF' posn='160'>
+</Sentence>
+
+<Sentence id="4">
+1	پولیس	NN	<fs af='پولیس,n,f,sg,3,o,0,0' drel='k1:کیا' name='پولیس' chunkId='NP' chunkType='head:NP' posn='10'>
+2	نے	PSP	<fs af='نے,psp,,,,,,' drel='lwg__psp:پولیس' name='نے' chunkType='child:NP' posn='20'>
+3	اس	DEM	<fs af='یہ,pn,any,sg,3,o,,' drel='nmod__adj:سلسلہ' name='اس' chunkType='child:NP2' posn='30'>
+4	سلسلہ	NN	<fs af='سلسلہ,n,m,sg,3,o,0,0' drel='k7:کیا' name='سلسلہ' chunkId='NP2' chunkType='head:NP2' posn='40'>
+5	میں	PSP	<fs af='میں,psp,,,,,,' drel='lwg__psp:سلسلہ' name='میں' chunkType='child:NP2' posn='50'>
+6	ایک	QC	<fs af='ایک,num,any,any,,any,,' drel='nmod__adj:کیس' name='ایک' chunkType='child:NP3' posn='60'>
+7	کیس	NN	<fs af='کیس,n,m,sg,3,d,0,0' drel='k2:کیا' name='کیس' chunkId='NP3' chunkType='head:NP3' posn='70'>
+8	درج	JJ	<fs af='درج,adj,any,any,,,,' drel='pof:کیا' name='درج' chunkId='JJP' chunkType='head:JJP' posn='80'>
+9	کیا	VM	<fs af='کر,v,m,sg,any,,یا,yA' name='کیا' chunkId='VGF' chunkType='head:VGF' stype='declarative' voicetype='active' posn='90'>
+10	ہے	VAUX	<fs af='ہے,v,any,sg,3,,ہے,hE' drel='lwg__vaux:کیا' name='ہے' chunkType='child:VGF' posn='100'>
+11	۔	SYM	<fs af='۔,punc,,,,,,' drel='rsym:کیا' name='۔' chunkType='child:VGF' posn='110'>
+</Sentence>
+
