@@ -57,6 +57,16 @@ if __name__ == "__main__" :
 	for keys in  relation_dict.keys() :
 		count_keys[keys] = [0] * len(seen)
 
+	for key,value in relation_dict.items():
+		for tuples in value :
+			count_keys[key][K_position[tuples[1]]] += 1
+	
+ 
+	print("############## ALL COUNTS #################")
+	for key,value in count_keys.items() :
+		print(key," --- > ",value)
+		print("\n")
+
 	
 
 
