@@ -27,7 +27,8 @@ if __name__ == "__main__" :
 					relation_dict[token[1]] = []
 		for i,token in enumerate(sent) :
 			if token[-4] in position_list :
-				relation_dict[sent[int(token[-4])-1][1]].append((token[1],token[-3]))
+				if token[-3][0] =='k' and len(token[-3]) == 2:
+					relation_dict[sent[int(token[-4])-1][1]].append((token[1],token[-3]))
 
 
 	print("############## ALL RELATIONS #################")
