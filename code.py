@@ -33,7 +33,7 @@ if __name__ == "__main__" :
 
 	print("############## ALL RELATIONS #################")
 	for key,value in relation_dict.items() :
-		print(key," --- > ",value)
+		print key," --- > ",value
 		print("\n")
 
 	seen = []
@@ -44,8 +44,8 @@ if __name__ == "__main__" :
 					seen.append(l[-3])
 
 	print("###### ALL RELATION KINDS #########")
-	print(sorted(seen))
-	print(len(seen))
+	print sorted(seen)
+	print len(seen)
 
 	K_position = {}
 	count = 0
@@ -64,11 +64,6 @@ if __name__ == "__main__" :
  
 	print("############## ALL COUNTS #################")
 	for key,value in count_keys.items() :
-		print(key," --- > ",value)
+		#key = key.decode('utf-8')
+		print key," --- > ",value
 		print("\n")
-
-	
-
-
-
-
