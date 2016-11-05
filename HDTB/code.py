@@ -27,7 +27,7 @@ if __name__ == "__main__" :
 					relation_dict[token[1]] = []
 		for i,token in enumerate(sent) :
 			if token[-4] in position_list :
-				if token[-3][0] =='k' and len(token[-3]) == 2:
+				if token[-3][0] =='k' :
 					relation_dict[sent[int(token[-4])-1][1]].append((token[1],token[-3]))
 
 
@@ -40,21 +40,27 @@ if __name__ == "__main__" :
 	for i in all_sent :
 		for l in i:
 			if l[-3] not in seen :
-				if l[-3][0] =='k' and len(l[-3]) == 2:
+				if l[-3][0] =='k':
 					seen.append(l[-3])
 
 	print("###### ALL RELATION KINDS #########")
 	print(sorted(seen))
 	print(len(seen))
 
+	K_position = {}
+	count = 0
+	for ks in sorted(seen) :
+		K_position[ks] = count
+		count += 1
+	# print(K_position)
 	count_keys = {}
 	for keys in  relation_dict.keys() :
-		count_keys[keys] = [0,0,0,0,0,0,0]
+		count_keys[keys] = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 
 
 	for key,value in relation_dict.items():
 		for tuples in value :
-			count_keys[key][int(tuples[1][1])-1] += 1
+			count_keys[key][K_position[tuples[1]]] += 1
 
 	print("############## ALL COUNTS #################")
 	for key,value in count_keys.items() :
