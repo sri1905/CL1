@@ -40,8 +40,26 @@ if __name__ == "__main__" :
 	for i in all_sent :
 		for l in i:
 			if l[-3] not in seen :
-				seen.append(l[-3])
+				if l[-3][0] =='k' and len(l[-3]) == 2:
+					seen.append(l[-3])
 
 	print("###### ALL RELATION KINDS #########")
-	print(seen)
+	print(sorted(seen))
 	print(len(seen))
+
+	count_keys = {}
+	for keys in  relation_dict.keys() :
+		count_keys[keys] = [0,0,0,0,0,0,0]
+
+
+	for key,value in relation_dict.items():
+		for tuples in value :
+			count_keys[key][int(tuples[1][1])-1] += 1
+
+	print("############## ALL COUNTS #################")
+	for key,value in count_keys.items() :
+		print(key," --- > ",value)
+		print("\n")
+
+
+
