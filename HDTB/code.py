@@ -1,5 +1,4 @@
 import sys
-import pickle
 
 if __name__ == "__main__" :
 	
@@ -34,7 +33,7 @@ if __name__ == "__main__" :
 
 	print("############## ALL RELATIONS #################")
 	for key,value in relation_dict.items() :
-		print (key," --- > ",value)
+		print(key," --- > ",value)
 		print("\n")
 
 	seen = []
@@ -45,8 +44,8 @@ if __name__ == "__main__" :
 					seen.append(l[-3])
 
 	print("###### ALL RELATION KINDS #########")
-	print (sorted(seen))
-	print (len(seen))
+	print(sorted(seen))
+	print(len(seen))
 
 	K_position = {}
 	count = 0
@@ -58,18 +57,8 @@ if __name__ == "__main__" :
 	for keys in  relation_dict.keys() :
 		count_keys[keys] = [0] * len(seen)
 
-	for key,value in relation_dict.items():
-		for tuples in value :
-			count_keys[key][K_position[tuples[1]]] += 1
 	
- 
-	print("############## ALL COUNTS #################")
-	for key,value in count_keys.items() :
-		#key = key.decode('utf-8')
-		print (key," --- > ",value)
-		print("\n")
-	print (K_position)
 
-	pickle.dump(count_keys,open('pickles/ArgsCount.p','wb'))
-	pickle.dump(K_position,open('pickles/k.p','wb'))
-	pickle.dump(relation_dict,open('pickles/dependents.p','wb'))
+
+
+

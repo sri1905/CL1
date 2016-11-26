@@ -17,13 +17,13 @@ plt.plot(count[word])
 #plt.axis([0,22,0,22])
 plt.show()
 
-print "\nNecessary Arguments - ",
+print ("\nNecessary Arguments - ",)
 for i in range(len(count[word])):
 	val = count[word][i]
 	if val and val>=upper_limit-10:
-		print Korder[i],
+		print (Korder[i],)
 
-print '\n\nAll related words -: '
+print ('\n\nAll related words -: ')
 for i in dep[word]:
-	print i[0]+' : '+i[1]
+	print (i[0]+' : '+i[1])
 
