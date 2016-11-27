@@ -1,5 +1,6 @@
 import sys
 import pickle
+from collections import OrderedDict
 
 if __name__ == "__main__" :
 	
@@ -17,7 +18,7 @@ if __name__ == "__main__" :
 			curr_sent.append(line.split())
 
 	
-	relation_dict = {}
+	relation_dict = OrderedDict()
 
 	for sent in all_sent :
 		position_list = []
@@ -48,13 +49,13 @@ if __name__ == "__main__" :
 	print (sorted(seen))
 	print (len(seen))
 
-	K_position = {}
+	K_position = OrderedDict()
 	count = 0
 	for ks in sorted(seen) :
 		K_position[ks] = count
 		count += 1
 	
-	count_keys = {}
+	count_keys = OrderedDict()
 	for keys in  relation_dict.keys() :
 		count_keys[keys] = [0] * len(seen)
 
