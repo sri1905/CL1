@@ -224,6 +224,7 @@ def get_data():
 	for key,value in counts.items() :
 		data[tuple(value)] = key
 
+	# print(len(data.keys()))
 	return data,no_of_clusters
 
 
